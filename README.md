@@ -2,7 +2,7 @@
 
 Aplikacja do nauki obsługi radiostacji AN/PRC-117G i AN/PRC-152A: dane taktyczno-techniczne, budowa i elementy obsługi, procedury, rodzaje pracy, fiszki i test.
 
-**Otwórz aplikację:** https://pawel202685.github.io/trener-f3/
+**Otwórz aplikację:** https://pawel202685.github.io/psychic-octo-invention/
 
 - Działa na każdym telefonie i komputerze, bez logowania.
 - Po pierwszym otwarciu działa także bez internetu.
