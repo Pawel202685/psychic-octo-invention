@@ -1,0 +1,19 @@
+{
+ "slug": "uslugi",
+ "eyebrow": "Usługi",
+ "h1": "Usługi ślusarskie i samochodowe w Kielcach",
+ "crumb": "Usługi",
+ "meta_title": "Usługi ślusarskie i samochodowe w Kielcach – 24h",
+ "meta_description": "Otwieranie aut, mieszkań i domów, dorabianie i kodowanie kluczyków, immobilizery, sterowniki i DPF. Sprawdź, która usługa pasuje do Twojego problemu.",
+ "lead": "Usługi ślusarskie i samochodowe w jednym miejscu: awaryjne otwieranie aut, mieszkań, domów i garaży, kluczyki samochodowe – od zapasowego po nowy, gdy nie został żaden – a także immobilizery, sterowniki i filtry DPF. Wybierz usługę poniżej albo sprawdź w tabeli, która pasuje do Twojej sytuacji.",
+ "sections": [
+  {
+   "h2": "Jak wybrać właściwą usługę",
+   "html": "<p>Nie musisz wiedzieć, jak fachowo nazywa się usługa ślusarska, której potrzebujesz – wystarczy, że wiesz, co się stało. W tabeli zestawiliśmy typowe sytuacje z usługą, której dotyczą, i podpowiedzią, kiedy najlepiej dzwonić.</p><table><thead><tr><th>Co się stało</th><th>Usługa</th><th>Kiedy dzwonić</th></tr></thead><tbody><tr><td>Kluczyki zostały w zamkniętym aucie lub bagażniku</td><td><a href=\"%%R%%otwieranie-samochodow.html\">Otwieranie samochodów</a></td><td>Od razu, o każdej porze</td></tr><tr><td>Drzwi mieszkania, domu, garażu lub bramy zamknęły się, a klucza nie ma</td><td><a href=\"%%R%%otwieranie-mieszkan-i-domow.html\">Otwieranie mieszkań i domów</a></td><td>Od razu, o każdej porze</td></tr><tr><td>Masz tylko jeden kluczyk, pilot przestał działać, potrzebny drugi kluczyk keyless</td><td><a href=\"%%R%%programowanie-kluczy.html\">Programowanie kluczy</a></td><td>W dogodnym terminie – najlepiej zanim zgubisz ostatni</td></tr><tr><td>Nie został żaden kluczyk do auta</td><td><a href=\"%%R%%utrata-wszystkich-kluczykow.html\">Utrata wszystkich kluczyków</a></td><td>Jak najszybciej – zgubione klucze warto usunąć z pamięci auta</td></tr><tr><td>Auto nie widzi kluczyka, miga kontrolka immobilizera, sterownik nie działa</td><td><a href=\"%%R%%sterowniki.html\">Sterowniki i immobilizery</a></td><td>Gdy auto nie odpala lub zgłasza błąd – zacznij od opisu objawów</td></tr><tr><td>Świeci się kontrolka DPF, auto traci moc</td><td><a href=\"%%R%%filtry-dpf.html\">Filtry DPF</a></td><td>Najlepiej zaraz po zapaleniu się kontrolki</td></tr><tr><td>Ford lub Mazda z importu: menu w obcym języku, brak tylnego światła przeciwmgłowego</td><td><a href=\"%%R%%kodowanie-ford-mazda.html\">Kodowanie Ford i Mazda</a></td><td>Na umówiony termin, po sprawdzeniu, co da się zmienić</td></tr></tbody></table><p>Jeśli Twoja sytuacja nie pasuje do żadnego wiersza albo pasuje do dwóch naraz – np. zatrzaśnięte auto i jedyny kluczyk w środku – zadzwoń i opisz ją. Powiemy, od czego zacząć.</p>"
+  },
+  {
+   "h2": "Czego nie robimy i co przygotować przed telefonem",
+   "html": "<p>Niektórych zleceń nie przyjmujemy bez względu na okoliczności:</p><ul><li>nie otwieramy auta ani lokalu bez potwierdzenia, że masz do niego prawo – potrzebny jest dowód osobisty oraz dowód rejestracyjny albo dokument potwierdzający prawo do mieszkania czy domu,</li><li>nie wycinamy filtrów DPF – zajmujemy się ich diagnostyką, serwisową regeneracją i czyszczeniem,</li><li>w Fordach i Mazdach nie wyłączamy funkcji wymaganych przepisami ani związanych z bezpieczeństwem.</li></ul><p>Zanim zadzwonisz, przygotuj dokładne miejsce, w którym jesteś, markę, model i rocznik auta (przy kodowaniu Forda lub Mazdy także numer VIN) oraz krótki opis tego, co się stało. Więcej podpowiedzi znajdziesz w artykule <a href=\"%%R%%poradnik/co-przygotowac-zanim-przyjedzie-slusarz.html\">co przygotować, zanim przyjedzie ślusarz</a>.</p>"
+  }
+ ]
+}

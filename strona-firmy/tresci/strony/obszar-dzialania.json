@@ -1,0 +1,57 @@
+{
+ "slug": "obszar-dzialania",
+ "eyebrow": "Obszar działania",
+ "crumb": "Kielce i okolice",
+ "h1": "Obszar działania: Kielce i okolice – gdzie dojeżdżamy",
+ "meta_title": "Kielce i okolice – obszar dojazdu: Chęciny, Morawica, Masłów",
+ "meta_description": "Dojeżdżamy na osiedla w Kielcach i do gmin wokół miasta: Chęciny, Morawica, Masłów, Piekoszów, Nowiny, Zagnańsk i dalej. Zadzwoń i zapytaj o dojazd.",
+ "lead": "Awaryjne otwieranie aut i mieszkań, dorabianie kluczyków samochodowych i prace przy elektronice auta – w Kielcach i okolicach przyjeżdżamy do klienta. Tu sprawdzisz, do których osiedli i gmin dojeżdżamy i jak umawiamy przyjazd: termin ustalamy przez telefon, a cenę podajemy, zanim zaczniemy pracę.",
+ "sections": [
+  {
+   "h2": "Kielce i okolice: dojazd na osiedla w mieście",
+   "html": "<p>Punktem wyjazdu jest ul. Chodkiewicza 45A w południowej części miasta. W granicach miasta nie ma dla nas „za daleko” – przyjeżdżamy i na osiedla bloków, i do dzielnic domów jednorodzinnych – na Słoneczne Wzgórze, Sady, KSM, Szydłówek i Bocianek, na osiedle Pod Telegrafem, Bukówkę i Podkarczówkę, a także na Uroczysko, Dąbrowę, Dyminy czy Baranówek.</p><p>W mieście pomagamy kierowcom, którym kluczyki zostały w zatrzaśniętym samochodzie, i mieszkańcom, którzy wyszli na klatkę bez kluczy. Nie każda sprawa jest jednak nagła: dorobienie zapasowego kluczyka, zakodowanie pilota czy diagnostykę filtra DPF umawiamy na porę, która Ci odpowiada.</p><p>Żeby nie krążyć między blokami, podaj przy zgłoszeniu numer budynku i klatki, piętro oraz to, gdzie dokładnie stoi auto – np. parking od strony ulicy albo poziom garażu podziemnego.</p>"
+  },
+  {
+   "h2": "Chęciny, Morawica, Masłów i Piekoszów – osobne strony",
+   "html": "<p>Dla czterech gmin położonych na południe, wschód i zachód od miasta przygotowaliśmy osobne strony. Opisujemy na nich trasę dojazdu, miejscowości gminy i sytuacje typowe dla danej okolicy:</p><ul><li><a href=\"%%R%%checiny.html\"><strong>Chęciny</strong></a> – na południowy zachód, drogą wojewódzką nr 762 albo trasą S7. Oprócz mieszkańców miasta i wsi pomagamy tu turystom, którzy przyjechali zwiedzić zamek lub Jaskinię Raj.</li><li><a href=\"%%R%%morawica.html\"><strong>Morawica i Bilcza</strong></a> – na południe, wzdłuż drogi krajowej nr 73. Podmiejska gmina z rosnącymi osiedlami domów, przez którą prowadzi tranzyt na Busko-Zdrój.</li><li><a href=\"%%R%%maslow.html\"><strong>Masłów</strong></a> – na wschód, drogą wojewódzką nr 745. Gmina wiejska, której siedzibą jest wieś Masłów Pierwszy.</li><li><a href=\"%%R%%piekoszow.html\"><strong>Piekoszów</strong></a> – na zachód, drogą wojewódzką nr 786 w kierunku Łopuszna. Piekoszów ma prawa miejskie od 2023 roku.</li></ul>"
+  },
+  {
+   "h2": "Pozostałe gminy powiatu kieleckiego i pobliskie miasta",
+   "html": "<p>Przyjeżdżamy także do innych miejscowości w okolicy. Pogrupowaliśmy je według kierunku wyjazdu z miasta – od kierunku i pory dnia zależy, ile w danej chwili potrwa dojazd.</p><ul><li><strong>Północ:</strong> Zagnańsk, a dalej przy trasie S7 w stronę Skarżyska-Kamiennej – Suchedniów.</li><li><strong>Północny zachód i zachód:</strong> Miedziana Góra, Mniów i Strawczyn, a za Piekoszowem – Łopuszno przy drodze nr 786.</li><li><strong>Południowy zachód:</strong> Nowiny (gm. Nowiny, dawniej Sitkówka-Nowiny) razem z Sitkówką, Małogoszcz za Chęcinami oraz Sobków.</li><li><strong>Południe i południowy wschód:</strong> Chmielnik przy drodze nr 73, Daleszyce przy drodze nr 764 i Pierzchnica.</li><li><strong>Wschód:</strong> Górno z Cedzyną przy drodze nr 74, Bieliny oraz Bodzentyn, do którego od Górna prowadzi droga nr 752.</li></ul><p>Mieszkasz dalej, np. w Skarżysku-Kamiennej, Jędrzejowie, Pińczowie albo Busku-Zdroju? Zadzwoń i opisz sprawę. Przy pracach, które nie wymagają natychmiastowej reakcji – takich jak <a href=\"%%R%%utrata-wszystkich-kluczykow.html\">nowy kluczyk po utracie wszystkich</a>, <a href=\"%%R%%sterowniki.html\">naprawa sterownika i immobilizera</a> czy <a href=\"%%R%%filtry-dpf.html\">diagnostyka i czyszczenie filtra DPF</a> – można umówić konkretny termin. Powiemy wprost, czy i kiedy jesteśmy w stanie przyjechać.</p>"
+  },
+  {
+   "h2": "Jak umawiamy przyjazd",
+   "html": "<ol><li><strong>Telefon.</strong> Dzwonisz pod numer <a href=\"%%TELHREF%%\">%%TEL%%</a>, mówisz, co się stało i gdzie jesteś.</li><li><strong>Termin i cena.</strong> W tej samej rozmowie mówimy, kiedy możemy dojechać, i podajemy cenę – zanim zaczniemy pracę. Czas zależy od odległości, pory dnia, ruchu na drogach i od tego, czy właśnie kończymy inne zlecenie, dlatego nie obiecujemy z góry stałej liczby minut.</li><li><strong>Na miejscu.</strong> Przed otwarciem auta lub mieszkania sprawdzamy dowód osobisty i dokument potwierdzający prawo do pojazdu albo lokalu, np. dowód rejestracyjny lub umowę najmu.</li><li><strong>Brak odpowiedzi.</strong> Kiedy nie możemy odebrać, bo trwa inna praca, napisz <a href=\"%%SMSHREF%%\">SMS</a>: gdzie jesteś i co się stało. Oddzwonimy.</li></ol><p>Firmę prowadzi jedna osoba – Łukasz – więc przy kilku zgłoszeniach jednocześnie usłyszysz uczciwie, kiedy realnie może być u Ciebie. Jeżeli w samochodzie jest zamknięte dziecko lub zwierzę, a doskwiera upał albo mróz, pierwszy telefon wykonaj pod 112 – więcej w poradniku <a href=\"%%R%%poradnik/dziecko-lub-pies-zamkniete-w-aucie.html\">dziecko lub pies zamknięte w aucie</a>.</p>"
+  },
+  {
+   "h2": "W trasie: S7, „73” i „74”",
+   "html": "<p>Przez okolicę biegną ruchliwe drogi: S7 w stronę Krakowa i Warszawy, krajowa „73” na Busko-Zdrój i „74” na Opatów. Gdy kłopot z kluczykiem lub zamkiem zaskoczy Cię na stacji paliw czy parkingu przy trasie, podaj przez telefon nazwę stacji, kierunek jazdy oraz najbliższy zjazd lub miejscowość.</p><p>Rozróżnij też, czego potrzebujesz. Jeśli auto nie nadaje się do jazdy z powodu awarii mechanicznej – np. zerwanego paska rozrządu albo wycieku – potrzebna będzie pomoc drogowa z lawetą. Jeżeli przyczyną jest zamek, zgubiony kluczyk albo samochód, który nie widzi kluczyka, zadzwoń do nas: sprawdzimy, czy da się to rozwiązać na miejscu. Kilka wskazówek na taką sytuację znajdziesz w poradniku <a href=\"%%R%%poradnik/auto-nie-widzi-kluczyka-immobilizer.html\">auto nie widzi kluczyka</a>.</p>"
+  }
+ ],
+ "faq": [
+  [
+   "Czy dojeżdżacie na każde osiedle w Kielcach?",
+   "Tak, przyjeżdżamy do wszystkich części miasta – pod bloki i domy, do garaży i na parkingi. Przy zgłoszeniu podaj adres i opisz, gdzie stoi auto albo które drzwi trzeba otworzyć."
+  ],
+  [
+   "Ile trwa dojazd do gminy pod miastem?",
+   "To zależy od odległości, pory i bieżących zleceń. Przewidywany czas podajemy w rozmowie telefonicznej, zanim wyjedziemy – nie podajemy z góry stałej liczby minut."
+  ],
+  [
+   "Czy za dojazd poza miasto płaci się dodatkowo?",
+   "Cenę podajemy przez telefon przed rozpoczęciem pracy. Jeśli odległość wpływa na koszt, usłyszysz to w tej samej rozmowie, żeby kwota nie zaskoczyła Cię na miejscu."
+  ],
+  [
+   "Mojej miejscowości nie ma na liście. Czy przyjedziecie?",
+   "Lista nie jest zamknięta. Zadzwoń i podaj miejscowość – powiemy, czy i kiedy możemy dojechać albo czy lepiej umówić konkretny termin."
+  ],
+  [
+   "Czy w nocy też dojeżdżacie do Chęcin, Morawicy czy Masłowa?",
+   "Działamy całą dobę, 7 dni w tygodniu. To, czy i kiedy możemy dojechać w danej chwili, ustalamy w rozmowie – także w nocy. Przy nieodebranym połączeniu napisz SMS – oddzwonimy."
+  ],
+  [
+   "Czy kluczyk do auta zakodujecie u mnie, poza miastem?",
+   "Tak, do dorobienia i zakodowania kluczyka lub pilota możemy przyjechać do Ciebie. Zakres prac zależy od modelu auta, dlatego podaj markę, model, rocznik i najlepiej VIN – więcej na stronie <a href=\"%%R%%programowanie-kluczy.html\">dorabianie i kodowanie kluczyków</a>."
+  ]
+ ]
+}

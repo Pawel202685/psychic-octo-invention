@@ -1,0 +1,15 @@
+{
+ "slug": "poradnik",
+ "eyebrow": "Poradnik",
+ "h1": "Poradnik: zamki, kluczyki samochodowe, elektronika auta i DPF",
+ "crumb": "Poradnik",
+ "meta_title": "Poradnik: zatrzaśnięte kluczyki, zamki, immobilizer, DPF",
+ "meta_description": "Kluczyki zostały w aucie, drzwi się zatrzasnęły, pilot nie działa albo świeci kontrolka DPF? Sprawdź, co zrobić samemu, a kiedy lepiej wezwać pomoc.",
+ "lead": "Praktyczne odpowiedzi na sytuacje, z którymi kierowcy i domownicy dzwonią do pogotowia zamkowego i samochodowego: zatrzaśnięte kluczyki, zgubione klucze, zamarznięty zamek, migająca kontrolka immobilizera albo DPF. Piszemy, co możesz sprawdzić sam, czego lepiej nie robić i kiedy warto zadzwonić.",
+ "sections": [
+  {
+   "h2": "Jak korzystać z poradnika",
+   "html": "<p>Porady są podzielone na działy: otwieranie auta, kluczyki samochodowe, dom i mieszkanie, elektronika auta, filtr DPF, bezpieczeństwo oraz porady praktyczne. Do działu przejdziesz przyciskami pod tytułem strony, a wyszukiwarka znajdzie artykuł po kilku słowach, np. „kluczyk keyless” albo „kontrolka DPF”.</p><ul><li><strong>Sytuacja awaryjna?</strong> Nie czytaj wszystkiego – zacznij od porady <a href=\"%%R%%poradnik/zatrzasniete-kluczyki-w-aucie.html\">kluczyki zatrzaśnięte w aucie</a> albo <a href=\"%%R%%poradnik/zatrzasniete-drzwi-zgubione-klucze.html\">zatrzaśnięte drzwi i zgubione klucze</a>, a jeśli wolisz, od razu zadzwoń.</li><li><strong>Mróz.</strong> Gdy kluczyk nie chce się przekręcić w zamku drzwi, zajrzyj do artykułu <a href=\"%%R%%poradnik/zamarzniety-zamek-w-samochodzie.html\">zamarznięty zamek w samochodzie</a>.</li><li><strong>Nie masz już żadnego kluczyka?</strong> Pierwsze kroki opisaliśmy w poradzie <a href=\"%%R%%poradnik/zgubione-wszystkie-kluczyki-do-auta.html\">zgubione wszystkie kluczyki do auta</a>.</li></ul><p>Każdy artykuł kończy się ramką z odnośnikiem do usługi, której dotyczy. Celowo nie publikujemy instrukcji otwierania zamków ani samochodów bez klucza – poradnik ma pomagać właścicielom, a nie ułatwiać kradzież.</p><div class=\"warn\"><p>Gdy w zamkniętym samochodzie jest dziecko albo zwierzę, nie szukaj porad – dzwoń pod 112. Więcej: <a href=\"%%R%%poradnik/dziecko-lub-pies-zamkniete-w-aucie.html\">dziecko lub pies zamknięte w aucie</a>.</p></div>"
+  }
+ ]
+}

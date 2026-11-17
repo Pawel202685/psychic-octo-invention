@@ -1,0 +1,65 @@
+{
+ "slug": "o-nas",
+ "eyebrow": "O nas",
+ "h1": "Łukasz – ślusarz samochodowy z Kielc. Kto przyjedzie i jak pracuję",
+ "crumb": "O nas",
+ "meta_title": "O nas – Łukasz, ślusarz samochodowy w Kielcach",
+ "meta_description": "Kto przyjedzie na zgłoszenie? Łukasz – wpis na listę kwalifikowanych pracowników zabezpieczenia technicznego, cena przed pracą. Poznaj moje zasady.",
+ "lead": "Nazywam się Łukasz i sam prowadzę tę firmę w Kielcach – ślusarz samochodowy i pogotowie zamkowe w jednej osobie. Telefon odbieram ja, na miejsce przyjeżdżam ja i to ja odpowiadam za to, co zrobię przy Twoim aucie czy drzwiach. Poniżej opisuję, jak pracuję i czego możesz się po mnie spodziewać.",
+ "sections": [
+  {
+   "h2": "Jednoosobowa firma – rozmawiasz z tym, kto przyjedzie",
+   "html": "<p>Jako ślusarz samochodowy pracuję sam: nie mam dyspozytora ani pracowników. Kiedy dzwonisz, rozmawiasz bezpośrednio z osobą, która potem stanie przy Twoim samochodzie albo pod Twoimi drzwiami. Nie musisz więc dwa razy opowiadać, co się stało, a ja jeszcze przed wyjazdem wiem, z jakim autem lub zamkiem będę mieć do czynienia i co zabrać ze sobą.</p><p>Masz też jasność, komu otwierasz. Numer telefonu, wizytówka w Google i adres przy ul. Chodkiewicza 45A należą do jednej osoby – do mnie. Nikt, kogo nie znasz z rozmowy, nie przyjedzie w moim imieniu i nie pozna Twojego adresu ani zabezpieczeń.</p>"
+  },
+  {
+   "h2": "Wpis na listę kwalifikowanych pracowników zabezpieczenia technicznego",
+   "html": "<p>Moje kwalifikacje potwierdza wpis na listę kwalifikowanych pracowników zabezpieczenia technicznego. Prowadzi ją Komendant Główny Policji w policyjnym systemie teleinformatycznym, a wpisu w moim przypadku dokonał Komendant Wojewódzki Policji. To nie jest licencja ani hasło reklamowe, tylko urzędowe potwierdzenie, że spełniam wymagania ustawy o ochronie osób i mienia.</p><p>Co to oznacza dla Ciebie w praktyce:</p><ul><li><strong>Sprawdzona przeszłość</strong> – na listę nie trafi osoba prawomocnie skazana za przestępstwo umyślne, a takie skazanie oznacza skreślenie z listy.</li><li><strong>Udokumentowane przygotowanie</strong> – do wpisu potrzebne jest zaświadczenie o ukończeniu kursu pracownika zabezpieczenia technicznego albo o przyuczeniu do zawodu.</li><li><strong>Coś do stracenia</strong> – wpis nie jest dany raz na zawsze, więc praca zgodna z prawem leży w moim własnym interesie.</li></ul><p>Wpis nie zastępuje rozmowy o cenie i o sposobie otwarcia – o to warto pytać każdego fachowca, także mnie. Szerzej piszę o tym w artykule <a href=\"%%R%%poradnik/kwalifikowany-pracownik-zabezpieczenia-technicznego.html\">kwalifikowany pracownik zabezpieczenia technicznego – co to daje klientowi</a>, a na co zwracać uwagę przy wyborze ślusarza – w poradniku <a href=\"%%R%%poradnik/jak-wybrac-uczciwego-slusarza.html\">jak wybrać uczciwego ślusarza</a>.</p>"
+  },
+  {
+   "h2": "Jak otwieram samochody, mieszkania i garaże",
+   "html": "<p>W samochodach pracuję głównie profesjonalnymi dekoderami do zamków. Tam, gdzie dekoder nie wystarczy, sięgam po sposób mechaniczny – i przy nim także nie uszkadzam drzwi ani szyb. Szczegółów tych metod nie opisuję ani tutaj, ani w poradniku: to wiedza, która w niepowołanych rękach ułatwia kradzież.</p><p>Przy drzwiach mieszkań, domów, garaży i bram sposób otwarcia dobieram do zamka, który zastanę na miejscu. Jeśli okaże się, że bez szkody dla zamka się nie obejdzie, mówię o tym przed rozpoczęciem pracy i razem decydujemy, co dalej.</p>"
+  },
+  {
+   "h2": "Zasady, od których nie odstępuję",
+   "html": "<ul><li><strong>Najpierw kwota, potem robota.</strong> Gdy opiszesz mi przez telefon, co się stało, mówię, ile to będzie kosztować – i dopiero wtedy decydujesz, czy przyjeżdżam.</li><li><strong>Dokumenty przed otwarciem.</strong> Przy samochodzie oglądam dowód osobisty i dowód rejestracyjny, przy mieszkaniu lub domu – dowód osobisty i papier, z którego wynika Twoje prawo do lokalu – na przykład umowę najmu. Gdy nie da się potwierdzić Twoich uprawnień, odmawiam – nawet jeśli sprawa wydaje się oczywista. Jeśli dokumenty zostały w zamkniętym aucie lub mieszkaniu, uprzedź mnie o tym już w rozmowie telefonicznej.</li><li><strong>Całą dobę.</strong> Zlecenia przyjmuję o każdej porze, każdego dnia tygodnia – także w nocy, w weekendy i w święta.</li><li><strong>SMS, gdy nie odbieram.</strong> Jeśli akurat nie mogę odebrać, <a href=\"%%SMSHREF%%\">wyślij SMS</a> z opisem problemu i miejscem – oddzwonię.</li><li><strong>Bez wycinania filtrów.</strong> Przy filtrach DPF robię diagnostykę, serwisową regenerację i czyszczenie. Filtrów nie wycinam – auto bez DPF nie spełnia warunków dopuszczenia do ruchu.</li></ul>"
+  },
+  {
+   "h2": "Czym się zajmuję",
+   "html": "<p>Zakres mojej pracy w skrócie – szczegóły znajdziesz na stronach poszczególnych usług:</p><ul><li><a href=\"%%R%%otwieranie-samochodow.html\">Awaryjne otwieranie samochodów</a> – kluczyki zostały w środku lub w bagażniku, zamek nie reaguje.</li><li><a href=\"%%R%%otwieranie-mieszkan-i-domow.html\">Otwieranie mieszkań, domów, garaży i bram</a> – drzwi się zatrzasnęły albo klucze przepadły.</li><li><a href=\"%%R%%programowanie-kluczy.html\">Dorabianie i kodowanie kluczyków i pilotów</a>, również kluczyków keyless.</li><li><a href=\"%%R%%utrata-wszystkich-kluczykow.html\">Nowy kluczyk, gdy nie został żaden</a> – razem z usunięciem zgubionych kluczyków z pamięci auta.</li><li><a href=\"%%R%%sterowniki.html\">Naprawa i wymiana sterowników, immobilizer</a> – gdy auto nie widzi kluczyka albo nie chce odpalić.</li><li><a href=\"%%R%%filtry-dpf.html\">Filtry DPF</a> – diagnostyka, serwisowa regeneracja i czyszczenie.</li></ul>"
+  },
+  {
+   "h2": "Ford i Mazda – kodowanie po sprowadzeniu auta",
+   "html": "<p>Osobno zajmuję się samochodami marek Ford i Mazda. Wgrywam język polski, dorabiam tylne światło przeciwmgłowe, którego często brakuje w autach z rynku amerykańskiego, oraz aktywuję lub wyłączam wybrane funkcje. Co da się zmienić, zależy od konkretnego modelu, rocznika i wyposażenia, dlatego najpierw sprawdzam, co jest możliwe w Twoim aucie. Funkcji wymaganych przepisami ani związanych z bezpieczeństwem nie wyłączam.</p><p>Więcej o tej usłudze przeczytasz na stronie <a href=\"%%R%%kodowanie-ford-mazda.html\">kodowanie Ford i Mazda</a> oraz w artykułach o <a href=\"%%R%%poradnik/jezyk-polski-ford-mazda.html\">języku polskim w Fordzie i Maździe</a> i o <a href=\"%%R%%poradnik/tylne-swiatlo-przeciwmglowe-auto-z-usa.html\">tylnym świetle przeciwmgłowym w aucie z USA</a>.</p>"
+  },
+  {
+   "h2": "Opinie i dane kontaktowe",
+   "html": "<p>Klienci oceniają moją pracę w Google – wizytówka „Awaryjne otwieranie, dorabianie kluczy samochodowych 24h” ma ocenę 5,0. Opinie wystawiają sami użytkownicy Google, a przeczytasz je w <a href=\"%%GOOGLE%%\" rel=\"noopener\" target=\"_blank\">profilu firmy w Google</a>.</p><p>Adres: ul. Chodkiewicza 45A, Kielce. Telefon: <a href=\"%%TELHREF%%\">%%TEL%%</a>. Większość zleceń wykonuję u klienta, dlatego każde spotkanie umawiamy telefonicznie. Pozostałe sposoby kontaktu znajdziesz na stronie <a href=\"%%R%%kontakt.html\">kontakt</a>.</p>"
+  }
+ ],
+ "faq": [
+  [
+   "Kto przyjedzie na moje zgłoszenie?",
+   "Ja, Łukasz. Firma jest jednoosobowa, więc z kim rozmawiasz przez telefon, ten przyjeżdża i wykonuje zlecenie."
+  ],
+  [
+   "Czy wpis na listę Policji to licencja ślusarza?",
+   "Nie. To wpis na listę kwalifikowanych pracowników zabezpieczenia technicznego, którego dokonuje komendant wojewódzki Policji po sprawdzeniu ustawowych wymagań – m.in. niekaralności za przestępstwa umyślne i przygotowania zawodowego. Potwierdza kwalifikacje, ale nie jest gwarancją ceny ani efektu, dlatego o jedno i drugie warto zapytać przed przyjazdem."
+  ],
+  [
+   "Dlaczego przed otwarciem trzeba pokazać dokumenty?",
+   "Gdybym tego nie sprawdzał, każdy mógłby zadzwonić i poprosić o otwarcie cudzego samochodu albo mieszkania – także Twojego. Kontrola trwa chwilę, a chroni przede wszystkim właściciela."
+  ],
+  [
+   "Gdzie mieści się firma?",
+   "Adres firmy to ul. Chodkiewicza 45A w Kielcach. Pracuję głównie u klientów – przy aucie, pod drzwiami mieszkania czy domu – dlatego każde spotkanie ustalamy przez telefon."
+  ],
+  [
+   "Co zrobić, gdy nie odbieram telefonu?",
+   "Napisz <a href=\"%%SMSHREF%%\">SMS</a>, co się stało i gdzie Cię szukać. Oddzwonię, gdy tylko będę mógł rozmawiać."
+  ],
+  [
+   "Czy można dzwonić w nocy i w święta?",
+   "Tak. Pracuję całą dobę, 7 dni w tygodniu, także w nocy, w weekendy i w święta. Numer: <a href=\"%%TELHREF%%\">%%TEL%%</a>."
+  ]
+ ]
+}

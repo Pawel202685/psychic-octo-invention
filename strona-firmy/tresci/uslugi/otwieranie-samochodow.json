@@ -1,0 +1,96 @@
+{
+ "slug": "otwieranie-samochodow",
+ "icon": "car",
+ "short": "Otwieranie samochodów",
+ "order": 10,
+ "title": "Awaryjne otwieranie samochodów w Kielcach – całą dobę",
+ "meta_title": "Awaryjne otwieranie samochodów Kielce – całą dobę",
+ "meta_description": "Kluczyki w zamkniętym aucie, padł akumulator albo zamek nie reaguje? Otwieramy bez wybijania szyb, po sprawdzeniu dokumentów. Kielce i okolice, 24h.",
+ "card": "Kluczyki zamknięte w kabinie lub bagażniku, rozładowany akumulator, zamek, który nie reaguje – otwieramy auto całą dobę.",
+ "lead": "Kluczyki zostały w kabinie albo w bagażniku, akumulator padł, a zamek nie reaguje na pilota? Zajmujemy się awaryjnym otwieraniem samochodów w Kielcach i okolicy – o każdej porze dnia i nocy, 7 dni w tygodniu. Przyjedziemy do auta, sprawdzimy dokumenty i otworzymy je bez wybijania szyby i podważania drzwi.",
+ "items": [
+  "Kluczyki zatrzaśnięte w kabinie – także wtedy, gdy auto zablokowało się samo",
+  "Kluczyki zamknięte w bagażniku",
+  "Rozładowany akumulator – pilot i centralny zamek nie reagują",
+  "Zamek drzwi, którego nie da się otworzyć kluczykiem, np. zamarznięty lub zablokowany",
+  "Auta z systemem keyless, które zamknęły się z kluczykiem w środku",
+  "Kluczyk zginął? Otworzymy auto i przygotujemy nowy kluczyk",
+  "Dziecko lub zwierzę w zamkniętym aucie – najpierw dzwoń na 112"
+ ],
+ "prepare": [
+  "Dowód osobisty lub inny dokument tożsamości",
+  "Dowód rejestracyjny – jeśli leży w zamkniętym aucie, pokażesz go zaraz po otwarciu",
+  "Upoważnienie od firmy, jeśli auto jest służbowe lub leasingowe",
+  "Marka, model, rocznik i dokładne miejsce postoju – do wyceny przez telefon"
+ ],
+ "note": "Nie otworzymy auta, dopóki nie sprawdzimy, że masz do niego prawo. Jeśli uprawnień nie da się potwierdzić, odmawiamy – to chroni także Twój samochód.",
+ "steps": [
+  [
+   "Telefon lub SMS",
+   "Mówisz, gdzie stoi auto, jaka to marka i model oraz gdzie zostały kluczyki. Jeśli nie odbieramy, wyślij SMS – oddzwonimy."
+  ],
+  [
+   "Cena przed wyjazdem",
+   "Podajemy cenę przez telefon i ustalamy przyjazd. Na miejscu potwierdzamy ją, zanim zaczniemy pracę."
+  ],
+  [
+   "Dokumenty i otwarcie",
+   "Sprawdzamy dokument tożsamości i otwieramy zamek – najczęściej profesjonalnym dekoderem, bez wybijania szyby."
+  ],
+  [
+   "Kontrola",
+   "Porównujemy dane z dowodem rejestracyjnym i razem sprawdzamy, czy zamki, szyby i centralny zamek działają."
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Awaryjne otwieranie samochodów – jak to robimy",
+   "html": "<p>Do większości aut dostajemy się przez zamek w drzwiach, korzystając z profesjonalnych dekoderów do zamków samochodowych. To precyzyjne narzędzia ślusarskie, dobierane do konkretnego typu zamka. Dzięki nim nie trzeba podważać drzwi, odginać ramy szyby ani jej zbijać. Gdy dekoder do danego zamka nie pasuje, otwieramy auto inną metodą mechaniczną – również bez uszkadzania drzwi i szyb.</p><p>Zanim zaczniemy, mówimy, jak zamierzamy otworzyć Twoje auto i czy widzimy jakieś ryzyko, na przykład przy zamku skorodowanym, zamarzniętym albo już wcześniej uszkodzonym. Decyzja należy do Ciebie. Cenę znasz wcześniej – podajemy ją przez telefon, zanim wyjedziemy, i potwierdzamy na miejscu przed rozpoczęciem pracy.</p><div class=\"tip\"><p>Nie próbuj otwierać auta drutem, wieszakiem ani klinem wsuniętym w drzwi. Łatwo wtedy porysować lakier, naderwać uszczelkę albo uszkodzić mechanizm szyby – a usuwanie takich szkód bywa droższe niż samo otwarcie.</p></div>"
+  },
+  {
+   "h2": "Dokumenty i weryfikacja właściciela",
+   "html": "<p>Otwarte auto to dostęp do wszystkiego, co jest w środku – często również do kluczyka. Dlatego każde zlecenie zaczynamy od sprawdzenia, czy samochód jest Twój albo czy możesz nim dysponować. Porównujemy dokument tożsamości z danymi w dowodzie rejestracyjnym. Jeśli nie da się potwierdzić uprawnień, odmawiamy otwarcia.</p><p>Od października 2018 roku kierowca nie musi wozić dowodu rejestracyjnego, więc wiele osób trzyma go w domu albo w schowku. Jeśli dokument jest zamknięty w aucie, sprawdzimy go zaraz po otwarciu, zanim cokolwiek zabierzesz ze środka. Jeśli został w domu, uprzedź nas o tym w rozmowie – zanim wyjedziemy, wspólnie znajdziemy sposób na potwierdzenie Twoich uprawnień. Przy samochodzie służbowym lub leasingowym przygotuj upoważnienie od firmy.</p><p>Do każdego zlecenia przyjeżdża osobiście właściciel firmy, Łukasz. Figuruje on na prowadzonej przez Policję liście kwalifikowanych pracowników zabezpieczenia technicznego, a wpisu dokonał Komendant Wojewódzki Policji. Co to oznacza dla Ciebie, wyjaśniamy w artykule <a href=\"%%R%%poradnik/kwalifikowany-pracownik-zabezpieczenia-technicznego.html\">kwalifikowany pracownik zabezpieczenia technicznego</a>, a więcej o tym, kto do Ciebie przyjedzie, przeczytasz na stronie <a href=\"%%R%%o-nas.html\">o nas</a>.</p>"
+  },
+  {
+   "h2": "Gdzie stoi auto? Co powiedzieć przez telefon",
+   "html": "<p>Przyjeżdżamy tam, gdzie stoi samochód: pod blok, na parking przy galerii handlowej, pod szpital, na stację paliw albo na leśny parking za miastem. Obsługujemy całe miasto i okoliczne gminy, między innymi <a href=\"%%R%%checiny.html\">Chęciny</a>, <a href=\"%%R%%morawica.html\">Morawicę</a>, <a href=\"%%R%%maslow.html\">Masłów</a> i <a href=\"%%R%%piekoszow.html\">Piekoszów</a> – pełną listę znajdziesz na stronie <a href=\"%%R%%obszar-dzialania.html\">obszar działania</a>. Kiedy dotrzemy na miejsce, uzgadniamy w rozmowie telefonicznej – nocą i w godzinach szczytu wygląda to inaczej.</p><p>Żebyśmy szybko trafili na miejsce, przygotuj:</p><ul><li>adres albo nazwę obiektu, a na dużym parkingu także sektor, wjazd lub numer miejsca;</li><li>przy garażu podziemnym – poziom i informację, czy wjazd wymaga karty lub biletu (pod ziemią często nie ma zasięgu, więc zadzwoń z powierzchni);</li><li>przy trasie S7 – kierunek jazdy i najbliższy węzeł albo nazwę stacji paliw;</li><li>markę, kolor i numer rejestracyjny auta.</li></ul>"
+  },
+  {
+   "h2": "Keyless, podwójne ryglowanie i trudniejsze przypadki",
+   "html": "<p>Nowsze auta bywają bardziej wymagające. W samochodach z systemem keyless zdarza się, że auto nie wykryje kluczyka leżącego w środku i zablokuje drzwi. Część modeli ma też podwójne ryglowanie, które unieruchamia klamki również od wewnątrz. Sposób otwarcia dobieramy wtedy do konkretnego modelu, dlatego przy zgłoszeniu pytamy o markę, model i rocznik.</p><p>Jeśli kluczyka nie ma w aucie, bo zginął, samo otwarcie nie rozwiąże problemu. Możemy wtedy przygotować także nowy kluczyk – szczegóły znajdziesz na stronie <a href=\"%%R%%utrata-wszystkich-kluczykow.html\">utrata wszystkich kluczyków</a>, a o zapasowych kluczykach i pilotach piszemy w dziale <a href=\"%%R%%programowanie-kluczy.html\">dorabianie i kodowanie kluczyków</a>.</p><div class=\"warn\"><p>W zamkniętym aucie zostało dziecko albo zwierzę? Najpierw dzwoń na 112 – zwłaszcza w upał lub mróz nie czekaj na nasz przyjazd. Więcej w poradniku <a href=\"%%R%%poradnik/dziecko-lub-pies-zamkniete-w-aucie.html\">dziecko lub pies zamknięte w aucie</a>.</p></div>"
+  }
+ ],
+ "faq": [
+  [
+   "Czy otwieracie samochody w nocy i w weekendy?",
+   "Tak. Telefon odbieramy całą dobę, 7 dni w tygodniu. Jeśli akurat nie odbieramy, wyślij SMS z opisem problemu i miejscem postoju auta – oddzwonimy."
+  ],
+  [
+   "Ile kosztuje awaryjne otwarcie samochodu?",
+   "Cena zależy głównie od modelu auta, rodzaju zamka i miejsca, w którym stoi. Kwotę usłyszysz w rozmowie, jeszcze przed naszym wyjazdem. Więcej piszemy w artykule <a href=\"%%R%%poradnik/ile-kosztuje-awaryjne-otwarcie-auta.html\">ile kosztuje otwarcie samochodu</a>."
+  ],
+  [
+   "Czy po otwarciu zostaną ślady?",
+   "Pracujemy dekoderami i innymi metodami mechanicznymi, bez wybijania szyb i podważania drzwi. Jeśli zamek jest skorodowany, zamarznięty lub już uszkodzony i widzimy ryzyko, uprzedzamy o tym przed rozpoczęciem."
+  ],
+  [
+   "Dowód rejestracyjny jest w zamkniętym aucie. Co wtedy?",
+   "Na początku sprawdzimy Twój dokument tożsamości, a dowód rejestracyjny – zaraz po otwarciu. Dane muszą się zgadzać. Jeśli nie da się potwierdzić, że możesz dysponować autem, przerywamy."
+  ],
+  [
+   "Ile trwa samo otwarcie?",
+   "Zależy od modelu, rodzaju zamka i zabezpieczeń auta. Przy prostszym zamku to krótka chwila, przy bardziej rozbudowanych zabezpieczeniach praca trwa dłużej – zapytaj o to przy zgłoszeniu."
+  ],
+  [
+   "Mam assistance w polisie. Czy warto z niego skorzystać?",
+   "Sprawdź w swojej polisie, czy assistance obejmuje otwarcie auta i na jakich warunkach. Możesz też zadzwonić bezpośrednio do nas – cenę poznasz przed wyjazdem."
+  ]
+ ],
+ "related": [
+  "zatrzasniete-kluczyki-w-aucie",
+  "kluczyki-zamkniete-w-bagazniku",
+  "zamarzniety-zamek-w-samochodzie",
+  "rozladowany-akumulator-zamkniete-auto",
+  "ile-kosztuje-awaryjne-otwarcie-auta"
+ ]
+}
