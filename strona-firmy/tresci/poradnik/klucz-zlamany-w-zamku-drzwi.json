@@ -41,5 +41,14 @@
    "Nie wierć i nie podważaj drzwi. Zadzwoń <a href=\"%%TELHREF%%\">%%TEL%%</a> – pracujemy całą dobę i podajemy cenę przed rozpoczęciem pracy."
   ]
  ],
- "order": 51
+ "order": 51,
+ "image": {
+  "src": "img/klucz-zlamany-w-zamku-drzwi.jpg",
+  "thumb": "img/klucz-zlamany-w-zamku-drzwi-m.jpg",
+  "alt": "Klucz z czerwonym kółkiem włożony we wkładkę zamka drzwi",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "94943841"
+ }
 }

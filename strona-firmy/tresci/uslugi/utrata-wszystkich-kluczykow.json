@@ -92,5 +92,14 @@
   "keyless-kradziez-na-walizke",
   "dorobienie-kluczyka-aso-czy-specjalista",
   "zapasowy-kluczyk-do-auta"
- ]
+ ],
+ "image": {
+  "src": "img/utrata-wszystkich-kluczykow.jpg",
+  "thumb": "img/utrata-wszystkich-kluczykow-m.jpg",
+  "alt": "Dwie dłonie przekazujące sobie składany kluczyk samochodowy z pilotem",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "40483434"
+ }
 }

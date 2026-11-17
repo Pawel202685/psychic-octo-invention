@@ -41,5 +41,14 @@
    "W wielu modelach tak. Podaj przez telefon markę, model i rocznik auta – powiemy, czy możemy go wykonać i ile to będzie kosztować."
   ]
  ],
- "order": 31
+ "order": 31,
+ "image": {
+  "src": "img/kluczyk-keyless-nie-dziala.jpg",
+  "thumb": "img/kluczyk-keyless-nie-dziala-m.jpg",
+  "alt": "Palec naciskający przycisk START STOP obok kierownicy samochodu",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "7750787"
+ }
 }

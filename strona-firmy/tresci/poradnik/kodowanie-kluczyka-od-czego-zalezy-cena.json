@@ -41,5 +41,14 @@
    "Kluczyki, które masz przy sobie podczas programowania, zwykle zostają w pamięci auta. Zgubione lub niepewne warto przy okazji usunąć – wtedy nie uruchomią już silnika."
   ]
  ],
- "order": 33
+ "order": 33,
+ "image": {
+  "src": "img/kodowanie-kluczyka-od-czego-zalezy-cena.jpg",
+  "thumb": "img/kodowanie-kluczyka-od-czego-zalezy-cena-m.jpg",
+  "alt": "Dłonie obsługujące tester diagnostyczny podłączony do samochodu",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "1005282"
+ }
 }

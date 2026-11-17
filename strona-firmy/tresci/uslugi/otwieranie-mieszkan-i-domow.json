@@ -96,5 +96,14 @@
   "zatrzasniete-drzwi-wynajmowane-mieszkanie",
   "co-przygotowac-zanim-przyjedzie-slusarz",
   "jak-wybrac-uczciwego-slusarza"
- ]
+ ],
+ "image": {
+  "src": "img/otwieranie-mieszkan-i-domow.jpg",
+  "thumb": "img/otwieranie-mieszkan-i-domow-m.jpg",
+  "alt": "Klucze w zamku drzwi wejściowych z czarną klamką",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "422340448"
+ }
 }

@@ -41,5 +41,14 @@
    "Alarm nie zastąpi solidnych drzwi i zamków, ale zwiększa ryzyko, że włamywacz zostanie zauważony. Najlepiej traktować go jako dodatkową warstwę ochrony."
   ]
  ],
- "order": 63
+ "order": 63,
+ "image": {
+  "src": "img/jak-zabezpieczyc-mieszkanie-przed-wlamaniem.jpg",
+  "thumb": "img/jak-zabezpieczyc-mieszkanie-przed-wlamaniem-m.jpg",
+  "alt": "Kamera monitoringu zamontowana przy drzwiach wejściowych na jasnej ścianie",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "15056487"
+ }
 }

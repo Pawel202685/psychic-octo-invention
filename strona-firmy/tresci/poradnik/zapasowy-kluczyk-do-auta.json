@@ -45,5 +45,14 @@
    "Warto to zrobić. Przy zawieraniu umowy AC zwykle podajesz liczbę kluczyków, więc gdy się zmieni, poinformuj ubezpieczyciela i zachowaj rachunek za nowy egzemplarz. Szczegóły znajdziesz w OWU swojej polisy."
   ]
  ],
- "order": 21
+ "order": 21,
+ "image": {
+  "src": "img/zapasowy-kluczyk-do-auta.jpg",
+  "thumb": "img/zapasowy-kluczyk-do-auta-m.jpg",
+  "alt": "Dwa kluczyki samochodowe na jednym kółku przekazywane do dłoni",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "4587686"
+ }
 }

@@ -45,5 +45,14 @@
    "Kaucja zabezpiecza należności z tytułu najmu, które właściciel ma wobec Ciebie w dniu opróżnienia lokalu. Jeśli koszt wymiany obciążał Ciebie i nie został rozliczony, może zostać potrącony przy zwrocie kaucji – dlatego wygodniej rozliczyć się od razu, na podstawie paragonu."
   ]
  ],
- "order": 54
+ "order": 54,
+ "image": {
+  "src": "img/zatrzasniete-drzwi-wynajmowane-mieszkanie.jpg",
+  "thumb": "img/zatrzasniete-drzwi-wynajmowane-mieszkanie-m.jpg",
+  "alt": "Kobieta z kartonami przekręca klucz w drzwiach jasnego mieszkania",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "422546872"
+ }
 }

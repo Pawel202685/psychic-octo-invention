@@ -41,5 +41,14 @@
    "Zwykle nie. Służby ratunkowe wchodzą do mieszkania wtedy, gdy zagrożone jest życie, zdrowie lub mienie – np. ktoś w środku nie odpowiada, czuć gaz albo widać dym – i wtedy dzwonisz na 112. Jeśli po prostu nie możesz wejść do domu, potrzebny jest ślusarz."
   ]
  ],
- "order": 44
+ "order": 44,
+ "image": {
+  "src": "img/pogotowie-zamkowe-w-nocy-i-swieta.jpg",
+  "thumb": "img/pogotowie-zamkowe-w-nocy-i-swieta-m.jpg",
+  "alt": "Kobieta z gałązkami choinki i prezentem rozmawia przez telefon wieczorem na ulicy",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "21783034"
+ }
 }

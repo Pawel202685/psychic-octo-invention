@@ -91,5 +91,14 @@
   "auto-kreci-ale-nie-odpala",
   "uzywany-sterownik-silnika-na-co-uwazac",
   "zalany-sterownik-elektronika-auta"
- ]
+ ],
+ "image": {
+  "src": "img/sterowniki.jpg",
+  "thumb": "img/sterowniki-m.jpg",
+  "alt": "Pomiar płytki elektronicznej sondami multimetru na stanowisku naprawczym",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "5219652"
+ }
 }

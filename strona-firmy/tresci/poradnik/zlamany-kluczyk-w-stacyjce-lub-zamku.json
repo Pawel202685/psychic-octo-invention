@@ -41,5 +41,14 @@
    "Najczęściej to efekt zużycia grota, ciężkiego breloka, przekręcania na siłę przy zablokowanej kierownicy albo zamarzniętego zamka."
   ]
  ],
- "order": 15
+ "order": 15,
+ "image": {
+  "src": "img/zlamany-kluczyk-w-stacyjce-lub-zamku.jpg",
+  "thumb": "img/zlamany-kluczyk-w-stacyjce-lub-zamku-m.jpg",
+  "alt": "Dłoń z kluczykiem samochodowym tuż przy stacyjce w aucie",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "11283269"
+ }
 }

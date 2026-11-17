@@ -40,5 +40,14 @@
    "Wtedy samo otwarcie nie wystarczy – potrzebny jest nowy, zaprogramowany kluczyk. Więcej w poradniku <a href=\"%%R%%poradnik/zgubione-wszystkie-kluczyki-do-auta.html\">zgubione wszystkie kluczyki do auta</a>."
   ]
  ],
- "order": 43
+ "order": 43,
+ "image": {
+  "src": "img/ile-kosztuje-awaryjne-otwarcie-auta.jpg",
+  "thumb": "img/ile-kosztuje-awaryjne-otwarcie-auta-m.jpg",
+  "alt": "Model samochodu na kalkulatorze obok stosów monet",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "3090794"
+ }
 }

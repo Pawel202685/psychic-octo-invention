@@ -1,49 +1,49 @@
 {
  "slug": "kluczyki-mazda",
  "brand": "Mazda",
- "card": "Składane kluczyki Mazdy 3 i 6, kluczyki zbliżeniowe z przyciskiem START, auta z importu – dorabianie, kodowanie i zgubione kluczyki.",
- "h1": "Kluczyk Mazda Kielce – dorabianie i kodowanie kluczyków",
- "meta_title": "Kluczyk Mazda Kielce – dorabianie i kodowanie kluczyka",
- "meta_description": "Dorabianie kluczyka Mazda: 2, 3, 6, CX-5, CX-30. Kluczyk składany lub zbliżeniowy, zapasowy albo w miejsce zgubionego. Zadzwoń – sprawdzimy model po VIN.",
- "lead": "Kluczyk Mazda w Kielcach i okolicy – składany z pilotem albo zbliżeniowy z przyciskiem START – dorabiamy i kodujemy przy Twoim aucie, także gdy zginął ostatni egzemplarz. Możliwość wykonania kluczyka do Twojej Mazdy sprawdzimy po numerze VIN, a jeśli auto pochodzi z importu, przy okazji powiemy, czy da się wgrać język polski.",
+ "card": "Składane kluczyki Mazdy 3 i 6, kluczyki zbliżeniowe z przyciskiem START i Mazdy z importu – zapasowy kluczyk, nowy po zgubieniu, język polski.",
+ "h1": "Kluczyk Mazda w Kielcach – składany, zbliżeniowy i z importu",
+ "meta_title": "Kluczyk Mazda Kielce – dorabianie, kluczyk zbliżeniowy",
+ "meta_description": "Kluczyk do Mazdy 3, 6, CX-5 czy CX-30: dorabianie i kodowanie, nowy po zgubieniu ostatniego, język polski w autach z USA. Zadzwoń lub napisz SMS z VIN.",
+ "lead": "Kluczyk Mazda – składany z pilotem albo zbliżeniowy z przyciskiem START – dorabiamy i kodujemy przy aucie w Kielcach i okolicy, w wielu modelach także wtedy, gdy zginął ostatni egzemplarz. Jeśli Mazda pochodzi z USA lub Kanady, po numerze VIN sprawdzimy też, czy da się wgrać język polski.",
  "sections": [
   {
    "h2": "Kluczyk Mazda – składany czy zbliżeniowy?",
-   "html": "<p>W Mazdach z ostatnich dwudziestu lat najczęściej trafiają się dwa rodzaje kluczyków:</p><table><thead><tr><th>Rodzaj kluczyka</th><th>Gdzie go spotkasz</th><th>Na co zwrócić uwagę</th></tr></thead><tbody><tr><td>Składany z pilotem</td><td>m.in. pierwsza generacja Mazdy 3 (BK) i starsze roczniki Mazdy 6</td><td>w instrukcjach części tych modeli podawana jest bateria CR1620</td></tr><tr><td>Zbliżeniowy (Advanced Keyless)</td><td>część wersji nowszych modeli, np. CX-5, CX-30 czy Mazdy 3</td><td>w pilocie schowany jest kluczyk pomocniczy, który wysuwa się po naciśnięciu zatrzasku</td></tr></tbody></table><p>W starszych i prostszych wersjach trafiają się też inne warianty. Jaki kluczyk pasuje do Twojego auta – i czy da się go zakodować przy aucie – ustalamy po numerze VIN, bo w obrębie jednego modelu bywają różne wersje, także zależnie od rynku, na który auto wyprodukowano.</p>"
+   "html": "<p>W Mazdach z ostatnich dwóch dekad najczęściej trafiają się dwa rodzaje kluczyków:</p><table><thead><tr><th>Kluczyk</th><th>Przykładowe modele</th><th>Warto wiedzieć</th></tr></thead><tbody><tr><td>Składany z pilotem</td><td>m.in. pierwsza Mazda 3 (BK) i pierwsza Mazda 6 (GG)</td><td>instrukcje tych modeli podają baterię CR1620</td></tr><tr><td>Zbliżeniowy (advanced key)</td><td>część wersji nowszych modeli, np. CX-5, CX-30 czy Mazdy 3</td><td>w pilocie ukryty jest kluczyk pomocniczy, wyjmowany po wciśnięciu zatrzasku; dla wielu modeli instrukcje podają baterię CR2025</td></tr></tbody></table><p>Trafiają się też inne warianty, np. osobny pilot i kluczyk. Jaki kluczyk Mazda pasuje do Twojego auta i czy zakodujemy go na miejscu, ustalamy po numerze VIN – w obrębie jednego modelu bywają różne wersje, także zależnie od rynku, na który auto wyprodukowano.</p>"
   },
   {
-   "h2": "Typowe sytuacje u właścicieli Mazd",
-   "html": "<ul><li><strong>Pilot działa coraz słabiej</strong> – instrukcja Mazdy podpowiada, że gdy przyciski nie reagują, a lampka na pilocie nie mruga, bateria może być wyczerpana i warto ją wymienić, zanim pilot całkiem przestanie działać.</li><li><strong>Zniszczony kluczyk składany</strong> – wyrobiony zawias, chwiejący się grot, pęknięta obudowa.</li><li><strong>Zgubiona tabliczka z numerem kodu</strong> – Mazda dołącza do kluczyków plakietkę z numerem, który według instrukcji jest potrzebny do wykonania zapasowego kluczyka pomocniczego. Należy ją trzymać w bezpiecznym miejscu, poza autem.</li><li><strong>Mazda z USA lub Kanady</strong> – menu po angielsku, brak tylnego światła przeciwmgłowego, a czasem tylko jeden kluczyk. O świetle piszemy w artykule <a href=\"%%R%%poradnik/tylne-swiatlo-przeciwmglowe-auto-z-usa.html\">tylne światło przeciwmgłowe w aucie z USA</a>.</li><li><strong>Kluczyk zbliżeniowy raz działa, a raz nie</strong> – zanim zaczniesz szukać usterki, odsuń pilota od telefonu, ładowarki i innych kluczyków. Więcej o takich objawach piszemy w poradniku <a href=\"%%R%%poradnik/kluczyk-keyless-nie-dziala.html\">kluczyk keyless nie działa</a>.</li></ul>"
+   "h2": "Kiedy kluczyk Mazdy zaczyna sprawiać kłopoty",
+   "html": "<ul><li><strong>Słabnąca bateria</strong> – instrukcje Mazdy wymieniają typowe objawy: pilot nie działa, a jego lampka nie mruga po naciśnięciu przycisku, zasięg się zmniejsza, a w autach z kluczykiem zbliżeniowym zielona kontrolka KEY miga na zegarach przez około 30 sekund po wyłączeniu silnika. Producent radzi wymieniać baterię mniej więcej raz w roku, bo ostrzeżenie nie zawsze pojawi się na czas.</li><li><strong>Zniszczony kluczyk składany</strong> – wyrobiony zawias, chwiejący się grot, pęknięta obudowa.</li><li><strong>Zgubiona tabliczka z numerem kodu</strong> – Mazda dołącza do kompletu kluczyków plakietkę z numerem, który według instrukcji przydaje się przy wykonaniu zapasowego kluczyka. Instrukcja zaleca przechowywać ją w bezpiecznym miejscu poza autem.</li><li><strong>Mazda z USA lub Kanady</strong> – menu po angielsku, brak tylnego światła przeciwmgłowego, a czasem tylko jeden kluczyk. O świetle piszemy w artykule <a href=\"%%R%%poradnik/tylne-swiatlo-przeciwmglowe-auto-z-usa.html\">tylne światło przeciwmgłowe w aucie z USA</a>.</li><li><strong>Kluczyk zbliżeniowy raz działa, a raz nie</strong> – odsuń pilota od telefonu, ładowarki i innych kluczyków. Podobne objawy omawiamy w tekście o tym, co zrobić, gdy <a href=\"%%R%%poradnik/kluczyk-keyless-nie-dziala.html\">kluczyk keyless nie działa</a>.</li></ul>"
   },
   {
-   "h2": "Dorabianie i kodowanie kluczyka Mazda oraz inne usługi",
-   "html": "<p>Przyjeżdżamy do Ciebie i w wielu modelach Mazdy wykonujemy na miejscu:</p><ul><li>dorabianie i kodowanie zapasowego kluczyka lub pilota (<a href=\"%%R%%programowanie-kluczy.html\">programowanie kluczy</a>),</li><li>nowy kluczyk, gdy <strong>zgubiony kluczyk Mazda</strong> był ostatnim (<a href=\"%%R%%utrata-wszystkich-kluczykow.html\">utrata wszystkich kluczyków</a>),</li><li>usunięcie z pamięci auta kluczyków zgubionych lub nieoddanych przez poprzedniego właściciela,</li><li><strong>otwieranie Mazdy</strong> z kluczykami zatrzaśniętymi w środku – głównie dekoderami do zamków, bez uszkadzania drzwi i szyb (<a href=\"%%R%%otwieranie-samochodow.html\">otwieranie samochodów</a>),</li><li>naprawę immobilizera i sterownika (<a href=\"%%R%%sterowniki.html\">sterowniki</a>),</li><li>wgranie języka polskiego, dorobienie tylnego światła przeciwmgłowego i kodowanie funkcji (<a href=\"%%R%%kodowanie-ford-mazda.html\">kodowanie Ford i Mazda</a>) – tak samo jak w <a href=\"%%R%%kluczyki-ford.html\">Fordach</a>.</li></ul><p>Kupiłeś używaną Mazdę i nie wiesz, ile kluczyków było do niej zapisanych? Przy kodowaniu nowego możemy usunąć z pamięci te, których nie masz – wtedy zgubiony lub nieoddany egzemplarz nie uruchomi już silnika.</p><div class=\"warn\"><p>Możliwości różnią się między generacjami i rynkami, z których pochodzi auto. Po VIN powiemy, co zrobimy przy aucie, a cenę podamy przez telefon przed rozpoczęciem pracy.</p></div>"
+   "h2": "Dorabianie i kodowanie kluczyka Mazda – co zrobimy przy aucie",
+   "html": "<p>Dojeżdżamy do Mazdy tam, gdzie stoi, i w wielu modelach wykonujemy na miejscu:</p><ul><li>zapasowy kluczyk lub pilot – dorobiony i zakodowany w aucie (<a href=\"%%R%%programowanie-kluczy.html\">programowanie kluczy</a>),</li><li>kluczyk od zera, kiedy <strong>zgubiony kluczyk Mazda</strong> był ostatnim (<a href=\"%%R%%utrata-wszystkich-kluczykow.html\">utrata wszystkich kluczyków</a>),</li><li>usunięcie z pamięci auta kluczyków zgubionych albo nieoddanych przez poprzedniego właściciela – po zakupie auta z importu warto to zrobić od razu,</li><li><strong>otwieranie Mazdy</strong> z kluczykami zatrzaśniętymi w kabinie, głównie dekoderami do zamków, tak by nie uszkodzić drzwi ani szyb (<a href=\"%%R%%otwieranie-samochodow.html\">otwieranie samochodów</a>),</li><li>diagnozę i naprawę immobilizera albo sterownika (<a href=\"%%R%%sterowniki.html\">sterowniki</a>),</li><li>wgranie języka polskiego, tylne światło przeciwmgłowe i kodowanie funkcji (<a href=\"%%R%%kodowanie-ford-mazda.html\">kodowanie Ford i Mazda</a>) – podobnie jak w <a href=\"%%R%%kluczyki-ford.html\">Fordach</a>.</li></ul><div class=\"warn\"><p>Możliwości różnią się między generacjami i rynkami, z których pochodzi Mazda. Po VIN powiemy, co zrobimy przy aucie, a cenę podamy przez telefon przed rozpoczęciem pracy.</p></div>"
   },
   {
-   "h2": "Rozładowany pilot zbliżeniowy – jak uruchomić Mazdę",
-   "html": "<p>Bateria w kluczyku zbliżeniowym potrafi wyczerpać się bez ostrzeżenia. Instrukcje nowszych Mazd opisują na taką sytuację prostą procedurę:</p><ol><li>Drzwi kierowcy otwórz kluczykiem pomocniczym wysuniętym z pilota.</li><li>Wciśnij pedał hamulca.</li><li>Przyłóż pilota emblematem do przycisku START i naciśnij przycisk.</li></ol><p>Szczegóły, np. sygnalizacja kontrolek, różnią się między modelami – sprawdź opis w instrukcji swojego auta. Potem jak najszybciej wymień baterię; jej typ sprawdź na starej baterii albo w instrukcji. Jeśli auto mimo to nie zapala, przyczyna może leżeć gdzie indziej – zadzwoń.</p>"
+   "h2": "Rozładowany kluczyk zbliżeniowy – jak uruchomić Mazdę",
+   "html": "<p>Bateria w kluczyku zbliżeniowym potrafi wyczerpać się bez wyraźnego ostrzeżenia. Instrukcje nowszych Mazd opisują na taką sytuację prostą procedurę:</p><ol><li>Otwórz drzwi kierowcy kluczykiem pomocniczym wyjętym z pilota.</li><li>Wciśnij i trzymaj pedał hamulca (w aucie z ręczną skrzynią – sprzęgła).</li><li>Dotknij pilotem przycisku START – zależnie od modelu tylną stroną albo stroną z emblematem – i naciśnij przycisk zgodnie z sygnalizacją kontrolek opisaną w instrukcji.</li></ol><p>W starszych Mazdach z kluczykiem zbliżeniowym procedura może wyglądać inaczej – sprawdź opis w instrukcji swojego auta. Potem jak najszybciej wymień baterię; jej typ znajdziesz na starej baterii albo w instrukcji. Jeśli auto mimo to nie zapala, przyczyna może leżeć gdzie indziej – zadzwoń.</p>"
   },
   {
-   "h2": "Co przygotować przed wizytą",
-   "html": "<ul><li>dowód osobisty i dowód rejestracyjny – potwierdzamy własność przed każdym kodowaniem i otwarciem,</li><li>numer VIN i informację, skąd auto zostało sprowadzone,</li><li>wszystkie kluczyki do auta, które mają dalej działać,</li><li>tabliczkę z numerem kodu kluczyka, jeśli ją masz.</li></ul><div class=\"tip\"><p>Tabliczkę z numerem kodu i zapasowy kluczyk trzymaj w domu, a nie w schowku auta. Kupujesz Mazdę z importu? Zapytaj sprzedającego o liczbę kluczyków jeszcze przed zakupem – brakujący najprościej dorobić, póki masz sprawny egzemplarz.</p></div>"
+   "h2": "Dokumenty, VIN i tabliczka z kodem",
+   "html": "<ul><li>dowód osobisty i dowód rejestracyjny – na ich podstawie potwierdzamy, że Mazda należy do Ciebie, zanim cokolwiek zakodujemy lub otworzymy,</li><li>numer VIN i informacja, z jakiego kraju sprowadzono auto,</li><li>wszystkie kluczyki, które mają dalej działać,</li><li>tabliczka z numerem kodu kluczyka, jeśli ją masz.</li></ul><div class=\"tip\"><p>Tabliczkę z kodem i zapasowy kluczyk trzymaj w domu, a nie w schowku. Kupujesz Mazdę z importu? Zapytaj sprzedającego o liczbę kluczyków jeszcze przed zakupem – brakujący najłatwiej dorobić, póki masz sprawny egzemplarz.</p></div>"
   }
  ],
  "faq": [
   [
-   "Jaka bateria jest w kluczyku Mazdy?",
-   "To zależy od kluczyka. W składanych kluczykach części starszych Mazd 3 i 6 instrukcje podają baterię CR1620, w nowszych pilotach stosowane są inne typy. Najpewniej jest sprawdzić oznaczenie na starej baterii albo w instrukcji obsługi."
+   "Jaką baterię ma pilot Mazdy?",
+   "To zależy od kluczyka. W składanych kluczykach pierwszej Mazdy 3 i Mazdy 6 instrukcje podają CR1620, a w kluczykach zbliżeniowych wielu nowszych modeli – CR2025. Najpewniej jest sprawdzić oznaczenie na starej baterii albo w instrukcji obsługi."
   ],
   [
    "Czy dorobicie kluczyk do Mazdy sprowadzonej z USA?",
    "W wielu przypadkach tak, ale wersje na różne rynki mogą się różnić. Podaj VIN – sprawdzimy, jaki kluczyk będzie pasował, i powiemy, czy przy okazji da się wgrać język polski."
   ],
   [
-   "Mam jeden kluczyk do Mazdy – czy warto dorobić drugi?",
-   "Tak. Najprościej zrobić kolejny kluczyk wtedy, gdy masz jeszcze sprawny egzemplarz. Gdy zginie ostatni, potrzebny jest kluczyk od zera, a auto do tego czasu stoi."
+   "Zgubiłem tabliczkę z numerem kodu. Czy dorobicie kluczyk?",
+   "Brak tabliczki nie przekreśla dorobienia kluczyka. Podaj VIN i powiedz, ile kluczyków masz – sprawdzimy, co da się zrobić w Twojej Maździe."
   ],
   [
-   "Czy jesteście autoryzowanym serwisem Mazdy?",
-   "Nie, nie jesteśmy ASO Mazdy. Markę podajemy wyłącznie po to, by opisać, z jakimi autami pracujemy. Kluczyki kodujemy przy samochodzie klienta."
+   "Mam jeden kluczyk do Mazdy – czy warto dorobić drugi?",
+   "Tak. Kolejny kluczyk najłatwiej zrobić wtedy, gdy masz jeszcze sprawny egzemplarz. Gdy zginie ostatni, potrzebny jest kluczyk od zera, a auto do tego czasu stoi."
   ]
  ],
  "related": [

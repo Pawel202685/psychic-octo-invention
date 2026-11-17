@@ -41,5 +41,14 @@
    "Zależy od auta i rodzaju kluczyka. Zadzwoń z danymi auta i ogłoszenia – cenę podamy przed rozpoczęciem pracy."
   ]
  ],
- "order": 34
+ "order": 34,
+ "image": {
+  "src": "img/kluczyk-z-internetu-czy-da-sie-zaprogramowac.jpg",
+  "thumb": "img/kluczyk-z-internetu-czy-da-sie-zaprogramowac-m.jpg",
+  "alt": "Osoba z kartą płatniczą zamawia przez internet na laptopie, obok kartony",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "6936290"
+ }
 }

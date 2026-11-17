@@ -45,5 +45,14 @@
    "Cena zależy od rodzaju drzwi i zamków oraz od tego, czy drzwi są zatrzaśnięte, czy zamknięte na klucz. Podajemy ją przez telefon przed rozpoczęciem pracy: <a href=\"%%TELHREF%%\">%%TEL%%</a>."
   ]
  ],
- "order": 50
+ "order": 50,
+ "image": {
+  "src": "img/zatrzasniete-drzwi-zgubione-klucze.jpg",
+  "thumb": "img/zatrzasniete-drzwi-zgubione-klucze-m.jpg",
+  "alt": "Zmartwiona kobieta siedzi na schodach i patrzy w telefon",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "2579949"
+ }
 }

@@ -89,5 +89,14 @@
   "tylne-swiatlo-przeciwmglowe-auto-z-usa",
   "aktywacja-funkcji-ford-mazda",
   "uzywane-auto-sprawdz-kluczyki"
- ]
+ ],
+ "image": {
+  "src": "img/kodowanie-ford-mazda.jpg",
+  "thumb": "img/kodowanie-ford-mazda-m.jpg",
+  "alt": "Podświetlony prędkościomierz i cyfrowy wyświetlacz zestawu wskaźników w samochodzie",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "427771410"
+ }
 }

@@ -41,5 +41,14 @@
    "To zależy od wkładki i zamka. Jeśli trzeba będzie ją wymienić, rzetelny ślusarz powie o tym przed rozpoczęciem pracy."
   ]
  ],
- "order": 53
+ "order": 53,
+ "image": {
+  "src": "img/klucz-w-zamku-od-srodka.jpg",
+  "thumb": "img/klucz-w-zamku-od-srodka-m.jpg",
+  "alt": "Klucze zostawione w zamku białych drzwi pod złotą klamką",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "10419428"
+ }
 }

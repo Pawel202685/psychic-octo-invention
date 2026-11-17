@@ -40,5 +40,14 @@
    "Gdy jest chłodno, dziecko lub zwierzę jest spokojne i cały czas pod Twoją obserwacją, możesz wezwać fachowca od awaryjnego otwierania aut. Przy jakichkolwiek oznakach zagrożenia albo w ciepły, słoneczny dzień zawsze najpierw dzwoń na 112."
   ]
  ],
- "order": 14
+ "order": 14,
+ "image": {
+  "src": "img/dziecko-lub-pies-zamkniete-w-aucie.jpg",
+  "thumb": "img/dziecko-lub-pies-zamkniete-w-aucie-m.jpg",
+  "alt": "Brązowy pies czeka sam na tylnym siedzeniu zaparkowanego samochodu",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "4737688"
+ }
 }

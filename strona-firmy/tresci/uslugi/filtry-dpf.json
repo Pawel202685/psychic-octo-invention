@@ -91,5 +91,14 @@
   "wyciety-dpf-a-przeglad",
   "filtr-dpf-jak-dbac",
   "czujnik-roznicy-cisnien-dpf"
- ]
+ ],
+ "image": {
+  "src": "img/filtry-dpf.jpg",
+  "thumb": "img/filtry-dpf-m.jpg",
+  "alt": "Dłonie mechanika z testerem diagnostycznym nad otwartą komorą silnika",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "1005082"
+ }
 }

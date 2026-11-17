@@ -45,5 +45,14 @@
    "Najpierw zadzwoń na 112 – zwłaszcza w upale lub mrozie. Służby ratunkowe zdecydują, jak najszybciej pomóc."
   ]
  ],
- "order": 65
+ "order": 65,
+ "image": {
+  "src": "img/co-przygotowac-zanim-przyjedzie-slusarz.jpg",
+  "thumb": "img/co-przygotowac-zanim-przyjedzie-slusarz-m.jpg",
+  "alt": "Dłoń z długopisem nad czystą kartką na podkładce do notatek",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "6274138"
+ }
 }

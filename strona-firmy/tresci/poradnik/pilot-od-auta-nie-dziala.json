@@ -41,5 +41,14 @@
    "Pilot i chip immobilizera w kluczyku to dwa osobne układy, więc działający pilot nie oznacza, że auto rozpoznaje kluczyk. Jeśli silnik nie startuje, a na desce miga kontrolka immobilizera, przeczytaj artykuł <a href=\"%%R%%poradnik/auto-nie-widzi-kluczyka-immobilizer.html\">auto nie widzi kluczyka</a>."
   ]
  ],
- "order": 22
+ "order": 22,
+ "image": {
+  "src": "img/pilot-od-auta-nie-dziala.jpg",
+  "thumb": "img/pilot-od-auta-nie-dziala-m.jpg",
+  "alt": "Dłoń naciskająca przycisk pilota od samochodu na białym tle",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "1046439"
+ }
 }

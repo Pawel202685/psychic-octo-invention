@@ -41,5 +41,14 @@
    "Warto zareagować od razu. Zacinający się zamek to częsta przyczyna złamanych kluczy i drzwi, których nie da się otworzyć."
   ]
  ],
- "order": 52
+ "order": 52,
+ "image": {
+  "src": "img/zaciety-zamek-w-drzwiach.jpg",
+  "thumb": "img/zaciety-zamek-w-drzwiach-m.jpg",
+  "alt": "Pęk kluczy z breloczkiem w zamku drzwi z metalowym szyldem",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "94943842"
+ }
 }

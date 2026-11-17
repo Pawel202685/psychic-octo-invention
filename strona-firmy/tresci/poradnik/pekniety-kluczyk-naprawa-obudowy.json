@@ -41,5 +41,14 @@
    "Często tak: winne są przetarte gumowe przyciski lub zabrudzone styki. Pomaga wtedy nowa obudowa, a jeśli nie – trzeba sprawdzić płytkę pilota."
   ]
  ],
- "order": 32
+ "order": 32,
+ "image": {
+  "src": "img/pekniety-kluczyk-naprawa-obudowy.jpg",
+  "thumb": "img/pekniety-kluczyk-naprawa-obudowy-m.jpg",
+  "alt": "Dłoń trzymająca dwa składane kluczyki samochodowe z pilotem",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "5873031"
+ }
 }

@@ -41,5 +41,14 @@
    "Zachowaj go w bezpiecznym miejscu i nie przyklejaj na stałe do starej obudowy – przy wymianie trzeba go będzie przełożyć do nowej. Jeśli chip zginął, potrzebny będzie nowy kluczyk zaprogramowany do auta."
   ]
  ],
- "order": 30
+ "order": 30,
+ "image": {
+  "src": "img/transponder-w-kluczyku-jak-dziala.jpg",
+  "thumb": "img/transponder-w-kluczyku-jak-dziala-m.jpg",
+  "alt": "Kluczyk samochodowy z pilotem leżący na podłokietniku we wnętrzu auta",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "9691259"
+ }
 }

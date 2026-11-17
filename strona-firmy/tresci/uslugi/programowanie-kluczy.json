@@ -96,5 +96,14 @@
   "kluczyk-z-internetu-czy-da-sie-zaprogramowac",
   "pilot-od-auta-nie-dziala",
   "keyless-kradziez-na-walizke"
- ]
+ ],
+ "image": {
+  "src": "img/programowanie-kluczy.jpg",
+  "thumb": "img/programowanie-kluczy-m.jpg",
+  "alt": "Składany kluczyk samochodowy z pilotem na otwartej dłoni przy drzwiach auta",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "40483410"
+ }
 }

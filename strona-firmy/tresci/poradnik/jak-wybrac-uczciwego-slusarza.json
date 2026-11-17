@@ -41,5 +41,14 @@
    "Zanim praca się zacznie, możesz się nie zgodzić i poprosić o wyjaśnienie. Jeśli uważasz, że zostałeś oszukany, zachowaj dowód zapłaty i skontaktuj się z rzecznikiem konsumentów."
   ]
  ],
- "order": 64
+ "order": 64,
+ "image": {
+  "src": "img/jak-wybrac-uczciwego-slusarza.jpg",
+  "thumb": "img/jak-wybrac-uczciwego-slusarza-m.jpg",
+  "alt": "Fachowiec z identyfikatorem i skrzynką narzędziową wita się z klientką w drzwiach",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "22264895"
+ }
 }

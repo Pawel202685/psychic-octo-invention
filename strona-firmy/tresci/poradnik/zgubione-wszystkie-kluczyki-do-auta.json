@@ -45,5 +45,14 @@
    "Nie zawsze. Usunięcie zgubionego kluczyka z pamięci auta sprawia, że nie uruchomi on silnika, ale jego grot nadal pasuje do zamka drzwi. Część polis AC wymaga po utracie kluczyka wymiany zamków lub przekodowania zabezpieczeń, dlatego sprawdź warunki swojej umowy."
   ]
  ],
- "order": 20
+ "order": 20,
+ "image": {
+  "src": "img/zgubione-wszystkie-kluczyki-do-auta.jpg",
+  "thumb": "img/zgubione-wszystkie-kluczyki-do-auta-m.jpg",
+  "alt": "Zmartwiony kierowca siedzi na poboczu oparty o koło swojego samochodu",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "27572077"
+ }
 }
