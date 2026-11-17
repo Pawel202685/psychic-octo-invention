@@ -1,0 +1,49 @@
+{
+ "slug": "awaria-sterownika-objawy",
+ "cat": "Elektronika auta",
+ "icon": "cpu",
+ "title": "Awaria sterownika silnika – objawy, przyczyny i co dalej",
+ "short": "Awaria sterownika – objawy",
+ "meta_title": "Awaria sterownika silnika – objawy i co robić",
+ "meta_description": "Awaria sterownika silnika? Poznaj typowe objawy i przyczyny oraz sprawdź, co zrobić samemu, zanim kupisz nowy sterownik. Pomoc 24h – zadzwoń.",
+ "lead": "Auto kręci, ale nie odpala, gaśnie bez powodu albo tester nie widzi sterownika? Awaria sterownika silnika ma objawy podobne do innych usterek. Podpowiadamy, jak je rozpoznać i co zrobić dalej.",
+ "keywords": [
+  "awaria sterownika silnika objawy",
+  "uszkodzony sterownik silnika",
+  "objawy uszkodzonego komputera w samochodzie",
+  "brak komunikacji ze sterownikiem silnika",
+  "naprawa sterownika silnika",
+  "awaria immobilizera objawy"
+ ],
+ "service": "sterowniki",
+ "related": [
+  "auto-kreci-ale-nie-odpala",
+  "kontrolka-immobilizera-miga",
+  "uzywany-sterownik-silnika-na-co-uwazac",
+  "zalany-sterownik-elektronika-auta"
+ ],
+ "body": "<p>Silnik nie chce zapalić, na desce rozdzielczej dzieje się coś dziwnego, a komputer diagnostyczny „nie widzi” jednego z modułów? Awaria sterownika silnika daje objawy, które łatwo pomylić z usterką akumulatora, pompy paliwa albo kluczyka. Dlatego zanim wydasz pieniądze na nowy sterownik, dowiedz się, co może świadczyć o jego uszkodzeniu, co sprawdzić samemu i jakie masz możliwości.</p>\n<h2>Sterownik silnika i immobilizer – jak to działa</h2>\n<p>Sterownik silnika (ECU) to komputer, który na podstawie sygnałów z czujników decyduje, ile paliwa podać, kiedy wywołać zapłon i jak ma pracować silnik. Współpracuje z innymi modułami w aucie – m.in. z immobilizerem, który sprawdza, czy w stacyjce albo w kabinie jest właściwy kluczyk.</p>\n<p>Zależnie od modelu immobilizer bywa osobnym modułem, częścią zestawu wskaźników albo jest wbudowany w sterownik silnika. Jeśli sterownik nie dostanie potwierdzenia, że kluczyk jest „swój”, nie pozwoli uruchomić silnika albo zgasi go po chwili. Dlatego objawy awarii sterownika i kłopotów z immobilizerem często wyglądają podobnie.</p>\n<h2>Awaria sterownika silnika – objawy, które warto znać</h2>\n<ul>\n<li><strong>Rozrusznik kręci, ale silnik nie zapala</strong> – nie ma nawet próby zaskoczenia. Szerzej piszemy o tym w artykule <a href=\"%%R%%poradnik/auto-kreci-ale-nie-odpala.html\">auto kręci, ale nie odpala</a>.</li>\n<li><strong>Silnik zapala i gaśnie po 1–2 sekundach</strong> – typowy sygnał, że immobilizer nie rozpoznał kluczyka albo moduły „nie dogadały się” ze sobą.</li>\n<li><strong>Miga lub świeci kontrolka kluczyka albo immobilizera</strong> – co oznacza jej zachowanie, wyjaśniamy w tekście <a href=\"%%R%%poradnik/kontrolka-immobilizera-miga.html\">miga kontrolka immobilizera</a>.</li>\n<li><strong>Kontrolka „check engine” i seria przypadkowych błędów</strong> – zwłaszcza gdy dotyczą czujników, które po sprawdzeniu okazują się sprawne.</li>\n<li><strong>Brak komunikacji z komputerem diagnostycznym</strong> – tester nie może połączyć się ze sterownikiem.</li>\n<li><strong>Tryb awaryjny, spadek mocy, nierówna praca</strong> albo gaśnięcie silnika bez wyraźnej przyczyny.</li>\n<li><strong>Dziwne zachowanie wskaźników</strong> – skaczący obrotomierz, kontrolki, które same gasną i się zapalają.</li>\n</ul>\n<p>Szczególnie podejrzane są objawy, które pojawiły się nagle po ulewie, myciu komory silnika, uruchamianiu „na kable”, wymianie akumulatora albo pracach spawalniczych przy aucie.</p>\n<h2>Co najczęściej uszkadza sterownik</h2>\n<ul>\n<li><strong>Wilgoć i korozja</strong> – woda dostaje się przez zapchane odpływy podszybia, nieszczelne uszczelki albo podczas mycia silnika pod ciśnieniem. Co robić po zalaniu, opisujemy w poradniku <a href=\"%%R%%poradnik/zalany-sterownik-elektronika-auta.html\">zalany sterownik</a>.</li>\n<li><strong>Przepięcia</strong> – nieprawidłowe uruchamianie z kabli, odłączanie klem przy pracującym silniku, uszkodzony regulator napięcia alternatora.</li>\n<li><strong>Drgania i temperatura</strong> – z latami mogą pękać połączenia lutowane na płytce.</li>\n<li><strong>Uszkodzone przewody, złącza i masy</strong> – przetarta wiązka, luźna wtyczka, skorodowany punkt masowy.</li>\n<li><strong>Nieudane zmiany w oprogramowaniu</strong> – przerwane programowanie albo przeróbki zrobione bez odpowiedniej wiedzy.</li>\n</ul>\n<h2>Nie zawsze winny jest sterownik</h2>\n<p>To najważniejsza rzecz w tym poradniku. Wiele „zepsutych sterowników” okazuje się sprawnych, a przyczyna leży obok – w zasilaniu, masie, bezpieczniku albo czujniku. Taka naprawa jest zwykle prostsza i tańsza.</p>\n<table>\n<thead><tr><th>Objaw</th><th>Częste przyczyny poza sterownikiem</th></tr></thead>\n<tbody>\n<tr><td>Brak komunikacji z testerem</td><td>przepalony bezpiecznik, brak zasilania lub masy, uszkodzona wiązka</td></tr>\n<tr><td>Kręci, ale nie odpala</td><td>paliwo, czujnik położenia wału, przekaźnik, kluczyk</td></tr>\n<tr><td>Zapala i gaśnie</td><td>kluczyk (chip, bateria), antena immobilizera przy stacyjce</td></tr>\n<tr><td>Losowe błędy i kontrolki</td><td>słaby akumulator, skorodowane złącza, luźna masa</td></tr>\n</tbody>\n</table>\n<h2>Co możesz bezpiecznie sprawdzić sam</h2>\n<ul>\n<li><strong>Akumulator.</strong> Zbyt niskie napięcie wywołuje zaskakująco dziwne objawy. Jeśli masz miernik: naładowany akumulator po kilku godzinach postoju pokazuje zwykle ok. 12,5–12,7 V. Wyraźnie mniej – najpierw go naładuj.</li>\n<li><strong>Klemy.</strong> Czy są dokręcone i nie mają białego lub zielonego nalotu?</li>\n<li><strong>Bezpieczniki</strong> opisane w instrukcji jako dotyczące silnika i zapłonu.</li>\n<li><strong>Drugi kluczyk.</strong> Jeśli z nim auto odpala bez problemu, kłopot jest w pierwszym kluczyku, a nie w sterowniku.</li>\n<li><strong>Okoliczności.</strong> Zapisz, kiedy problem się zaczął i co go poprzedziło. Zrób zdjęcie kontrolek i komunikatów.</li>\n</ul>\n<p>Czego nie robić: nie rozłączaj wtyczek sterownika „na próbę”, nie myj komory silnika wodą pod ciśnieniem i nie kręć rozrusznikiem aż do całkowitego rozładowania akumulatora.</p>\n<div class=\"tip\"><p>Uruchamiasz auto z kabli? Podłączaj je w kolejności podanej w instrukcji auta i nie odpinaj klem akumulatora przy pracującym silniku. To częste źródło przepięć, które uszkadzają elektronikę.</p></div>\n<h2>Naprawa, używany czy nowy sterownik – co dalej</h2>\n<p>Rozsądna kolejność to: najpierw diagnostyka, potem decyzja. Podczas diagnostyki odczytuje się błędy, sprawdza zasilanie, masy, przewody i komunikację między modułami. Dopiero wtedy wiadomo, czy uszkodzony jest sam sterownik.</p>\n<ol>\n<li><strong>Naprawa Twojego sterownika</strong> – często najwygodniejsza, bo sterownik już współpracuje z Twoim autem i kluczykami. Przed naprawą warto zrobić kopię zapasową jego danych.</li>\n<li><strong>Używany sterownik z adaptacją</strong> – musi pasować numerami i zostać dopasowany do immobilizera oraz kluczyków. Zanim kupisz, przeczytaj, <a href=\"%%R%%poradnik/uzywany-sterownik-silnika-na-co-uwazac.html\">na co uważać przy zakupie używanego sterownika</a>.</li>\n<li><strong>Nowy sterownik</strong> – również wymaga zakodowania do Twojego auta.</li>\n</ol>\n<p>Dzwoniąc po pomoc, podaj markę, model, rocznik i wersję silnika, opisz objawy i to, co je poprzedziło, oraz powiedz, gdzie stoi auto. Jeśli kupiłeś już używany sterownik, przygotuj zdjęcie jego naklejki z numerami. Dzięki temu łatwiej od razu ocenić, od czego zacząć.</p>\n<div class=\"warn\"><p>Nie kupuj używanego sterownika „w ciemno” i nie zgadzaj się na „wyłączenie immobilizera” jako sposób na problem z rozruchem. Auto bez sprawnego immobilizera jest łatwiejszym łupem dla złodziei.</p></div>\n<p>Masz podobne objawy? Zajmujemy się <a href=\"%%R%%sterowniki.html\">diagnostyką, naprawą i programowaniem sterowników</a> oraz immobilizerów. Dojeżdżamy do klientów w Kielcach i okolicznych miejscowościach całą dobę, 7 dni w tygodniu. Przed pracą sprawdzamy dowód osobisty i dowód rejestracyjny, a cenę podajemy przez telefon, zanim zaczniemy. Zadzwoń: <a href=\"%%TELHREF%%\">%%TEL%%</a>.</p>",
+ "faq": [
+  [
+   "Jak sprawdzić, czy sterownik silnika jest uszkodzony?",
+   "Pewność daje dopiero diagnostyka: odczyt błędów oraz sprawdzenie zasilania, mas i komunikacji między modułami. Same objawy często pasują też do tańszych usterek, np. słabego akumulatora lub bezpiecznika."
+  ],
+  [
+   "Czy można jeździć z uszkodzonym sterownikiem?",
+   "Nie warto ryzykować. Silnik może zgasnąć w czasie jazdy, np. na skrzyżowaniu, a praca na błędnych parametrach może uszkodzić inne podzespoły."
+  ],
+  [
+   "Czy sterownik silnika da się naprawić?",
+   "Często tak – zależy to od rodzaju uszkodzenia. Po diagnostyce wiadomo, czy lepsza będzie naprawa, adaptacja używanego sterownika czy nowy, a cenę poznasz przed rozpoczęciem pracy."
+  ],
+  [
+   "Czy po wymianie sterownika trzeba go programować?",
+   "Zwykle tak. Sterownik musi współpracować z immobilizerem i kluczykami Twojego auta, dlatego wymaga adaptacji lub zakodowania."
+  ],
+  [
+   "Co najczęściej uszkadza sterownik silnika?",
+   "Wilgoć i korozja, przepięcia (np. przy nieprawidłowym uruchamianiu z kabli) oraz uszkodzone przewody, złącza i masy."
+  ]
+ ],
+ "order": 70
+}

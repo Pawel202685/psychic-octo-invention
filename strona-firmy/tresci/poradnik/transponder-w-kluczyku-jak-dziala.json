@@ -1,0 +1,45 @@
+{
+ "slug": "transponder-w-kluczyku-jak-dziala",
+ "cat": "Kluczyki samochodowe",
+ "icon": "cpu",
+ "title": "Transponder w kluczyku – co to jest i jak działa",
+ "short": "Transponder w kluczyku",
+ "meta_title": "Transponder w kluczyku – co to jest i jak działa",
+ "meta_description": "Transponder w kluczyku decyduje, czy auto odpali. Zobacz, jak działa chip immobilizera, co mu szkodzi i co zrobić, gdy auto go nie rozpoznaje.",
+ "lead": "Transponder w kluczyku to mały chip bez baterii, od którego zależy, czy silnik w ogóle odpali. Wyjaśniamy prosto, jak działa, co mu szkodzi i co zrobić, gdy auto przestaje go rozpoznawać.",
+ "keywords": [
+  "transponder w kluczyku",
+  "chip w kluczyku samochodowym",
+  "immobilizer jak działa",
+  "kluczyk z chipem",
+  "auto nie widzi chipa w kluczyku",
+  "czy transponder potrzebuje baterii"
+ ],
+ "service": "programowanie-kluczy",
+ "related": [
+  "auto-nie-widzi-kluczyka-immobilizer",
+  "kontrolka-immobilizera-miga",
+  "pekniety-kluczyk-naprawa-obudowy",
+  "zapasowy-kluczyk-do-auta"
+ ],
+ "body": "<p>Transponder w kluczyku to element, o którym większość kierowców nie myśli wcale – dopóki auto nagle nie odmówi startu. Wygląda niepozornie: to maleńki układ elektroniczny ukryty w główce kluczyka. Czasem jest zamknięty w szklanej lub ceramicznej kapsułce wielkości ziarenka ryżu, a czasem wbudowany w płytkę pilota. To właśnie on „przedstawia się” samochodowi przy każdym uruchomieniu silnika.</p>\n<h2>Co to jest transponder w kluczyku</h2>\n<p>Transponder to pasywny chip radiowy. Słowo „pasywny” jest tu najważniejsze: chip nie ma własnej baterii i nie nadaje sam z siebie. Budzi się dopiero wtedy, gdy znajdzie się w polu elektromagnetycznym wytworzonym przez samochód. Pobiera z tego pola energię i odsyła swój kod.</p>\n<p>Po drugiej stronie jest immobilizer, czyli elektroniczna blokada uruchomienia silnika. W nowych autach w Unii Europejskiej stał się standardem pod koniec lat 90., a dziś trudno znaleźć samochód osobowy bez niego. Immobilizer pozwala uruchomić silnik tylko wtedy, gdy rozpozna kluczyk zapisany w pamięci auta.</p>\n<p>W jednym kluczyku siedzą zwykle trzy niezależne elementy:</p>\n<ul>\n<li><strong>grot</strong> – metalowa część, która mechanicznie otwiera zamek i przekręca stacyjkę,</li>\n<li><strong>pilot</strong> – nadajnik z baterią, który steruje centralnym zamkiem,</li>\n<li><strong>transponder</strong> – chip immobilizera, który „daje zgodę” na uruchomienie silnika.</li>\n</ul>\n<p>Każdy z nich może zawieść osobno. Dlatego zdarza się, że pilot otwiera auto bez problemu, a silnik i tak nie startuje – albo odwrotnie.</p>\n<h2>Jak działa transponder w praktyce</h2>\n<p>Cała „rozmowa” między kluczykiem a autem wygląda mniej więcej tak:</p>\n<ol>\n<li>Przekręcasz kluczyk w stacyjce albo naciskasz przycisk START.</li>\n<li>Cewka, czyli antena wokół stacyjki lub w pobliżu przycisku, wytwarza słabe pole o niskiej częstotliwości – zwykle rzędu 125–134 kHz.</li>\n<li>Transponder pobiera z tego pola energię i odpowiada swoim kodem.</li>\n<li>Moduł immobilizera porównuje odpowiedź z danymi zapisanymi w pamięci auta.</li>\n<li>Jeśli wszystko się zgadza, sterownik silnika dostaje zgodę na start. Jeśli nie – rozrusznik może zakręcić, ale silnik nie zapali albo zgaśnie po chwili.</li>\n</ol>\n<p>Trwa to ułamek sekundy i powtarza się przy każdym uruchomieniu. Nie musisz nic robić – wystarczy, że kluczyk jest tam, gdzie powinien.</p>\n<h3>Stały kod i szyfrowanie</h3>\n<p>Najstarsze transpondery wysyłały zawsze ten sam, stały kod. Nowsze systemy prowadzą z autem coś w rodzaju krótkiego dialogu: samochód zadaje „pytanie”, a kluczyk odpowiada w sposób zależny od tajnego klucza kryptograficznego. Odpowiedź za każdym razem jest inna, więc podsłuchanie jednej wymiany nie wystarczy, żeby ją powtórzyć. W wielu nowszych autach kluczyk jest ponadto na stałe przypisywany do konkretnego samochodu podczas programowania.</p>\n<h2>Objawy problemów z transponderem</h2>\n<p>Gdy auto przestaje rozpoznawać kluczyk, zwykle widać to tak:</p>\n<ul>\n<li>na desce rozdzielczej miga lub świeci kontrolka z symbolem kluczyka, kłódki albo samochodu,</li>\n<li>pojawia się komunikat o braku kluczyka lub błędzie immobilizera,</li>\n<li>rozrusznik kręci, ale silnik nie łapie,</li>\n<li>silnik zapala na sekundę lub dwie i od razu gaśnie,</li>\n<li>problem dotyczy tylko jednego kluczyka, a zapasowy działa normalnie.</li>\n</ul>\n<p>Ten ostatni test jest najcenniejszy. Jeśli zapasowy kluczyk uruchamia auto bez kłopotu, usterka najpewniej leży w kluczyku głównym. Jeśli żaden nie działa, przyczyna może być po stronie samochodu – w antenie, module immobilizera albo sterowniku. Więcej na ten temat piszemy w artykule <a href=\"%%R%%poradnik/auto-nie-widzi-kluczyka-immobilizer.html\">auto nie widzi kluczyka</a>.</p>\n<h2>Co szkodzi transponderowi</h2>\n<p>Transponder jest dość odporny, ale nie niezniszczalny. Najczęstsze przyczyny jego uszkodzenia lub „zniknięcia” to:</p>\n<ul>\n<li><strong>upadki</strong> – zwłaszcza na beton lub kafelki; kapsułka może pęknąć albo wypaść ze swojego gniazda,</li>\n<li><strong>pęknięta obudowa</strong> – w części kluczyków chip leży w osobnym gnieździe i potrafi wypaść niezauważony,</li>\n<li><strong>wilgoć i pranie</strong> – woda szkodzi głównie pilotowi, ale może uszkodzić też płytkę, na której jest chip,</li>\n<li><strong>domowe naprawy</strong> – sklejanie obudowy klejem, który zalewa elektronikę, albo podważanie płytki metalowym nożem.</li>\n</ul>\n<div class=\"warn\"><p>Wymieniasz obudowę kluczyka samodzielnie? Zanim wyrzucisz starą, sprawdź, czy w środku nie ma małej szklanej lub czarnej kapsułki. To może być transponder. Bez niego kluczyk w nowej obudowie otworzy drzwi, ale silnika nie uruchomi. Więcej przeczytasz w tekście o tym, <a href=\"%%R%%poradnik/pekniety-kluczyk-naprawa-obudowy.html\">co zrobić z pękniętą obudową kluczyka</a>.</p></div>\n<h2>Bateria a transponder – częste nieporozumienie</h2>\n<p>Wielu kierowców sądzi, że rozładowana bateria w kluczyku unieruchomi auto. W klasycznym kluczyku z transponderem tak nie jest: chip immobilizera działa bez baterii, bo energię dostaje od samochodu. Słaba bateria wyłączy pilot centralnego zamka, ale silnik nadal powinien się uruchomić.</p>\n<p>Inaczej jest w autach z systemem bezkluczykowym. Tam bateria jest potrzebna do tego, by auto wykryło kluczyk z odległości. Większość takich aut ma jednak awaryjny sposób uruchomienia: kluczyk przykłada się w miejscu wskazanym w instrukcji, gdzie działa ten sam mechanizm co w zwykłym transponderze. Szczegóły opisujemy w artykule <a href=\"%%R%%poradnik/kluczyk-keyless-nie-dziala.html\">kluczyk keyless nie działa</a>.</p>\n<h2>Dorobienie kluczyka z transponderem</h2>\n<p>Skoro auto odpala tylko z rozpoznanym chipem, sam metalowy grot skopiowany w punkcie dorabiania kluczy nie wystarczy. Taki kluczyk otworzy drzwi i przekręci stacyjkę, ale immobilizer nie pozwoli zapalić silnika. Nowy kluczyk trzeba zaprogramować, czyli dodać do pamięci auta. Robi to fachowiec ze specjalistycznym sprzętem – po sprawdzeniu, że samochód należy do Ciebie.</p>\n<p>Na programowanie zabierz wszystkie posiadane kluczyki. W wielu systemach przy dodawaniu nowego kluczyka trzeba ponownie zapisać także pozostałe, a te, których zabraknie, mogą przestać działać. To również dobra okazja, by usunąć z pamięci kluczyk zgubiony albo taki, który został u poprzedniego właściciela. Jak wygląda ta usługa, opisujemy na stronie <a href=\"%%R%%programowanie-kluczy.html\">dorabianie i programowanie kluczyków</a>.</p>\n<div class=\"tip\"><p>Masz tylko jeden kluczyk z transponderem? Zrób zapasowy, póki ten działa. Dodanie kolejnego kluczyka do auta, które zna już jeden, jest zwykle prostsze niż przygotowanie kluczyka od zera po utracie wszystkich.</p></div>\n<p>Auto nie rozpoznaje kluczyka albo potrzebujesz zapasowego z chipem? Pomagamy w Kielcach i okolicznych miejscowościach całą dobę, 7 dni w tygodniu, i dojeżdżamy do auta. Zadzwoń: <a href=\"%%TELHREF%%\">%%TEL%%</a>. Cenę podamy przez telefon, zanim zaczniemy pracę.</p>",
+ "faq": [
+  [
+   "Czy transponder w kluczyku ma baterię?",
+   "Nie. Klasyczny transponder jest pasywny – energię do działania dostaje z pola wytwarzanego przez samochód przy stacyjce. Bateria w kluczyku zasila pilot, a w autach keyless także zdalne wykrywanie kluczyka."
+  ],
+  [
+   "Skąd mam wiedzieć, czy mój kluczyk ma transponder?",
+   "Jeśli auto ma immobilizer – a ma go praktycznie każdy samochód osobowy z ostatnich dwóch dekad – kluczyk do uruchamiania silnika ma transponder. Przy wycenie wystarczy podać markę, model i rocznik."
+  ],
+  [
+   "Czy kopia samego grota uruchomi auto?",
+   "Nie. Otworzy drzwi i przekręci stacyjkę, ale immobilizer nie pozwoli zapalić silnika, dopóki kluczyk nie zostanie zaprogramowany do auta."
+  ],
+  [
+   "Transponder wypadł z kluczyka – co zrobić?",
+   "Zachowaj go i nie wklejaj na siłę klejem w płynie. Przy wymianie obudowy można go przełożyć do nowej. Jeśli chip zginął, potrzebny będzie nowy kluczyk zaprogramowany do auta."
+  ]
+ ],
+ "order": 30
+}

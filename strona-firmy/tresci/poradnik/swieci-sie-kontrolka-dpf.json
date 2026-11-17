@@ -1,0 +1,44 @@
+{
+ "slug": "swieci-sie-kontrolka-dpf",
+ "cat": "Filtr DPF",
+ "icon": "triangle-alert",
+ "title": "Świeci się kontrolka DPF – co robić?",
+ "short": "Świeci się kontrolka DPF",
+ "meta_title": "Kontrolka DPF – co oznacza i co zrobić, gdy się świeci",
+ "meta_description": "Świeci się kontrolka DPF? Sprawdź, co oznacza, jak przeprowadzić jazdę regeneracyjną i kiedy potrzebny jest serwis. Pomoc całą dobę – zadzwoń.",
+ "lead": "Zapaliła się kontrolka DPF i nie wiesz, czy możesz jechać dalej? Wyjaśniamy, co oznacza, kiedy wystarczy jazda w trasie, a kiedy lepiej od razu umówić diagnostykę.",
+ "keywords": [
+  "kontrolka DPF",
+  "świeci się kontrolka DPF",
+  "kontrolka DPF co robić",
+  "kontrolka filtra cząstek stałych",
+  "jak wypalić DPF",
+  "kontrolka DPF tryb awaryjny"
+ ],
+ "service": "filtry-dpf",
+ "related": [
+  "filtr-dpf-jak-dbac",
+  "regeneracja-czy-czyszczenie-dpf",
+  "czujnik-roznicy-cisnien-dpf"
+ ],
+ "body": "<p>Kontrolka DPF to sygnał, że filtr cząstek stałych zebrał dużo sadzy, a sterownik silnika nie zdołał jej samodzielnie wypalić. Sama w sobie nie oznacza jeszcze awarii – często wystarczy odpowiednia jazda. Nie warto jej jednak lekceważyć, bo zapchany filtr potrafi przełączyć auto w tryb awaryjny, a zwlekanie zwykle podnosi koszt naprawy.</p>\n<h2>Co oznacza kontrolka DPF</h2>\n<p>Symbol jest zwykle żółty lub pomarańczowy i przypomina prostokąt z kropkami w środku. Często towarzyszy mu komunikat tekstowy. Producenci różnie go wykorzystują, dlatego zawsze zajrzyj do instrukcji swojego auta. Ogólnie wygląda to tak:</p>\n<table>\n<thead><tr><th>Co widzisz</th><th>Co zwykle oznacza</th><th>Co zrobić</th></tr></thead>\n<tbody>\n<tr><td>Kontrolka DPF świeci, auto jedzie normalnie</td><td>Filtr jest zapełniony, sterownik czeka na warunki do regeneracji</td><td>Jak najszybciej odbyć jazdę w trasie według instrukcji</td></tr>\n<tr><td>Kontrolka DPF miga albo pojawia się komunikat o wizycie w serwisie</td><td>Zwykle duże zapełnienie – w części aut samoczynna regeneracja nie jest już możliwa</td><td>Ograniczyć jazdę i umówić diagnostykę</td></tr>\n<tr><td>Kontrolka DPF razem z „check engine”, wyraźny spadek mocy</td><td>Tryb awaryjny: mocno zapchany filtr lub usterka czujnika</td><td>Nie próbować wypalać filtra na siłę – potrzebna diagnostyka</td></tr>\n<tr><td>Komunikat o niskim poziomie dodatku do filtra</td><td>Kończy się płyn wspomagający regenerację (tylko w części aut)</td><td>Uzupełnić płyn zgodnie z zaleceniami producenta</td></tr>\n</tbody>\n</table>\n<p>Warto wiedzieć, że w wielu samochodach regeneracja odbywa się bez żadnego komunikatu. Kontrolka zapala się zwykle dopiero wtedy, gdy sadzy jest na tyle dużo, że samoczynne wypalanie w codziennej jeździe przestało nadążać. To sygnał, że filtr potrzebuje Twojej pomocy – najczęściej po prostu dłuższej, równej jazdy.</p>\n<h2>Świeci się kontrolka DPF – co zrobić krok po kroku</h2>\n<ol>\n<li><strong>Oceń, jak zachowuje się auto.</strong> Jeśli ma pełną moc, nie świecą się inne kontrolki i nie słychać nic niepokojącego, zwykle możesz spokojnie jechać dalej.</li>\n<li><strong>Zajrzyj do instrukcji.</strong> Producent opisuje warunki potrzebne do regeneracji – minimalną prędkość, zakres obrotów i czas jazdy.</li>\n<li><strong>Wyjedź w trasę.</strong> Najczęściej chodzi o jazdę od kilkunastu do około 30 minut ze stałą prędkością i obrotami nieco wyższymi niż przy spokojnej jeździe. Nie jedź na najwyższym biegu przy bardzo niskich obrotach.</li>\n<li><strong>Nie gaś silnika w trakcie.</strong> Przerwana regeneracja zostawia sadzę w filtrze, a cały proces trzeba zaczynać od nowa.</li>\n<li><strong>Sprawdź efekt.</strong> Jeśli kontrolka zgasła – gotowe. Jeśli nie, możesz spróbować jeszcze raz. Gdy po drugiej próbie nadal świeci, czas na diagnostykę.</li>\n</ol>\n<div class=\"tip\"><p>Regeneracja nie jest wymówką dla przekraczania prędkości. Wybierz drogę ekspresową lub autostradę i trzymaj się ograniczeń – zwykle wystarczy jechać równo, bez ciągłego hamowania i przyspieszania.</p></div>\n<h2>Kiedy nie wypalać filtra na własną rękę</h2>\n<p>Jazda w trasie pomaga tylko wtedy, gdy filtr i silnik są sprawne. Zrezygnuj z dalszych prób i umów diagnostykę, gdy:</p>\n<ul>\n<li>auto jest w trybie awaryjnym i wyraźnie straciło moc,</li>\n<li>obok kontrolki DPF świeci „check engine” lub inne kontrolki ostrzegawcze,</li>\n<li>z wydechu wydobywa się dużo dymu albo czujesz silny zapach spalenizny,</li>\n<li>na bagnecie przybywa oleju,</li>\n<li>kontrolka wraca kilka dni po udanej regeneracji.</li>\n</ul>\n<div class=\"warn\"><p>Nie ignoruj kontrolki DPF tygodniami. Przy bardzo dużej ilości sadzy wypalanie może przebiegać gwałtownie i w zbyt wysokiej temperaturze, co grozi pęknięciem wkładu filtra. Nie kasuj też błędów „na chwilę” bez sprawdzenia przyczyny – problem i tak wróci.</p></div>\n<h2>Najczęstsze przyczyny zapalenia się kontrolki DPF</h2>\n<ul>\n<li><strong>Jazda na krótkich odcinkach</strong> – najczęstszy powód; dobre nawyki opisujemy w poradniku <a href=\"%%R%%poradnik/filtr-dpf-jak-dbac.html\">filtr DPF – jak dbać</a>.</li>\n<li><strong>Błędny odczyt</strong> – pęknięty przewód lub uszkodzony <a href=\"%%R%%poradnik/czujnik-roznicy-cisnien-dpf.html\">czujnik różnicy ciśnień DPF</a>.</li>\n<li><strong>Usterki zwiększające ilość sadzy</strong> – wtryskiwacze, zawór EGR, nieszczelny dolot, turbosprężarka.</li>\n<li><strong>Zbyt zimny silnik</strong> – np. przez uszkodzony termostat; regeneracja nie może się rozpocząć.</li>\n<li><strong>Popiół po dużym przebiegu</strong> – tego nie wypali żadna jazda.</li>\n<li><strong>Brak płynu wspomagającego regenerację</strong> w autach, które go używają.</li>\n</ul>\n<h2>Co sprawdzi serwis</h2>\n<p>Diagnostyka zaczyna się od odczytu błędów i parametrów: ilości sadzy i popiołu, różnicy ciśnień przed filtrem i za nim, temperatur spalin oraz historii ostatnich regeneracji. Dopiero na tej podstawie można zdecydować, czy wystarczy regeneracja serwisowa wymuszona testerem, czy potrzebne jest czyszczenie filtra. Różnice między nimi opisujemy w artykule <a href=\"%%R%%poradnik/regeneracja-czy-czyszczenie-dpf.html\">regeneracja czy czyszczenie DPF</a>.</p>\n<p>Równie ważne jest znalezienie przyczyny. Jeśli filtr zapycha się przez usterkę silnika albo czujnika, sama regeneracja pomoże tylko na chwilę, a kontrolka szybko wróci.</p>\n<h2>Jak sprawić, żeby kontrolka nie wracała</h2>\n<p>Jeśli kontrolka DPF pojawia się regularnie, a diagnostyka nie wykazała usterki, najczęściej winny jest sposób użytkowania auta. Kilka nawyków robi dużą różnicę:</p>\n<ul>\n<li><strong>planuj dłuższy przejazd</strong>, gdy przez dłuższy czas jeździsz tylko po mieście,</li>\n<li><strong>nie przerywaj trwającej regeneracji</strong> – zdradzają ją m.in. podwyższone obroty na postoju, wentylator pracujący po zgaszeniu silnika i wyższe chwilowe spalanie,</li>\n<li><strong>stosuj olej o normie wskazanej przez producenta</strong> i pilnuj jego poziomu,</li>\n<li><strong>nie odkładaj napraw</strong> wtryskiwaczy, zaworu EGR czy termostatu – każda z tych usterek dokłada filtrowi pracy.</li>\n</ul>\n<p>Zajmujemy się diagnostyką, regeneracją serwisową i czyszczeniem filtrów – więcej na stronie <a href=\"%%R%%filtry-dpf.html\">filtry DPF</a>. Cenę podajemy przez telefon, zanim zaczniemy pracę. Świeci się kontrolka DPF, a jesteś w Kielcach lub okolicy? Zadzwoń o każdej porze: <a href=\"%%TELHREF%%\">%%TEL%%</a>.</p>",
+ "faq": [
+  [
+   "Czy mogę jeździć, gdy świeci się kontrolka DPF?",
+   "Jeśli auto ma pełną moc i nie świecą się inne kontrolki – tak, najlepiej od razu wyjeżdżając w trasę, by umożliwić regenerację. W trybie awaryjnym lub przy dodatkowych kontrolkach ogranicz jazdę i umów diagnostykę."
+  ],
+  [
+   "Jak długo jechać, żeby zgasła kontrolka DPF?",
+   "Zwykle od kilkunastu do około 30 minut równej jazdy z nieco podwyższonymi obrotami, ale dokładne warunki podaje instrukcja auta. Jeśli po dwóch próbach kontrolka nadal świeci, potrzebna jest diagnostyka."
+  ],
+  [
+   "Czy kontrolka DPF może się zapalić przez czujnik?",
+   "Tak. Uszkodzony czujnik różnicy ciśnień lub pęknięty przewód potrafią dawać fałszywy odczyt zapełnienia filtra."
+  ],
+  [
+   "Czy można po prostu skasować błąd DPF?",
+   "Skasowanie błędu nie usuwa ani sadzy, ani przyczyny problemu. Kontrolka szybko wróci, a zwlekanie może skończyć się uszkodzeniem filtra."
+  ]
+ ],
+ "order": 82
+}
