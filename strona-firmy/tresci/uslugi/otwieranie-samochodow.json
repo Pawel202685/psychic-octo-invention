@@ -92,5 +92,14 @@
   "zamarzniety-zamek-w-samochodzie",
   "rozladowany-akumulator-zamkniete-auto",
   "ile-kosztuje-awaryjne-otwarcie-auta"
- ]
+ ],
+ "image": {
+  "src": "img/otwieranie-samochodow.jpg",
+  "thumb": "img/otwieranie-samochodow-m.jpg",
+  "alt": "Dłoń z kluczykiem otwierająca zamek w drzwiach jasnego samochodu",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "2894571"
+ }
 }

@@ -41,5 +41,14 @@
    "Wtedy najlepiej wezwać pomoc. Otworzymy auto po sprawdzeniu dokumentów, a jeśli trzeba – pomożemy też w dorobieniu i zaprogramowaniu kluczyka."
   ]
  ],
- "order": 13
+ "order": 13,
+ "image": {
+  "src": "img/rozladowany-akumulator-zamkniete-auto.jpg",
+  "thumb": "img/rozladowany-akumulator-zamkniete-auto-m.jpg",
+  "alt": "Kobieta dzwoni po pomoc przy samochodzie z otwartą maską zimą",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "24239535"
+ }
 }

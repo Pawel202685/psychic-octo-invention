@@ -7,5 +7,23 @@
   "h": 675,
   "source": "Freepik (licencja Premium)",
   "stock_id": "11309781"
+ },
+ "uslugi/otwieranie-samochodow": {
+  "src": "img/otwieranie-samochodow.jpg",
+  "thumb": "img/otwieranie-samochodow-m.jpg",
+  "alt": "Dłoń z kluczykiem otwierająca zamek w drzwiach jasnego samochodu",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "2894571"
+ },
+ "poradnik/rozladowany-akumulator-zamkniete-auto": {
+  "src": "img/rozladowany-akumulator-zamkniete-auto.jpg",
+  "thumb": "img/rozladowany-akumulator-zamkniete-auto-m.jpg",
+  "alt": "Kobieta dzwoni po pomoc przy samochodzie z otwartą maską zimą",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "24239535"
  }
 }
