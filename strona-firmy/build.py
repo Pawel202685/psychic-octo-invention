@@ -75,11 +75,78 @@ def faq_html(faqs):
     return '<div class="faq">' + ''.join(
         f'<details><summary>{q}<span class="plus" aria-hidden="true"></span></summary><div class="ans">{a}</div></details>' for q, a in faqs) + '</div>'
 
-PAGES = []
+
+# ---------------- tresci z plikow JSON (tresci/*) ----------------
+def _load_dir(sub):
+    d = os.path.join(ROOT, 'tresci', sub); out = []
+    if os.path.isdir(d):
+        for f in sorted(os.listdir(d)):
+            if f.endswith('.json'):
+                try: out.append(json.load(open(os.path.join(d, f), encoding='utf-8')))
+                except Exception as e: print('BŁĄD w pliku', sub + '/' + f, e)
+    return out
+
+def _merge(defaults, extra):
+    by = {x['slug']: dict(x) for x in defaults}
+    for x in extra: by[x['slug']] = {**by.get(x['slug'], {}), **x}
+    items = list(by.values())
+    items.sort(key=lambda x: (x.get('order', 500), x['slug']))
+    return items
+
+SERV = _merge(T.USLUGI, _load_dir('uslugi'))
+ARTS = _merge(T.ARTYKULY, _load_dir('poradnik'))
+TOWNS = sorted(_load_dir('miejscowosci'), key=lambda x: (x.get('order', 500), x['slug']))
+STRONY = {x['slug']: x for x in _load_dir('strony')}
+HOME = STRONY.get('index', {})
+AREA = STRONY.get('obszar-dzialania')
+for s in SERV:
+    s.setdefault('meta_title', s['title'] + ' – %%MIASTO%%'); s.setdefault('meta_description', s.get('desc', s['lead']))
+    s.setdefault('sections', []); s.setdefault('related', [])
+for a in ARTS:
+    a.setdefault('meta_title', a['title']); a.setdefault('meta_description', a['lead']); a.setdefault('faq', [])
+    a.setdefault('min', max(2, round(len(strip_tags(a['body']).split()) / 200)))
+SLUG_A = {a['slug'] for a in ARTS}
+
+def boxes(h):  # ramki porad: tip / warn / note z ikona
+    ic = {'tip': 'lightbulb', 'warn': 'triangle-alert', 'note': 'circle-alert'}
+    def rep(m):
+        inner = m.group(2)
+        if inner.lstrip().startswith('%%IC:') or inner.lstrip().startswith('<svg'): return m.group(0)
+        return f'<div class="{m.group(1)}">%%IC:{ic[m.group(1)]}%%<div>{inner}</div></div>'
+    return re.sub(r'<div class="(tip|warn|note)">(.*?)</div>', rep, h, flags=re.S)
+
+def with_toc(body):
+    heads = []
+    def rep(m):
+        t = strip_tags(m.group(1)); hid = T.slugify(t)[:60] or f'sekcja-{len(heads)+1}'
+        heads.append((hid, t)); return f'<h2 id="{hid}">{m.group(1)}</h2>'
+    body = re.sub(r'<h2>(.*?)</h2>', rep, body)
+    toc = ''
+    if len(heads) >= 3:
+        toc = ('<nav class="toc" aria-label="Spis treści"><p class="toc-h">Spis treści</p><ol>'
+               + ''.join(f'<li><a href="#{h}">{esc(t)}</a></li>' for h, t in heads) + '</ol></nav>')
+    return toc, body
+
+def sections_html(sections):
+    return ''.join(f'<section class="sec{" alt" if i % 2 else ""}"><div class="wrap narrow prose"><h2>{x["h2"]}</h2>{boxes(x["html"])}</div></section>'
+                   for i, x in enumerate(sections))
+
+def breadcrumb_schema(path, crumbs):
+    dom = plain('domena').strip('[]').rstrip('/')
+    items = [{'@type': 'ListItem', 'position': 1, 'name': 'Start', 'item': dom + '/'}]
+    for i, (h, t) in enumerate(crumbs):
+        it = {'@type': 'ListItem', 'position': i + 2, 'name': strip_tags(t)}
+        it['item'] = dom + '/' + (h or path)
+        items.append(it)
+    return {'@context': 'https://schema.org', '@type': 'BreadcrumbList', 'itemListElement': items}
+
+PAGES = []; META = []
 def page(path, title, desc, body, schemas=(), active=None, crumbs=None):
     depth = path.count('/'); r = '../' * depth
-    canon = '' if is_ph(plain('domena')) else f'<link rel="canonical" href="{esc(plain("domena").rstrip("/"))}/{path}">'
+    canon = '' if is_ph(plain('domena')) else f'<link rel="canonical" href="{esc(plain("domena").rstrip("/"))}/{"" if path == "index.html" else path}">'
     nav = ''.join(f'<a href="%%R%%{h}"{" aria-current=\"page\"" if active == h else ""}>{t}</a>' for h, t in NAV)
+    schemas = list(schemas)
+    if crumbs: schemas.append(breadcrumb_schema(path, crumbs))
     sch = ''.join('<script type="application/ld+json">' + json.dumps(s, ensure_ascii=False) + '</script>'
                   for s in [local_business(), *schemas])
     bc = ''
@@ -87,18 +154,21 @@ def page(path, title, desc, body, schemas=(), active=None, crumbs=None):
         bc = '<nav class="crumbs wrap" aria-label="Okruszki"><a href="%%R%%index.html">Start</a>' + ''.join(
             f' <span aria-hidden="true">›</span> <a href="%%R%%{h}">{t}</a>' if h else f' <span aria-hidden="true">›</span> <span>{t}</span>'
             for h, t in crumbs) + '</nav>'
-    full_title = plain_tokens(title)
+    full_title = plain_tokens(title); full_desc = plain_tokens(desc)
+    META.append((path, full_title, full_desc))
+    area_links = ''.join(f'<li><a href="%%R%%{t["slug"]}.html">{t["name"]}</a></li>' for t in TOWNS[:10])
+    if AREA: area_links += '<li><a href="%%R%%obszar-dzialania.html">Cały obszar działania</a></li>'
     doc = f'''<!DOCTYPE html>
 <html lang="pl">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(full_title)}</title>
-<meta name="description" content="{esc(plain_tokens(desc))}">
+<meta name="description" content="{esc(full_desc)}">
 <meta name="theme-color" content="#0d1726">
 <meta property="og:type" content="website">
 <meta property="og:title" content="{esc(full_title)}">
-<meta property="og:description" content="{esc(plain_tokens(desc))}">
+<meta property="og:description" content="{esc(full_desc)}">
 <meta property="og:locale" content="pl_PL">
 {canon}
 <link rel="icon" href="%%R%%favicon.svg" type="image/svg+xml">
@@ -126,23 +196,24 @@ def page(path, title, desc, body, schemas=(), active=None, crumbs=None):
   <div class="wrap foot-grid">
     <div>
       <p class="foot-name">%%NAZWA%%</p>
-      <p>Awaryjne otwieranie aut i mieszkań, programowanie kluczy, sterowniki, filtry DPF.</p>
-      <p>%%IC:map-pin%% Działamy: %%OBSZAR%%</p>
+      <p>%%IC:map-pin%% %%ADRES%%</p>
       <p>%%IC:clock%% %%GODZ%%</p>
-    </div>
-    <div>
-      <p class="foot-h">Usługi</p>
-      <ul>{''.join(f'<li><a href="%%R%%{s["slug"]}.html">{s["short"]}</a></li>' for s in T.USLUGI)}</ul>
-    </div>
-    <div>
-      <p class="foot-h">Poradnik</p>
-      <ul>{''.join(f'<li><a href="%%R%%poradnik/{a["slug"]}.html">{a["short"]}</a></li>' for a in T.ARTYKULY[:6])}</ul>
-    </div>
-    <div>
-      <p class="foot-h">Kontakt</p>
       <p><a class="foot-tel" href="%%TELHREF%%">%%IC:phone%% %%TEL%%</a></p>
       <p data-need="email"><a href="%%MAILHREF%%">%%IC:mail%% %%EMAIL%%</a></p>
       <p><a href="%%GOOGLE%%" rel="noopener" target="_blank">%%IC:star%% Opinie w Google</a></p>
+    </div>
+    <div>
+      <p class="foot-h">Usługi</p>
+      <ul>{''.join(f'<li><a href="%%R%%{s["slug"]}.html">{s["short"]}</a></li>' for s in SERV)}</ul>
+    </div>
+    <div>
+      <p class="foot-h">Kielce i okolice</p>
+      <ul>{area_links or '<li>%%OBSZAR%%</li>'}</ul>
+    </div>
+    <div>
+      <p class="foot-h">Poradnik</p>
+      <ul>{''.join(f'<li><a href="%%R%%poradnik/{a["slug"]}.html">{a["short"]}</a></li>' for a in ARTS[:8])}
+      <li><a href="%%R%%poradnik.html">Wszystkie porady ›</a></li></ul>
     </div>
   </div>
   <div class="wrap foot-bottom">
@@ -174,17 +245,25 @@ def steps_html(steps):
     return '<ol class="steps">' + ''.join(f'<li><span class="num">{i + 1}</span><div><h3>{t}</h3><p>{d}</p></div></li>'
                                          for i, (t, d) in enumerate(steps)) + '</ol>'
 
-def article_card(a, r='%%R%%'):
-    return (f'<a class="acard" href="{r}poradnik/{a["slug"]}.html"><span class="acard-ic">%%IC:{a["icon"]}%%</span>'
+def article_card(a):
+    return (f'<a class="acard" href="%%R%%poradnik/{a["slug"]}.html" data-q="{esc((strip_tags(a["title"]) + " " + a.get("cat", "") + " " + " ".join(a.get("keywords", []))).lower())}">'
+            f'<span class="acard-ic">%%IC:{a.get("icon", "book-open")}%%</span>'
             f'<span class="acard-cat">{a["cat"]}</span><h3>{a["title"]}</h3><p>{a["lead"]}</p>'
-            f'<span class="more">Czytaj {a["min"]} min %%IC:chevron-right%%</span></a>')
+            f'<span class="more">Czytaj · {a["min"]} min %%IC:chevron-right%%</span></a>')
 
 def service_card(s):
     return (f'<a class="scard" href="%%R%%{s["slug"]}.html"><span class="scard-ic">%%IC:{s["icon"]}%%</span>'
             f'<h3>{s["short"]}</h3><p>{s["card"]}</p><span class="more">Szczegóły %%IC:chevron-right%%</span></a>')
 
+def town_chips():
+    if not TOWNS: return ''
+    return '<div class="town-chips">' + ''.join(f'<a class="tchip" href="%%R%%{t["slug"]}.html">%%IC:map-pin%% {t["name"]}</a>' for t in TOWNS) + \
+           ('<a class="tchip all" href="%%R%%obszar-dzialania.html">Cały obszar ›</a>' if AREA else '') + '</div>'
+
 # ---------------- strony ----------------
 def build():
+    global NAV
+    if AREA: NAV = [('index.html', 'Start'), ('uslugi.html', 'Usługi'), ('obszar-dzialania.html', 'Kielce i okolice'), ('poradnik.html', 'Poradnik'), ('kontakt.html', 'Kontakt')]
     if os.path.isdir(OUT): shutil.rmtree(OUT)
     os.makedirs(OUT)
     for sub in ('css', 'js'):
@@ -192,68 +271,78 @@ def build():
     shutil.copy(os.path.join(ROOT, 'zasoby', 'favicon.svg'), OUT)
 
     # START
+    H = HOME
+    hero_h1 = H.get('hero_h1', 'Zatrzaśnięte drzwi? Zgubione kluczyki? <em>Przyjedziemy i otworzymy.</em>')
+    hero_lead = H.get('hero_lead', 'Awaryjne otwieranie samochodów, mieszkań i domów, dorabianie i programowanie kluczyków, naprawa sterowników oraz diagnostyka filtrów DPF. Cenę podajemy przez telefon, zanim wyjedziemy.')
+    faq_start = H.get('faq', T.FAQ_START)
+    featured = [a for a in ARTS if a.get('featured')] or ARTS
+    area_block = ''
+    if TOWNS or H.get('area_html'):
+        area_block = f'''<section class="sec"><div class="wrap">
+  <p class="eyebrow">%%IC:map-pin%% Obszar działania</p><h2>{H.get('area_h2', 'Kielce i okolice')}</h2>
+  <div class="prose wide">{H.get('area_html', '')}</div>{town_chips()}
+</div></section>'''
     body = f'''
 <section class="hero"><div class="wrap hero-in">
   <div class="hero-txt">
-    <p class="badge">%%IC:siren%%<span>Pogotowie zamkowe i samochodowe · %%OBSZAR%%</span></p>
-    <h1>Zatrzaśnięte drzwi? Zgubione kluczyki? <em>Przyjedziemy i otworzymy.</em></h1>
-    <p class="lead">Awaryjne otwieranie samochodów, mieszkań i domów, dorabianie i programowanie kluczyków, naprawa sterowników
-    oraz diagnostyka filtrów DPF. Cenę podajemy przez telefon, zanim wyjedziemy.</p>
+    <p class="badge">%%IC:siren%%<span>{H.get('badge', 'Pogotowie zamkowe i samochodowe 24h · %%OBSZAR%%')}</span></p>
+    <h1>{hero_h1}</h1>
+    <p class="lead">{hero_lead}</p>
     <div class="hero-btns"><a class="btn btn-call btn-big" href="%%TELHREF%%">%%IC:phone%% Zadzwoń: %%TEL%%</a>
     <a class="btn btn-ghost" href="#uslugi">Zobacz usługi</a></div>
-    <ul class="ticks">
-      <li>%%IC:check%% Dojazd do klienta</li><li>%%IC:check%% Cena ustalona przed pracą</li>
-      <li>%%IC:check%% Bez zbędnych zniszczeń</li><li>%%IC:check%% Paragon lub faktura</li>
-    </ul>
+    <ul class="ticks">{''.join(f'<li>%%IC:check%% {x}</li>' for x in H.get('ticks', ['Czynne całą dobę', 'Cena ustalona przed pracą', 'Dojazd do klienta', 'Paragon lub faktura']))}</ul>
   </div>
   <div class="hero-art" aria-hidden="true">{T.HERO_SVG}</div>
 </div></section>
 
 <section class="trust"><div class="wrap trust-grid">
-  <div>%%IC:timer%%<h3>Szybki dojazd</h3><p>Ruszamy od razu po rozmowie i mówimy, kiedy będziemy.</p></div>
+  <div>%%IC:timer%%<h3>Całą dobę</h3><p>Działamy 24 godziny na dobę, 7 dni w tygodniu – także w nocy i w święta.</p></div>
   <div>%%IC:user-check%%<h3>Weryfikacja właściciela</h3><p>Otwieramy tylko po potwierdzeniu, że masz prawo do auta lub lokalu.</p></div>
   <div>%%IC:shield-check%%<h3>Delikatne metody</h3><p>Specjalistyczne narzędzia zamiast łomu – dbamy o zamek i lakier.</p></div>
   <div>%%IC:receipt-text%%<h3>Uczciwa cena</h3><p>Cenę znasz przed rozpoczęciem pracy. Bez niespodzianek na końcu.</p></div>
 </div></section>
 
 <section class="sec" id="uslugi"><div class="wrap">
-  <p class="eyebrow">Usługi</p><h2>W czym pomagamy</h2>
-  <div class="sgrid">{''.join(service_card(s) for s in T.USLUGI)}</div>
+  <p class="eyebrow">Usługi</p><h2>{H.get('services_h2', 'W czym pomagamy')}</h2>
+  <div class="sgrid">{''.join(service_card(s) for s in SERV)}</div>
 </div></section>
 
 <section class="sec alt"><div class="wrap">
   <p class="eyebrow">Jak działamy</p><h2>Od telefonu do otwartych drzwi</h2>
   {steps_html(T.KROKI_OGOLNE)}
 </div></section>
-
-<section class="sec"><div class="wrap">
+{area_block}
+<section class="sec alt"><div class="wrap">
   <div class="sec-head"><div><p class="eyebrow">Poradnik</p><h2>Zanim zadzwonisz – przeczytaj</h2></div>
-  <a class="btn btn-line" href="%%R%%poradnik.html">Wszystkie porady %%IC:chevron-right%%</a></div>
-  <div class="agrid">{''.join(article_card(a) for a in T.ARTYKULY[:3])}</div>
+  <a class="btn btn-line" href="%%R%%poradnik.html">Wszystkie porady ({len(ARTS)}) %%IC:chevron-right%%</a></div>
+  <div class="agrid">{''.join(article_card(a) for a in featured[:6])}</div>
 </div></section>
-
+{sections_html(H.get('sections', []))}
 <section class="sec alt"><div class="wrap narrow">
   <p class="eyebrow">Pytania</p><h2>Najczęstsze pytania</h2>
-  {faq_html(T.FAQ_START)}
+  {faq_html(faq_start)}
 </div></section>
 {cta_band()}
 '''
-    page('index.html', '%%NAZWA%% – awaryjne otwieranie aut i mieszkań, programowanie kluczy | %%MIASTO%%',
-         'Awaryjne otwieranie samochodów, mieszkań i domów, programowanie kluczyków, naprawa sterowników i filtry DPF. %%OBSZAR%%. Zadzwoń: %%TEL%%.',
-         body, [faq_schema(T.FAQ_START)], active='index.html')
+    page('index.html', H.get('meta_title', '%%NAZWA%% | %%MIASTO%%'),
+         H.get('meta_description', 'Awaryjne otwieranie samochodów, mieszkań i domów, programowanie kluczyków – %%OBSZAR%%. Tel. %%TEL%%.'),
+         body, [faq_schema(faq_start)], active='index.html')
 
     # USLUGI (zbiorcza)
-    body = f'''<section class="phero"><div class="wrap"><p class="eyebrow">Usługi</p><h1>Nasze usługi</h1>
-<p class="lead">Otwieramy, dorabiamy, programujemy i naprawiamy. Wybierz usługę, aby zobaczyć szczegóły, przebieg i odpowiedzi na pytania.</p></div></section>
-<section class="sec"><div class="wrap"><div class="sgrid">{''.join(service_card(s) for s in T.USLUGI)}</div></div></section>{cta_band()}'''
-    page('uslugi.html', 'Usługi – %%NAZWA%%', 'Awaryjne otwieranie aut i mieszkań, programowanie kluczy, sterowniki, filtry DPF – %%OBSZAR%%.',
+    U = STRONY.get('uslugi', {})
+    body = f'''<section class="phero"><div class="wrap"><p class="eyebrow">Usługi</p><h1>{U.get('h1', 'Nasze usługi')}</h1>
+<p class="lead">{U.get('lead', 'Otwieramy, dorabiamy, programujemy i naprawiamy. Wybierz usługę, aby zobaczyć szczegóły.')}</p></div></section>
+<section class="sec"><div class="wrap"><div class="sgrid">{''.join(service_card(s) for s in SERV)}</div></div></section>
+{sections_html(U.get('sections', []))}{cta_band()}'''
+    page('uslugi.html', U.get('meta_title', 'Usługi – %%NAZWA%%'), U.get('meta_description', 'Usługi: otwieranie aut i mieszkań, programowanie kluczy, sterowniki, DPF – %%OBSZAR%%.'),
          body, active='uslugi.html', crumbs=[(None, 'Usługi')])
 
     # POSZCZEGOLNE USLUGI
-    for s in T.USLUGI:
-        rel = [a for a in T.ARTYKULY if a['slug'] in s['related']]
+    for s in SERV:
+        rel = [a for a in ARTS if a['slug'] in s['related']] or [a for a in ARTS if a.get('service') == s['slug']][:3]
+        others = [a for a in ARTS if a.get('service') == s['slug'] and a not in rel]
         body = f'''<section class="phero"><div class="wrap phero-in">
-<div><p class="eyebrow">%%IC:{s["icon"]}%% Usługa</p><h1>{s["title"]}</h1><p class="lead">{s["lead"]}</p>
+<div><p class="eyebrow">%%IC:{s["icon"]}%% Usługa · %%MIASTO%% i okolice</p><h1>{s["title"]}</h1><p class="lead">{s["lead"]}</p>
 <div class="hero-btns"><a class="btn btn-call btn-big" href="%%TELHREF%%">%%IC:phone%% %%TEL%%</a>
 <a class="btn btn-ghost" href="%%SMSHREF%%">%%IC:message-square%% SMS</a></div></div></div></section>
 <section class="sec"><div class="wrap cols">
@@ -262,53 +351,89 @@ def build():
   <div class="note">%%IC:circle-alert%%<p>{s["note"]}</p></div></div>
 </div></section>
 <section class="sec alt"><div class="wrap"><h2>Jak to wygląda</h2>{steps_html(s["steps"])}</div></section>
+{sections_html(s["sections"])}
 <section class="sec"><div class="wrap narrow"><h2>Pytania i odpowiedzi</h2>{faq_html(s["faq"])}</div></section>
-<section class="sec alt"><div class="wrap"><h2>Przydatne porady</h2><div class="agrid">{''.join(article_card(a) for a in rel)}</div></div></section>
+{f'<section class="sec alt"><div class="wrap"><h2>Działamy w Kielcach i okolicach</h2>{town_chips()}</div></section>' if TOWNS else ''}
+<section class="sec"><div class="wrap"><h2>Przydatne porady</h2><div class="agrid">{''.join(article_card(a) for a in (rel + others)[:6])}</div></div></section>
 {cta_band()}'''
-        page(f'{s["slug"]}.html', f'{s["title"]} – %%MIASTO%% | %%NAZWA%%', s['desc'], body, [faq_schema(s['faq'])],
+        page(f'{s["slug"]}.html', s['meta_title'], s['meta_description'], body, [faq_schema(s['faq'])],
              active='uslugi.html', crumbs=[('uslugi.html', 'Usługi'), (None, s['short'])])
+
+    # OBSZAR DZIALANIA + MIEJSCOWOSCI
+    if AREA:
+        body = f'''<section class="phero"><div class="wrap"><p class="eyebrow">%%IC:map-pin%% Obszar działania</p><h1>{AREA['h1']}</h1>
+<p class="lead">{AREA['lead']}</p>{town_chips()}</div></section>
+{sections_html(AREA.get('sections', []))}
+{f'<section class="sec"><div class="wrap narrow"><h2>Pytania i odpowiedzi</h2>{faq_html(AREA["faq"])}</div></section>' if AREA.get('faq') else ''}
+{cta_band()}'''
+        page('obszar-dzialania.html', AREA['meta_title'], AREA['meta_description'], body,
+             [faq_schema(AREA['faq'])] if AREA.get('faq') else [], active='obszar-dzialania.html', crumbs=[(None, 'Kielce i okolice')])
+    for t in TOWNS:
+        body = f'''<section class="phero"><div class="wrap phero-in"><div><p class="eyebrow">%%IC:map-pin%% {t["name"]}</p><h1>{t["h1"]}</h1>
+<p class="lead">{t["lead"]}</p>
+<div class="hero-btns"><a class="btn btn-call btn-big" href="%%TELHREF%%">%%IC:phone%% %%TEL%%</a>
+<a class="btn btn-ghost" href="%%SMSHREF%%">%%IC:message-square%% SMS</a></div></div></div></section>
+{sections_html(t.get('sections', []))}
+<section class="sec"><div class="wrap"><h2>Usługi w miejscowości {t["name"]}</h2><div class="sgrid">{''.join(service_card(s) for s in SERV)}</div></div></section>
+{f'<section class="sec alt"><div class="wrap narrow"><h2>Pytania i odpowiedzi</h2>{faq_html(t["faq"])}</div></section>' if t.get('faq') else ''}
+<section class="sec"><div class="wrap"><h2>Inne miejscowości</h2>{town_chips()}</div></section>
+{cta_band()}'''
+        page(f'{t["slug"]}.html', t['meta_title'], t['meta_description'], body,
+             [faq_schema(t['faq'])] if t.get('faq') else [], active='obszar-dzialania.html',
+             crumbs=[('obszar-dzialania.html', 'Kielce i okolice') if AREA else (None, 'Obszar'), (None, t['name'])])
 
     # PORADNIK
     cats = []
-    for a in T.ARTYKULY:
+    for a in ARTS:
         if a['cat'] not in cats: cats.append(a['cat'])
-    body = f'''<section class="phero"><div class="wrap"><p class="eyebrow">%%IC:book-open%% Poradnik</p><h1>Poradnik: zamki, kluczyki i elektronika auta</h1>
-<p class="lead">Praktyczne porady na sytuacje awaryjne i na co dzień: co zrobić, gdy drzwi się zatrzasną, jak nie stracić auta przez keyless,
-jak rozpoznać awarię sterownika i jak dbać o filtr DPF.</p>
+    P = STRONY.get('poradnik', {})
+    body = f'''<section class="phero"><div class="wrap"><p class="eyebrow">%%IC:book-open%% Poradnik · {len(ARTS)} porad</p><h1>{P.get('h1', 'Poradnik: zamki, kluczyki i elektronika auta')}</h1>
+<p class="lead">{P.get('lead', 'Praktyczne porady na sytuacje awaryjne i na co dzień.')}</p>
+<label class="search">%%IC:book-open%%<input id="szukaj" type="search" placeholder="Szukaj w poradniku, np. zgubione kluczyki" aria-label="Szukaj w poradniku"></label>
 <div class="chips">{''.join(f'<a class="chip" href="#{T.slugify(c)}">{c}</a>' for c in cats)}</div></div></section>'''
     for c in cats:
-        body += (f'<section class="sec" id="{T.slugify(c)}"><div class="wrap"><h2>{c}</h2><div class="agrid">'
-                 + ''.join(article_card(a) for a in T.ARTYKULY if a['cat'] == c) + '</div></div></section>')
+        body += (f'<section class="sec cat-sec" id="{T.slugify(c)}"><div class="wrap"><h2>{c}</h2><div class="agrid">'
+                 + ''.join(article_card(a) for a in ARTS if a['cat'] == c) + '</div></div></section>')
+    body += '<p class="wrap no-results" hidden>Brak porad pasujących do wyszukiwania. Zadzwoń – doradzimy przez telefon.</p>'
+    body += sections_html(P.get('sections', []))
     body += cta_band('Sytuacja awaryjna?', 'Poradnik poczeka – zadzwoń, a pomożemy od razu.')
-    page('poradnik.html', 'Poradnik – otwieranie awaryjne, kluczyki, sterowniki, DPF | %%NAZWA%%',
-         'Porady: zatrzaśnięte kluczyki i drzwi, zgubione klucze, kradzież na walizkę, awarie sterowników, filtr DPF.',
+    page('poradnik.html', P.get('meta_title', 'Poradnik – otwieranie awaryjne, kluczyki, sterowniki | %%MIASTO%%'),
+         P.get('meta_description', 'Porady: zatrzaśnięte kluczyki i drzwi, zgubione klucze, kradzież na walizkę, awarie sterowników, filtr DPF.'),
          body, active='poradnik.html', crumbs=[(None, 'Poradnik')])
 
-    for i, a in enumerate(T.ARTYKULY):
-        others = [x for x in T.ARTYKULY if x['slug'] != a['slug'] and x['cat'] == a['cat']][:2]
-        others += [x for x in T.ARTYKULY if x['slug'] != a['slug'] and x not in others][:3 - len(others)]
-        srv = next(s for s in T.USLUGI if s['slug'] == a['service'])
+    for a in ARTS:
+        rel = [x for x in ARTS if x['slug'] in a.get('related', []) and x['slug'] != a['slug']]
+        rel += [x for x in ARTS if x['slug'] != a['slug'] and x['cat'] == a['cat'] and x not in rel]
+        rel += [x for x in ARTS if x['slug'] != a['slug'] and x not in rel]
+        srv = next((s for s in SERV if s['slug'] == a.get('service')), SERV[0])
+        toc, body_html = with_toc(boxes(a['body']))
         art_schema = {'@context': 'https://schema.org', '@type': 'Article', 'headline': strip_tags(a['title']),
-                      'description': strip_tags(a['lead']), 'inLanguage': 'pl', 'author': {'@type': 'Organization', 'name': plain('nazwa')}}
+                      'description': strip_tags(a['lead']), 'inLanguage': 'pl', 'author': {'@type': 'Organization', 'name': plain('nazwa')},
+                      'publisher': {'@type': 'Organization', 'name': plain('nazwa')}}
+        if a.get('date'): art_schema['datePublished'] = a['date']
+        faq_part = f'<h2 id="pytania">Pytania i odpowiedzi</h2>{faq_html(a["faq"])}' if a['faq'] else ''
         body = f'''<article class="art">
-<header class="phero"><div class="wrap narrow"><p class="eyebrow">%%IC:{a["icon"]}%% {a["cat"]} · {a["min"]} min czytania</p>
+<header class="phero"><div class="wrap narrow"><p class="eyebrow">%%IC:{a.get("icon", "book-open")}%% {a["cat"]} · {a["min"]} min czytania</p>
 <h1>{a["title"]}</h1><p class="lead">{a["lead"]}</p></div></header>
-<div class="wrap narrow art-body">
-{a["body"]}
-<aside class="art-cta"><div><p class="art-cta-h">{srv["title"]}</p><p>Potrzebujesz pomocy na miejscu? Zadzwoń – podamy cenę i czas dojazdu.</p></div>
+<div class="wrap narrow art-body prose">
+{toc}
+{body_html}
+{faq_part}
+<aside class="art-cta"><div><p class="art-cta-h">{srv["title"]} – %%MIASTO%% i okolice</p><p>Potrzebujesz pomocy na miejscu? Zadzwoń – podamy cenę i czas dojazdu. %%GODZ%%.</p></div>
 <div class="band-btns"><a class="btn btn-call" href="%%TELHREF%%">%%IC:phone%% %%TEL%%</a><a class="btn btn-line" href="%%R%%{srv["slug"]}.html">O usłudze</a></div></aside>
 </div></article>
-<section class="sec alt"><div class="wrap"><h2>Czytaj dalej</h2><div class="agrid">{''.join(article_card(x) for x in others)}</div></div></section>'''
-        page(f'poradnik/{a["slug"]}.html', f'{a["title"]} | Poradnik %%NAZWA%%', a['lead'], body, [art_schema],
+<section class="sec alt"><div class="wrap"><h2>Czytaj dalej</h2><div class="agrid">{''.join(article_card(x) for x in rel[:3])}</div></div></section>'''
+        schemas = [art_schema] + ([faq_schema(a['faq'])] if a['faq'] else [])
+        page(f'poradnik/{a["slug"]}.html', a['meta_title'], a['meta_description'], body, schemas,
              active='poradnik.html', crumbs=[('poradnik.html', 'Poradnik'), (None, a['short'])])
 
     # KONTAKT
     adres = plain('adres')
-    mapa = ('<div class="map-ph">%%IC:map-pin%%<p>Tu pojawi się mapa po wpisaniu adresu w pliku <code>dane.json</code>.</p></div>' if is_ph(adres) else
+    mapa = ('<div class="map-ph">%%IC:map-pin%%<p>Tu pojawi się mapa po wpisaniu adresu w pliku <code>dane.json</code>.</p></div>' if is_ph(adres) or not adres else
             f'<iframe class="map" title="Mapa dojazdu" loading="lazy" referrerpolicy="no-referrer-when-downgrade" '
             f'src="https://www.google.com/maps?q={html.escape(urllib.parse.quote(plain("nazwa") + ", " + adres))}&amp;output=embed"></iframe>')
-    body = f'''<section class="phero"><div class="wrap"><p class="eyebrow">%%IC:phone%% Kontakt</p><h1>Kontakt</h1>
-<p class="lead">W sytuacji awaryjnej najszybciej będzie telefonicznie. W innych sprawach napisz SMS albo wiadomość – oddzwonimy.</p></div></section>
+    body = f'''<section class="phero"><div class="wrap"><p class="eyebrow">%%IC:phone%% Kontakt</p><h1>Kontakt – %%MIASTO%% i okolice</h1>
+<p class="lead">W sytuacji awaryjnej najszybciej będzie telefonicznie – odbieramy całą dobę. W innych sprawach napisz SMS – oddzwonimy.</p></div></section>
 <section class="sec"><div class="wrap cols">
 <div class="contact-card">
   <a class="big-tel" href="%%TELHREF%%">%%IC:phone%% %%TEL%%</a>
@@ -324,26 +449,27 @@ jak rozpoznać awarię sterownika i jak dbać o filtr DPF.</p>
 </div>
 <div>
   <h2>Napisz do nas</h2>
-  <p class="muted">Formularz przygotuje wiadomość w Twojej aplikacji SMS lub poczcie – nic nie jest wysyłane na serwer.</p>
+  <p class="muted">Formularz przygotuje wiadomość w Twojej aplikacji SMS – nic nie jest wysyłane na serwer.</p>
   <form class="form" id="kontakt-form" data-tel="{esc(plain('telefon_link'))}" data-mail="{'' if is_ph(plain('email')) else esc(plain('email'))}">
     <label>Imię<input name="imie" autocomplete="given-name" required></label>
     <label>Telefon do kontaktu<input name="tel" type="tel" autocomplete="tel" required></label>
-    <label>Usługa<select name="usluga">{''.join(f'<option>{s["short"]}</option>' for s in T.USLUGI)}<option>Inne</option></select></label>
+    <label>Usługa<select name="usluga">{''.join(f'<option>{s["short"]}</option>' for s in SERV)}<option>Inne</option></select></label>
     <label>Marka, model i rok auta (jeśli dotyczy)<input name="auto"></label>
+    <label>Gdzie jesteś (miejscowość, ulica)<input name="gdzie"></label>
     <label>Opis sytuacji<textarea name="opis" rows="4" required></textarea></label>
     <div class="form-btns"><button class="btn btn-call" type="submit" name="via" value="sms">%%IC:message-square%% Wyślij SMS</button>
     <button data-need="email" class="btn btn-line" type="submit" name="via" value="mail">%%IC:mail%% Wyślij e-mail</button></div>
   </form>
 </div>
 </div></section>'''
-    page('kontakt.html', 'Kontakt – %%NAZWA%% | %%MIASTO%%', 'Zadzwoń: %%TEL%%. Awaryjne otwieranie, programowanie kluczy, sterowniki. %%OBSZAR%%.',
+    page('kontakt.html', 'Kontakt – %%KROTKA%% %%MIASTO%% | tel. %%TEL%%', 'Zadzwoń całą dobę: %%TEL%%. %%ADRES%%. Awaryjne otwieranie, dorabianie kluczy samochodowych – %%OBSZAR%%.',
          body, active='kontakt.html', crumbs=[(None, 'Kontakt')])
 
     # POLITYKA, 404
-    page('polityka-prywatnosci.html', 'Polityka prywatności – %%NAZWA%%', 'Zasady przetwarzania danych na stronie %%NAZWA%%.',
-         f'<section class="phero"><div class="wrap narrow"><h1>Polityka prywatności</h1></div></section><div class="wrap narrow art-body">{T.POLITYKA}</div>',
+    page('polityka-prywatnosci.html', 'Polityka prywatności – %%KROTKA%%', 'Zasady przetwarzania danych osobowych na stronie.',
+         f'<section class="phero"><div class="wrap narrow"><h1>Polityka prywatności</h1></div></section><div class="wrap narrow art-body prose">{T.POLITYKA}</div>',
          crumbs=[(None, 'Polityka prywatności')])
-    page('404.html', 'Nie znaleziono strony – %%NAZWA%%', 'Strona nie istnieje.',
+    page('404.html', 'Nie znaleziono strony – %%KROTKA%%', 'Strona nie istnieje.',
          '<section class="phero"><div class="wrap narrow"><h1>Ups, tej strony nie ma</h1><p class="lead">Ale drzwi otworzymy. Wróć na '
          '<a href="%%R%%index.html">stronę główną</a> albo zadzwoń: <a href="%%TELHREF%%">%%TEL%%</a>.</p></div></section>')
 
@@ -354,10 +480,41 @@ jak rozpoznać awarię sterownika i jak dbać o filtr DPF.</p>
         f'  <url><loc>{dom}/{"" if p == "index.html" else p}</loc><lastmod>{today}</lastmod></url>\n' for p in PAGES if p != '404.html') + '</urlset>\n'
     open(os.path.join(OUT, 'sitemap.xml'), 'w', encoding='utf-8').write(sm)
     open(os.path.join(OUT, 'robots.txt'), 'w', encoding='utf-8').write(f'User-agent: *\nAllow: /\nSitemap: {dom}/sitemap.xml\n')
+    qa()
     todo = [k for k, v in D.items() if is_ph(v)]
-    print(f'Gotowe: {len(PAGES)} stron w folderze public/.')
+    print(f'Gotowe: {len(PAGES)} stron w folderze public/ ({len(ARTS)} artykułów, {len(SERV)} usług, {len(TOWNS)} miejscowości).')
     if todo: print('Do uzupełnienia w dane.json:', ', '.join(todo))
-    if is_ph(plain('domena')) or 'twoja-domena' in dom: print('Uwaga: wpisz adres domeny (pole "domena"), żeby sitemap.xml miała poprawne adresy.')
+
+BANNED = ['najtańsz', 'gwarantujemy', 'gwarancja dojazdu', 'zawsze bez', '100%', 'bez żadnych uszkodzeń', 'w 15 minut', 'w 10 minut',
+          'korekta licznika', 'cofanie licznika', 'wycinanie dpf', 'usuwanie dpf', 'usunięcie dpf w', 'lorem', 'TODO', '[[', 'najlepszy w kielcach']
+
+def qa():
+    warns = []
+    titles = {}; descs = {}
+    for path, t, d in META:
+        if path == '404.html': continue
+        if len(t) > 65: warns.append(f'{path}: tytuł ma {len(t)} znaków (>65)')
+        if len(d) > 165: warns.append(f'{path}: opis ma {len(d)} znaków (>165)')
+        if len(d) < 70: warns.append(f'{path}: opis krótki ({len(d)} znaków)')
+        titles.setdefault(t, []).append(path); descs.setdefault(d, []).append(path)
+    for t, ps in titles.items():
+        if len(ps) > 1: warns.append(f'powtórzony tytuł "{t}": {ps}')
+    for d, ps in descs.items():
+        if len(ps) > 1: warns.append(f'powtórzony opis: {ps}')
+    for p in PAGES:
+        f = os.path.join(OUT, p); s = open(f, encoding='utf-8').read()
+        if '%%' in s: warns.append(f'{p}: niezamieniony znacznik')
+        for h in re.findall(r'(?:href|src)="([^"#:?]+)(?:[#?][^"]*)?"', s):
+            if not os.path.exists(os.path.normpath(os.path.join(os.path.dirname(f), h))): warns.append(f'{p}: zły link {h}')
+        low = strip_tags(re.sub(r'<script.*?</script>', '', s, flags=re.S)).lower()
+        for b in BANNED:
+            if b.lower() in low: warns.append(f'{p}: ryzykowna fraza "{b}"')
+        if s.count('<h1') > 1: warns.append(f'{p}: więcej niż jedno H1')
+    for a in ARTS:
+        n = len(strip_tags(a['body']).split())
+        if n < 450: warns.append(f'poradnik/{a["slug"]}: tylko {n} słów')
+    print(f'Kontrola jakości: {len(warns)} uwag')
+    for w in warns[:80]: print('  -', w)
 
 if __name__ == '__main__':
     build()

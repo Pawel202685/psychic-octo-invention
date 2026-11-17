@@ -1,0 +1,346 @@
+[
+ {
+  "slug": "zatrzasniete-kluczyki-w-aucie",
+  "temat": "Kluczyki zatrzaśnięte w aucie – co zrobić krok po kroku",
+  "cat": "Otwieranie auta",
+  "service": "otwieranie-samochodow",
+  "fraza": "kluczyki zatrzaśnięte w aucie",
+  "istniejacy": true
+ },
+ {
+  "slug": "kluczyki-zamkniete-w-bagazniku",
+  "temat": "Kluczyki zamknięte w bagażniku – co zrobić",
+  "cat": "Otwieranie auta",
+  "service": "otwieranie-samochodow",
+  "fraza": "kluczyki w bagażniku",
+  "istniejacy": false
+ },
+ {
+  "slug": "zamarzniety-zamek-w-samochodzie",
+  "temat": "Zamarznięty zamek w samochodzie – jak sobie poradzić zimą",
+  "cat": "Otwieranie auta",
+  "service": "otwieranie-samochodow",
+  "fraza": "zamarznięty zamek w aucie",
+  "istniejacy": false
+ },
+ {
+  "slug": "rozladowany-akumulator-zamkniete-auto",
+  "temat": "Rozładowany akumulator i zamknięte auto – jak dostać się do środka",
+  "cat": "Otwieranie auta",
+  "service": "otwieranie-samochodow",
+  "fraza": "rozładowany akumulator nie mogę otworzyć auta",
+  "istniejacy": false
+ },
+ {
+  "slug": "dziecko-lub-pies-zamkniete-w-aucie",
+  "temat": "Dziecko lub pies zamknięty w aucie – co robić",
+  "cat": "Otwieranie auta",
+  "service": "otwieranie-samochodow",
+  "fraza": "dziecko zamknięte w samochodzie",
+  "istniejacy": false
+ },
+ {
+  "slug": "zlamany-kluczyk-w-stacyjce-lub-zamku",
+  "temat": "Złamany kluczyk w stacyjce lub zamku auta – co dalej",
+  "cat": "Otwieranie auta",
+  "service": "otwieranie-samochodow",
+  "fraza": "złamany kluczyk w stacyjce",
+  "istniejacy": false
+ },
+ {
+  "slug": "ile-kosztuje-awaryjne-otwarcie-auta",
+  "temat": "Ile kosztuje awaryjne otwarcie samochodu? Od czego zależy cena",
+  "cat": "Porady praktyczne",
+  "service": "otwieranie-samochodow",
+  "fraza": "ile kosztuje otwarcie samochodu",
+  "istniejacy": false
+ },
+ {
+  "slug": "zgubione-wszystkie-kluczyki-do-auta",
+  "temat": "Zgubione wszystkie kluczyki do auta – co teraz?",
+  "cat": "Kluczyki samochodowe",
+  "service": "programowanie-kluczy",
+  "fraza": "zgubione kluczyki do auta",
+  "istniejacy": true
+ },
+ {
+  "slug": "zapasowy-kluczyk-do-auta",
+  "temat": "Zapasowy kluczyk do auta – dlaczego warto go mieć",
+  "cat": "Kluczyki samochodowe",
+  "service": "programowanie-kluczy",
+  "fraza": "zapasowy kluczyk do samochodu",
+  "istniejacy": true
+ },
+ {
+  "slug": "pilot-od-auta-nie-dziala",
+  "temat": "Pilot od auta nie działa – najczęstsze przyczyny",
+  "cat": "Kluczyki samochodowe",
+  "service": "programowanie-kluczy",
+  "fraza": "pilot od auta nie działa",
+  "istniejacy": true
+ },
+ {
+  "slug": "kluczyk-nie-przekreca-sie-w-stacyjce",
+  "temat": "Kluczyk nie przekręca się w stacyjce – przyczyny i co zrobić",
+  "cat": "Kluczyki samochodowe",
+  "service": "programowanie-kluczy",
+  "fraza": "kluczyk nie przekręca się w stacyjce",
+  "istniejacy": false
+ },
+ {
+  "slug": "wymiana-baterii-w-kluczyku",
+  "temat": "Wymiana baterii w kluczyku samochodowym – krok po kroku",
+  "cat": "Kluczyki samochodowe",
+  "service": "programowanie-kluczy",
+  "fraza": "wymiana baterii w kluczyku",
+  "istniejacy": false
+ },
+ {
+  "slug": "transponder-w-kluczyku-jak-dziala",
+  "temat": "Transponder w kluczyku – co to jest i jak działa",
+  "cat": "Kluczyki samochodowe",
+  "service": "programowanie-kluczy",
+  "fraza": "transponder w kluczyku",
+  "istniejacy": false
+ },
+ {
+  "slug": "kluczyk-keyless-nie-dziala",
+  "temat": "Kluczyk keyless nie działa – co sprawdzić",
+  "cat": "Kluczyki samochodowe",
+  "service": "programowanie-kluczy",
+  "fraza": "kluczyk keyless nie działa",
+  "istniejacy": false
+ },
+ {
+  "slug": "pekniety-kluczyk-naprawa-obudowy",
+  "temat": "Pęknięta obudowa kluczyka – naprawa czy nowy kluczyk?",
+  "cat": "Kluczyki samochodowe",
+  "service": "programowanie-kluczy",
+  "fraza": "obudowa kluczyka samochodowego",
+  "istniejacy": false
+ },
+ {
+  "slug": "kodowanie-kluczyka-od-czego-zalezy-cena",
+  "temat": "Kodowanie kluczyka samochodowego – ile trwa i od czego zależy cena",
+  "cat": "Kluczyki samochodowe",
+  "service": "programowanie-kluczy",
+  "fraza": "kodowanie kluczyka cena",
+  "istniejacy": false
+ },
+ {
+  "slug": "kluczyk-z-internetu-czy-da-sie-zaprogramowac",
+  "temat": "Kluczyk z internetu – czy da się go zaprogramować?",
+  "cat": "Kluczyki samochodowe",
+  "service": "programowanie-kluczy",
+  "fraza": "kluczyk z allegro programowanie",
+  "istniejacy": false
+ },
+ {
+  "slug": "dorobienie-kluczyka-aso-czy-specjalista",
+  "temat": "Dorobienie kluczyka w ASO czy u specjalisty – porównanie",
+  "cat": "Kluczyki samochodowe",
+  "service": "programowanie-kluczy",
+  "fraza": "dorabianie kluczyków samochodowych",
+  "istniejacy": false
+ },
+ {
+  "slug": "uzywane-auto-sprawdz-kluczyki",
+  "temat": "Kupujesz używane auto? Sprawdź kluczyki i immobilizer",
+  "cat": "Kluczyki samochodowe",
+  "service": "programowanie-kluczy",
+  "fraza": "używane auto jeden kluczyk",
+  "istniejacy": false
+ },
+ {
+  "slug": "keyless-kradziez-na-walizke",
+  "temat": "Keyless i kradzież „na walizkę” – jak chronić auto",
+  "cat": "Bezpieczeństwo",
+  "service": "programowanie-kluczy",
+  "fraza": "kradzież na walizkę",
+  "istniejacy": true
+ },
+ {
+  "slug": "jak-zabezpieczyc-auto-przed-kradzieza",
+  "temat": "Jak zabezpieczyć auto przed kradzieżą – skuteczne sposoby",
+  "cat": "Bezpieczeństwo",
+  "service": "programowanie-kluczy",
+  "fraza": "jak zabezpieczyć auto przed kradzieżą",
+  "istniejacy": false
+ },
+ {
+  "slug": "jak-zabezpieczyc-mieszkanie-przed-wlamaniem",
+  "temat": "Jak zabezpieczyć mieszkanie przed włamaniem – praktyczne porady",
+  "cat": "Bezpieczeństwo",
+  "service": "otwieranie-mieszkan-i-domow",
+  "fraza": "zabezpieczenie mieszkania przed włamaniem",
+  "istniejacy": false
+ },
+ {
+  "slug": "jak-wybrac-uczciwego-slusarza",
+  "temat": "Jak wybrać uczciwego ślusarza i nie dać się oszukać",
+  "cat": "Porady praktyczne",
+  "service": "otwieranie-mieszkan-i-domow",
+  "fraza": "uczciwy ślusarz",
+  "istniejacy": true
+ },
+ {
+  "slug": "co-przygotowac-zanim-przyjedzie-slusarz",
+  "temat": "Co przygotować, zanim przyjedzie ślusarz – lista kontrolna",
+  "cat": "Porady praktyczne",
+  "service": "otwieranie-mieszkan-i-domow",
+  "fraza": "pogotowie zamkowe co przygotować",
+  "istniejacy": false
+ },
+ {
+  "slug": "pogotowie-zamkowe-w-nocy-i-swieta",
+  "temat": "Pogotowie zamkowe w nocy, w weekend i w święta – co warto wiedzieć",
+  "cat": "Porady praktyczne",
+  "service": "otwieranie-mieszkan-i-domow",
+  "fraza": "pogotowie zamkowe 24h",
+  "istniejacy": false
+ },
+ {
+  "slug": "zatrzasniete-drzwi-zgubione-klucze",
+  "temat": "Zatrzaśnięte drzwi lub zgubione klucze do mieszkania – poradnik",
+  "cat": "Dom i mieszkanie",
+  "service": "otwieranie-mieszkan-i-domow",
+  "fraza": "zatrzaśnięte drzwi",
+  "istniejacy": true
+ },
+ {
+  "slug": "klucz-zlamany-w-zamku-drzwi",
+  "temat": "Klucz złamał się w zamku drzwi – co robić",
+  "cat": "Dom i mieszkanie",
+  "service": "otwieranie-mieszkan-i-domow",
+  "fraza": "złamany klucz w zamku",
+  "istniejacy": false
+ },
+ {
+  "slug": "zaciety-zamek-w-drzwiach",
+  "temat": "Zacięty zamek w drzwiach – przyczyny i rozwiązania",
+  "cat": "Dom i mieszkanie",
+  "service": "otwieranie-mieszkan-i-domow",
+  "fraza": "zacięty zamek w drzwiach",
+  "istniejacy": false
+ },
+ {
+  "slug": "klucz-w-zamku-od-srodka",
+  "temat": "Klucz został w zamku od środka – co zrobić",
+  "cat": "Dom i mieszkanie",
+  "service": "otwieranie-mieszkan-i-domow",
+  "fraza": "klucz w zamku od środka",
+  "istniejacy": false
+ },
+ {
+  "slug": "zatrzasniete-drzwi-wynajmowane-mieszkanie",
+  "temat": "Zatrzaśnięte drzwi w wynajmowanym mieszkaniu – kto płaci i co zrobić",
+  "cat": "Dom i mieszkanie",
+  "service": "otwieranie-mieszkan-i-domow",
+  "fraza": "zatrzaśnięte drzwi mieszkanie wynajmowane",
+  "istniejacy": false
+ },
+ {
+  "slug": "jak-wybrac-wkladke-do-drzwi",
+  "temat": "Jak wybrać wkładkę do drzwi – klasy i oznaczenia",
+  "cat": "Dom i mieszkanie",
+  "service": "otwieranie-mieszkan-i-domow",
+  "fraza": "jaka wkładka do drzwi",
+  "istniejacy": false
+ },
+ {
+  "slug": "kiedy-wymienic-zamek-w-drzwiach",
+  "temat": "Kiedy wymienić zamek lub wkładkę w drzwiach?",
+  "cat": "Dom i mieszkanie",
+  "service": "otwieranie-mieszkan-i-domow",
+  "fraza": "wymiana wkładki w drzwiach",
+  "istniejacy": false
+ },
+ {
+  "slug": "zablokowany-zamek-garaz-furtka",
+  "temat": "Zablokowany zamek w garażu, furtce lub bramie – co zrobić",
+  "cat": "Dom i mieszkanie",
+  "service": "otwieranie-mieszkan-i-domow",
+  "fraza": "zablokowany zamek w garażu",
+  "istniejacy": false
+ },
+ {
+  "slug": "awaria-sterownika-objawy",
+  "temat": "Awaria sterownika silnika lub immobilizera – objawy i co dalej",
+  "cat": "Elektronika auta",
+  "service": "sterowniki",
+  "fraza": "awaria sterownika silnika objawy",
+  "istniejacy": true
+ },
+ {
+  "slug": "auto-nie-widzi-kluczyka-immobilizer",
+  "temat": "Auto nie widzi kluczyka – immobilizer blokuje rozruch",
+  "cat": "Elektronika auta",
+  "service": "sterowniki",
+  "fraza": "auto nie widzi kluczyka",
+  "istniejacy": false
+ },
+ {
+  "slug": "auto-kreci-ale-nie-odpala",
+  "temat": "Auto kręci, ale nie odpala – najczęstsze przyczyny",
+  "cat": "Elektronika auta",
+  "service": "sterowniki",
+  "fraza": "auto kręci ale nie odpala",
+  "istniejacy": false
+ },
+ {
+  "slug": "kontrolka-immobilizera-miga",
+  "temat": "Miga kontrolka immobilizera – co to oznacza",
+  "cat": "Elektronika auta",
+  "service": "sterowniki",
+  "fraza": "miga kontrolka immobilizera",
+  "istniejacy": false
+ },
+ {
+  "slug": "uzywany-sterownik-silnika-na-co-uwazac",
+  "temat": "Używany sterownik silnika – na co uważać przy zakupie",
+  "cat": "Elektronika auta",
+  "service": "sterowniki",
+  "fraza": "używany sterownik silnika",
+  "istniejacy": false
+ },
+ {
+  "slug": "zalany-sterownik-elektronika-auta",
+  "temat": "Zalany sterownik lub elektronika w aucie – co robić",
+  "cat": "Elektronika auta",
+  "service": "sterowniki",
+  "fraza": "zalany sterownik",
+  "istniejacy": false
+ },
+ {
+  "slug": "filtr-dpf-jak-dbac",
+  "temat": "Filtr DPF – jak dbać, kiedy czyścić i czego unikać",
+  "cat": "Filtr DPF",
+  "service": "filtry-dpf",
+  "fraza": "filtr DPF jak dbać",
+  "istniejacy": true
+ },
+ {
+  "slug": "swieci-sie-kontrolka-dpf",
+  "temat": "Świeci się kontrolka DPF – co robić?",
+  "cat": "Filtr DPF",
+  "service": "filtry-dpf",
+  "fraza": "kontrolka DPF",
+  "istniejacy": false
+ },
+ {
+  "slug": "regeneracja-czy-czyszczenie-dpf",
+  "temat": "Regeneracja czy czyszczenie DPF – czym się różnią",
+  "cat": "Filtr DPF",
+  "service": "filtry-dpf",
+  "fraza": "czyszczenie DPF",
+  "istniejacy": false
+ },
+ {
+  "slug": "czujnik-roznicy-cisnien-dpf",
+  "temat": "Czujnik różnicy ciśnień DPF – objawy awarii",
+  "cat": "Filtr DPF",
+  "service": "filtry-dpf",
+  "fraza": "czujnik różnicy ciśnień DPF",
+  "istniejacy": false
+ }
+]

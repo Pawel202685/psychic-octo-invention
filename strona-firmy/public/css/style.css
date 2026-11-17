@@ -202,3 +202,31 @@ details[open] .plus::after { transform: rotate(0); }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
 @media print { .top, .callbar, .band, .foot { display: none; } }
+
+/* v2: spis tresci, proza, miejscowosci, wyszukiwarka */
+.prose { font-size: 1.04rem; }
+.prose h2 { margin-top: 1.5em; }
+.prose h3 { margin-top: 1.2em; }
+.prose li { margin-bottom: .4em; }
+.prose table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: .96rem; }
+.prose th, .prose td { border: 1px solid var(--line); padding: .55em .7em; text-align: left; vertical-align: top; }
+.prose th { background: var(--alt); }
+.prose.wide { max-width: 860px; }
+.sec .prose > h2:first-child { margin-top: 0; }
+.tip > div, .warn > div, .note > div { flex: 1; }
+.tip > div p:last-child, .warn > div p:last-child, .note > div p:last-child { margin-bottom: 0; }
+.toc { background: var(--alt); border: 1px solid var(--line); border-radius: 14px; padding: 18px 22px; margin-bottom: 28px; }
+.toc-h { font-weight: 800; margin-bottom: .4em; }
+.toc ol { margin: 0; padding-left: 1.3em; }
+.toc a { color: var(--ink); }
+.town-chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+.tchip { display: inline-flex; align-items: center; gap: .35em; padding: .5em .95em; border-radius: 999px; background: #fff; border: 1px solid var(--line);
+  color: var(--ink); text-decoration: none; font-weight: 600; box-shadow: var(--sh); }
+.tchip .ico { color: #b26f00; }
+.tchip:hover { border-color: #f2c063; }
+.tchip.all { background: var(--ink); color: #fff; border-color: var(--ink); }
+.phero .tchip { box-shadow: none; }
+.search { display: flex; align-items: center; gap: 10px; background: #fff; border-radius: 999px; padding: .55em 1.1em; margin-top: 20px; max-width: 560px; color: var(--muted); }
+.search input { border: 0; outline: 0; font: inherit; width: 100%; color: var(--txt); background: transparent; }
+.no-results { padding: 40px 0; font-weight: 600; }
+.art-body h2 { scroll-margin-top: 90px; }
