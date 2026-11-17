@@ -277,6 +277,7 @@ def build():
     for sub in ('css', 'js'):
         shutil.copytree(os.path.join(ROOT, 'zasoby', sub), os.path.join(OUT, sub))
     shutil.copy(os.path.join(ROOT, 'zasoby', 'favicon.svg'), OUT)
+    shutil.copy(os.path.join(ROOT, 'zasoby', '.htaccess'), OUT)
 
     # START
     H = HOME

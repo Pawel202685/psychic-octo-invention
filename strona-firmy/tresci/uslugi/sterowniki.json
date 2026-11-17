@@ -1,0 +1,95 @@
+{
+ "slug": "sterowniki",
+ "icon": "cpu",
+ "short": "Sterowniki i immobilizery",
+ "order": 40,
+ "title": "Naprawa i wymiana sterowników silnika, immobilizer – Kielce",
+ "meta_title": "Naprawa sterowników silnika i immobilizera Kielce",
+ "meta_description": "Auto kręci, ale nie odpala lub nie widzi kluczyka? Diagnozujemy, naprawiamy i wymieniamy sterowniki silnika, dopasowujemy immobilizer. Zadzwoń i opisz objawy.",
+ "card": "Auto nie odpala lub nie widzi kluczyka – naprawa i wymiana sterownika silnika, prace przy immobilizerze.",
+ "lead": "Rozrusznik kręci, a silnik nie zapala? Na zegarach miga kontrolka immobilizera albo tester nie łączy się ze sterownikiem? Zajmujemy się naprawą sterowników silnika, wymianą ich na sprawne egzemplarze i pracami przy immobilizerze – tak, żeby auto znów rozpoznawało Twoje kluczyki. Działamy w Kielcach i okolicy, a cenę podajemy, zanim zaczniemy pracę.",
+ "items": [
+  "Auto kręci, ale nie odpala, a podejrzenie pada na sterownik lub immobilizer",
+  "Miga kontrolka immobilizera albo pojawia się komunikat o niewykrytym kluczyku",
+  "Brak komunikacji ze sterownikiem silnika – tester go „nie widzi”",
+  "Naprawa sterownika silnika po zalaniu, przepięciu lub awarii",
+  "Wymiana sterownika na sprawny i dopasowanie go do auta oraz kluczyków",
+  "Kopia danych sterownika przed naprawą lub wymianą"
+ ],
+ "prepare": [
+  "Marka, model, rocznik, silnik i numer VIN",
+  "Opis objawów i tego, co je poprzedziło: zalanie, rozruch „na kable”, wymiana akumulatora, naprawa",
+  "Wszystkie kluczyki do auta – przy pracach z immobilizerem są potrzebne",
+  "Jeśli masz już używany sterownik – zdjęcie jego naklejki z numerami"
+ ],
+ "note": "Nie kupuj używanego sterownika, zanim nie porównamy jego numerów z Twoim. Immobilizera nie wyłączamy – naprawiamy go albo dopasowujemy do auta i kluczyków.",
+ "steps": [
+  [
+   "Opis objawów",
+   "Mówisz, co się dzieje z autem i co poprzedziło awarię. Pytamy o model, silnik i numer VIN."
+  ],
+  [
+   "Diagnostyka",
+   "Sprawdzamy zasilanie, masy, złącza i komunikację – żeby nie naprawiać sterownika, który jest sprawny."
+  ],
+  [
+   "Decyzja i cena",
+   "Mówimy, czy wystarczy naprawa, czy potrzebna jest wymiana, i czy da się to zrobić przy aucie. Cenę znasz przed pracą."
+  ],
+  [
+   "Naprawa i test",
+   "Zapisujemy dane, naprawiamy lub dopasowujemy sterownik i razem sprawdzamy rozruch na Twoich kluczykach."
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Naprawa sterowników silnika – najpierw diagnostyka",
+   "html": "<p>Gdy auto kręci, ale nie odpala, albo tester nie może połączyć się ze sterownikiem, łatwo uznać, że „padł komputer”. Często jednak winne jest coś prostszego: słaby akumulator, skorodowana masa, przetarty przewód albo zawilgocone złącze. Dlatego naprawę sterowników zaczynamy od sprawdzenia zasilania, mas, wtyczek i komunikacji z innymi modułami. Dopiero gdy to wszystko jest w porządku, zajmujemy się samym sterownikiem.</p><p>Sterowniki psują się najczęściej po zalaniu wodą, po przepięciu – na przykład przy nieostrożnym rozruchu „na kable” w mroźny poranek – albo po latach pracy w wysokiej temperaturze i wśród drgań. Jeśli uszkodzenie da się usunąć, naprawiamy sterownik. Jeśli nie, proponujemy wymianę na sprawny egzemplarz i dopasowanie go do auta. Objawy, które mogą wskazywać na sterownik, opisujemy w poradnikach <a href=\"%%R%%poradnik/awaria-sterownika-objawy.html\">awaria sterownika silnika – objawy</a> i <a href=\"%%R%%poradnik/auto-kreci-ale-nie-odpala.html\">auto kręci, ale nie odpala</a>.</p>"
+  },
+  {
+   "h2": "Immobilizer – gdy auto nie rozpoznaje kluczyka",
+   "html": "<p>Immobilizer pozwala uruchomić silnik tylko wtedy, gdy auto rozpozna zaprogramowany kluczyk. Gdy ta współpraca się sypie, silnik zapala na sekundę i gaśnie albo w ogóle nie rusza, a na zegarach miga kontrolka z symbolem kluczyka. Przyczyną może być sam kluczyk, antena przy stacyjce, moduł immobilizera albo sterownik silnika – zwłaszcza po jego wymianie lub naprawie.</p><p>Prace przy immobilizerze polegają u nas na znalezieniu przyczyny i przywróceniu współpracy auta z Twoimi kluczykami. Jeśli problem leży w kluczyku, przygotujemy nowy w ramach usługi <a href=\"%%R%%programowanie-kluczy.html\">dorabianie i kodowanie kluczyków</a>, a gdy nie został żaden – zajrzyj na stronę <a href=\"%%R%%utrata-wszystkich-kluczykow.html\">utrata wszystkich kluczyków</a>. Co możesz sprawdzić sam, zanim zadzwonisz, podpowiadamy w artykułach <a href=\"%%R%%poradnik/auto-nie-widzi-kluczyka-immobilizer.html\">auto nie widzi kluczyka</a> i <a href=\"%%R%%poradnik/kontrolka-immobilizera-miga.html\">miga kontrolka immobilizera</a>.</p>"
+  },
+  {
+   "h2": "Wymiana sterownika na używany – co musi się zgadzać",
+   "html": "<p>Używany sterownik bywa rozsądną alternatywą dla nowego, ale prawie nigdy nie działa od razu po wpięciu. Numer części i wersja oprogramowania muszą pasować do Twojego silnika i wyposażenia, a sam sterownik trzeba dopasować do immobilizera i kluczyków auta. Zanim kupisz egzemplarz z ogłoszenia, wyślij nam zdjęcie jego naklejki z numerami – porównamy je z Twoim sterownikiem i powiemy, czy wymiana ma sens.</p><p>Przed naprawą lub wymianą zapisujemy kopię danych sterownika, o ile da się je odczytać. Dzięki temu łatwiej przenieść ustawienia i dopasować nowy egzemplarz do auta. Więcej o zakupie przeczytasz w poradniku <a href=\"%%R%%poradnik/uzywany-sterownik-silnika-na-co-uwazac.html\">używany sterownik silnika – na co uważać</a>, a o elektronice po kontakcie z wodą – w artykule <a href=\"%%R%%poradnik/zalany-sterownik-elektronika-auta.html\">zalany sterownik lub elektronika w aucie</a>.</p>"
+  },
+  {
+   "h2": "Przy aucie czy po demontażu – i czego nie robimy",
+   "html": "<p>Część prac wykonujemy przy samochodzie, tam, gdzie stoi – w mieście albo w okolicznych miejscowościach. Niektóre naprawy wymagają jednak wymontowania sterownika i pracy przy nim poza autem. Co czeka Twój samochód, powiemy po opisie objawów i diagnostyce, zanim podamy cenę. Holowanie nie zawsze jest potrzebne.</p><p>Niektórych prac nie wykonujemy bez względu na okoliczności:</p><ul><li>nie wyłączamy immobilizera – to zabezpieczenie przed kradzieżą, więc naprawiamy je albo dopasowujemy;</li><li>nie wyłączamy w sterowniku filtra DPF, zaworu EGR ani układu AdBlue – przy filtrach zajmujemy się <a href=\"%%R%%filtry-dpf.html\">diagnostyką, regeneracją i czyszczeniem DPF</a>;</li><li>nie zmieniamy wskazań drogomierza – ingerencja w przebieg jest w Polsce przestępstwem.</li></ul><p>Masz Forda lub Mazdę z importu i chcesz zmienić język czy ustawienia modułów? To osobna usługa: <a href=\"%%R%%kodowanie-ford-mazda.html\">kodowanie Ford i Mazda</a>.</p>"
+  }
+ ],
+ "faq": [
+  [
+   "Czy sterownik silnika da się naprawić, czy trzeba kupić nowy?",
+   "Często da się go naprawić, a naprawa bywa wyraźnie tańsza niż nowy sterownik. Po diagnostyce powiemy, co jest uszkodzone i czy lepsza będzie naprawa, czy wymiana."
+  ],
+  [
+   "Kupiłem używany sterownik. Wystarczy go wpiąć?",
+   "Zwykle nie. Sterownik trzeba dopasować do immobilizera i kluczyków Twojego auta, a numer części i oprogramowania muszą pasować do silnika. Najlepiej zadzwoń jeszcze przed zakupem – porównamy numery."
+  ],
+  [
+   "Czy możecie wyłączyć immobilizer?",
+   "Nie. Immobilizer chroni auto przed kradzieżą, dlatego szukamy przyczyny usterki i przywracamy jego współpracę z kluczykami, zamiast go wyłączać."
+  ],
+  [
+   "Jak odróżnić usterkę kluczyka od usterki sterownika?",
+   "Pomaga prosty test: jeśli auto odpala na zapasowym kluczyku, problem leży najpewniej w podstawowym. Gdy nie odpala na żadnym, potrzebna jest diagnostyka zasilania, immobilizera i sterownika."
+  ],
+  [
+   "Czy auto trzeba przyholować?",
+   "Nie zawsze. Część prac wykonujemy przy aucie, tam gdzie stoi. Po opisie objawów powiemy, czy potrzebny będzie demontaż sterownika."
+  ],
+  [
+   "Ile kosztuje naprawa sterownika silnika?",
+   "To zależy od modelu, rodzaju uszkodzenia i tego, czy wystarczy naprawa, czy potrzebna jest wymiana z dopasowaniem. Cenę podajemy po diagnostyce, zanim zaczniemy pracę."
+  ]
+ ],
+ "related": [
+  "awaria-sterownika-objawy",
+  "auto-nie-widzi-kluczyka-immobilizer",
+  "auto-kreci-ale-nie-odpala",
+  "uzywany-sterownik-silnika-na-co-uwazac",
+  "zalany-sterownik-elektronika-auta"
+ ]
+}
