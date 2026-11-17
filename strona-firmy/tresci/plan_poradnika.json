@@ -374,5 +374,13 @@
   "service": "otwieranie-samochodow",
   "fraza": "kwalifikowany pracownik zabezpieczenia technicznego",
   "istniejacy": false
+ },
+ {
+  "slug": "wyciety-dpf-a-przeglad",
+  "temat": "Wycięty DPF a przegląd i przepisy – co grozi kierowcy",
+  "cat": "Filtr DPF",
+  "service": "filtry-dpf",
+  "fraza": "wycięty DPF przegląd",
+  "istniejacy": false
  }
 ]

@@ -230,3 +230,10 @@ details[open] .plus::after { transform: rotate(0); }
 .search input { border: 0; outline: 0; font: inherit; width: 100%; color: var(--txt); background: transparent; }
 .no-results { padding: 40px 0; font-weight: 600; }
 .art-body h2 { scroll-margin-top: 90px; }
+
+.about { background: linear-gradient(160deg, #fff7e3, #fff); }
+.about-in { display: flex; gap: 28px; align-items: flex-start; }
+.about-ic { flex: none; display: grid; place-items: center; width: 84px; height: 84px; border-radius: 50%; background: var(--ink); color: var(--amber); }
+.about-ic .ico { width: 40px; height: 40px; }
+@media (max-width: 760px) { .about-in { flex-direction: column; gap: 14px; } .menu a { padding: .7em .6em; } }
+@media (min-width: 761px) and (max-width: 1100px) { .menu a { padding: .5em .5em; font-size: .95rem; } .top-call span { display: none; } }

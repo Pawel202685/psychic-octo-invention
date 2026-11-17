@@ -201,6 +201,7 @@ def page(path, title, desc, body, schemas=(), active=None, crumbs=None):
       <p><a class="foot-tel" href="%%TELHREF%%">%%IC:phone%% %%TEL%%</a></p>
       <p data-need="email"><a href="%%MAILHREF%%">%%IC:mail%% %%EMAIL%%</a></p>
       <p><a href="%%GOOGLE%%" rel="noopener" target="_blank">%%IC:star%% Opinie w Google</a></p>
+      {'<p><a href="%%R%%o-nas.html">%%IC:user-check%% O nas</a></p>' if 'o-nas' in STRONY else ''}
     </div>
     <div>
       <p class="foot-h">Usługi</p>
@@ -263,7 +264,8 @@ def town_chips():
 # ---------------- strony ----------------
 def build():
     global NAV
-    if AREA: NAV = [('index.html', 'Start'), ('uslugi.html', 'Usługi'), ('obszar-dzialania.html', 'Kielce i okolice'), ('poradnik.html', 'Poradnik'), ('kontakt.html', 'Kontakt')]
+    NAV = [('index.html', 'Start'), ('uslugi.html', 'Usługi')] + ([('obszar-dzialania.html', 'Kielce i okolice')] if AREA else []) + \
+          [('poradnik.html', 'Poradnik')] + ([('o-nas.html', 'O nas')] if 'o-nas' in STRONY else []) + [('kontakt.html', 'Kontakt')]
     if os.path.isdir(OUT): shutil.rmtree(OUT)
     os.makedirs(OUT)
     for sub in ('css', 'js'):
@@ -312,6 +314,7 @@ def build():
   {steps_html(T.KROKI_OGOLNE)}
 </div></section>
 {area_block}
+{f'<section class="sec about"><div class="wrap about-in"><div class="about-ic">%%IC:user-check%%</div><div class="prose wide"><p class="eyebrow">Kim jestem</p>{H["about_html"]}' + ('<p><a class="btn btn-line" href="%%R%%o-nas.html">Więcej o mnie i o tym, jak pracuję %%IC:chevron-right%%</a></p>' if 'o-nas' in STRONY else '') + '</div></div></section>' if H.get('about_html') else ''}
 <section class="sec alt"><div class="wrap">
   <div class="sec-head"><div><p class="eyebrow">Poradnik</p><h2>Zanim zadzwonisz – przeczytaj</h2></div>
   <a class="btn btn-line" href="%%R%%poradnik.html">Wszystkie porady ({len(ARTS)}) %%IC:chevron-right%%</a></div>
@@ -381,6 +384,17 @@ def build():
         page(f'{t["slug"]}.html', t['meta_title'], t['meta_description'], body,
              [faq_schema(t['faq'])] if t.get('faq') else [], active='obszar-dzialania.html',
              crumbs=[('obszar-dzialania.html', 'Kielce i okolice') if AREA else (None, 'Obszar'), (None, t['name'])])
+
+    # STRONY OGOLNE (o-nas, cennik i inne z tresci/strony)
+    for slug, G in STRONY.items():
+        if slug in ('index', 'uslugi', 'poradnik', 'obszar-dzialania'): continue
+        body = f'''<section class="phero"><div class="wrap"><p class="eyebrow">{G.get('eyebrow', '')}</p><h1>{G['h1']}</h1><p class="lead">{G['lead']}</p>
+<div class="hero-btns"><a class="btn btn-call btn-big" href="%%TELHREF%%">%%IC:phone%% %%TEL%%</a></div></div></section>
+{sections_html(G.get('sections', []))}
+{f'<section class="sec"><div class="wrap narrow"><h2>Pytania i odpowiedzi</h2>{faq_html(G["faq"])}</div></section>' if G.get('faq') else ''}
+{cta_band()}'''
+        page(f'{slug}.html', G['meta_title'], G['meta_description'], body, [faq_schema(G['faq'])] if G.get('faq') else [],
+             active=f'{slug}.html', crumbs=[(None, G.get('crumb', strip_tags(G['h1'])[:40]))])
 
     # PORADNIK
     cats = []
