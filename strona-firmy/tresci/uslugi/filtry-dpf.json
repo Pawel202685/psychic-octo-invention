@@ -1,0 +1,95 @@
+{
+ "slug": "filtry-dpf",
+ "icon": "filter",
+ "short": "Filtry DPF",
+ "order": 50,
+ "title": "Filtr DPF w Kielcach – diagnostyka, regeneracja i czyszczenie (bez wycinania)",
+ "meta_title": "Diagnostyka i czyszczenie DPF Kielce – bez wycinania",
+ "meta_description": "Kontrolka DPF, spadek mocy, tryb awaryjny? Sprawdzamy filtr i czujniki, robimy wymuszoną regenerację lub czyszczenie i szukamy przyczyny. Nie wycinamy DPF.",
+ "card": "Kontrolka DPF, spadek mocy, tryb awaryjny – diagnostyka, wymuszona regeneracja i czyszczenie. Bez wycinania filtrów.",
+ "lead": "Zaświeciła się kontrolka DPF, auto straciło moc albo przeszło w tryb awaryjny? Diagnostyka DPF to pierwszy krok: sprawdzamy, ile w filtrze jest sadzy i popiołu, czy czujniki podają prawdziwe wartości i co zapycha filtr. Potem wykonujemy wymuszoną regenerację serwisową albo czyszczenie. Pomagamy kierowcom w Kielcach i okolicy – filtrów nie wycinamy.",
+ "items": [
+  "Odczyt błędów i parametrów filtra: zapełnienie sadzą i popiołem, różnica ciśnień, temperatury spalin",
+  "Sprawdzenie czujnika różnicy ciśnień, czujników temperatury i ich przewodów",
+  "Wymuszona regeneracja serwisowa testerem diagnostycznym",
+  "Czyszczenie filtra DPF/FAP, gdy regeneracja nie wystarcza",
+  "Wskazanie przyczyny zapychania: wtryski, zawór EGR, turbosprężarka, termostat",
+  "Sprawdzenie filtra przed badaniem technicznym albo przed zakupem używanego diesla"
+ ],
+ "prepare": [
+  "Marka, model, rocznik, silnik i przebieg auta",
+  "Jakie kontrolki i komunikaty widzisz – najlepiej zdjęcie zegarów",
+  "Jak zwykle jeździsz: krótkie odcinki po mieście czy dłuższe trasy",
+  "Co było już robione przy filtrze, wtryskach lub zaworze EGR"
+ ],
+ "note": "Nie wycinamy filtrów DPF i nie wyłączamy ich w sterowniku – auto bez filtra nie spełnia warunków technicznych. Diagnozujemy, regenerujemy i czyścimy.",
+ "steps": [
+  [
+   "Opis objawów",
+   "Mówisz, co pokazuje auto, od kiedy i jak jeździsz na co dzień."
+  ],
+  [
+   "Diagnostyka",
+   "Odczytujemy błędy i parametry filtra, sprawdzamy czujniki i stan oleju."
+  ],
+  [
+   "Regeneracja lub czyszczenie",
+   "Proponujemy zabieg, który wynika z diagnostyki, i podajemy cenę, zanim zaczniemy."
+  ],
+  [
+   "Kontrola i przyczyna",
+   "Sprawdzamy parametry po zabiegu i mówimy, co zapychało filtr i co warto naprawić."
+  ]
+ ],
+ "sections": [
+  {
+   "h2": "Diagnostyka DPF – od czego zaczynamy",
+   "html": "<p>Kontrolka filtra cząstek stałych, wyraźny spadek mocy, częste regeneracje, wyższe spalanie albo olej, którego na bagnecie przybywa zamiast ubywać – to typowe sygnały, że z filtrem DPF dzieje się coś złego. Diagnostyka DPF pozwala ustalić, co dokładnie: odczytujemy błędy zapisane w sterowniku silnika, zapełnienie filtra sadzą i popiołem, różnicę ciśnień przed filtrem i za nim, temperatury spalin oraz informacje o ostatnich regeneracjach.</p><p>W mieście filtr ma trudne życie. Krótkie przejazdy przez Kielce, korki w godzinach szczytu i zimowe poranki sprawiają, że spaliny często nie nagrzewają się na tyle, by sadza mogła się wypalić. Czasem wystarczy dłuższa, równa jazda drogą ekspresową – według instrukcji auta i w granicach ograniczeń prędkości. Jeśli kontrolka dopiero się zapaliła, zacznij od poradnika <a href=\"%%R%%poradnik/swieci-sie-kontrolka-dpf.html\">świeci się kontrolka DPF</a>. Gdy jazda nie pomaga albo auto weszło w tryb awaryjny, nie próbuj wypalać filtra na siłę – zadzwoń.</p>"
+  },
+  {
+   "h2": "Wymuszona regeneracja DPF czy czyszczenie filtra",
+   "html": "<p>Wymuszoną regenerację serwisową uruchamiamy testerem diagnostycznym wtedy, gdy filtr jest sprawny, a zalega w nim głównie sadza. Przed jej rozpoczęciem sprawdzamy stan oleju, odczyty czujników i stopień zapełnienia – przy zbyt dużej ilości sadzy wypalanie mogłoby uszkodzić wkład. Czyszczenie filtra ma sens, gdy w środku zebrało się dużo popiołu, którego żadna regeneracja nie usunie, albo gdy regeneracja nie dała trwałego efektu.</p><p>O wyborze zabiegu decyduje wynik diagnostyki. Przy wycenie mówimy, na czym będzie polegać czyszczenie w Twoim aucie i jak długo samochód nie będzie mógł jeździć. Różnice między zabiegami opisujemy szerzej w artykule <a href=\"%%R%%poradnik/regeneracja-czy-czyszczenie-dpf.html\">regeneracja czy czyszczenie DPF</a>.</p>"
+  },
+  {
+   "h2": "Dlaczego filtr się zapycha – szukamy przyczyny",
+   "html": "<p>Zapchany filtr jest często skutkiem innej usterki. Nadmiar sadzy mogą produkować cieknące wtryskiwacze, niesprawny zawór EGR, nieszczelny dolot albo zużyta turbosprężarka. Uszkodzony termostat sprawia, że silnik za wolno się nagrzewa, a olej niezgodny z normą producenta szybciej zapełnia filtr popiołem. Zdarza się też, że filtr jest w dobrym stanie, a sterownik dostaje fałszywe dane z <a href=\"%%R%%poradnik/czujnik-roznicy-cisnien-dpf.html\">czujnika różnicy ciśnień</a> albo z jego nieszczelnych przewodów.</p><p>Po zabiegu sprawdzamy parametry filtra i mówimy, co według diagnostyki doprowadziło do zapchania i co warto naprawić. Jeśli przyczyna zostanie, filtr po regeneracji czy czyszczeniu wkrótce wróci do punktu wyjścia. Nawyki, które pomagają mu wytrzymać dłużej, zebraliśmy w poradniku <a href=\"%%R%%poradnik/filtr-dpf-jak-dbac.html\">filtr DPF – jak dbać</a>. Gdy podejrzenie pada na elektronikę silnika, zajrzyj też na stronę <a href=\"%%R%%sterowniki.html\">sterowniki i immobilizery</a>.</p>"
+  },
+  {
+   "h2": "Dlaczego nie wycinamy DPF",
+   "html": "<p>Wycięcie filtra bywa reklamowane jako tani koniec kłopotów. My go nie wykonujemy – podobnie jak wyłączania filtra w oprogramowaniu sterownika. Prawo o ruchu drogowym wymaga, by urządzenia chroniące środowisko były utrzymane w należytym stanie i działały sprawnie, a auto bez fabrycznego filtra tych warunków nie spełnia. Przy kontroli drogowej policjant może zatrzymać dowód rejestracyjny pojazdu, który narusza wymagania ochrony środowiska, a na badaniu technicznym auto bez filtra nie powinno uzyskać pozytywnego wyniku.</p><p>Unia Europejska pracuje też nad dokładniejszymi badaniami spalin diesli, które mają lepiej wychwytywać auta z usuniętym filtrem. Przepisy, przebieg badania technicznego i wskazówki dla kupujących używane auto opisujemy w artykule <a href=\"%%R%%poradnik/wyciety-dpf-a-przeglad.html\">wycięty DPF a przegląd</a>. Jeśli filtr sprawia kłopoty, zadzwoń – sprawdzimy, czy wystarczy regeneracja, czy potrzebne jest czyszczenie.</p>"
+  }
+ ],
+ "faq": [
+  [
+   "Świeci się kontrolka DPF. Mogę jechać dalej?",
+   "Dopóki auto jedzie normalnie i nie pali się nic więcej, możesz spróbować jazdy regeneracyjnej według instrukcji. Gdy samochód stracił moc, kontrolka miga albo dołączył „check engine”, nie jeździj dłużej, niż musisz – zadzwoń i opisz objawy."
+  ],
+  [
+   "Czy wymuszona regeneracja zawsze wystarczy?",
+   "Nie. Pomaga, gdy w sprawnym filtrze zalega głównie sadza. Popiołu nie wypali – wtedy potrzebne jest czyszczenie, a przy uszkodzonym wkładzie wymiana filtra."
+  ],
+  [
+   "Czy możecie wyciąć albo wyłączyć filtr DPF?",
+   "Nie. Nie wycinamy filtrów i nie wyłączamy ich w sterowniku. Zajmujemy się diagnostyką, wymuszoną regeneracją i czyszczeniem."
+  ],
+  [
+   "Czy kontrolka DPF może zapalić się przez czujnik, a nie przez filtr?",
+   "Tak – fałszywy odczyt z czujnika różnicy ciśnień albo nieszczelność w jego przewodach wygląda dla sterownika jak zapchany filtr. Dlatego czujniki sprawdzamy, zanim zdecydujemy o regeneracji."
+  ],
+  [
+   "Czy sprawdzicie filtr przed przeglądem albo przed zakupem auta?",
+   "Tak. Diagnostyka pokaże zapełnienie filtra, odczyty czujników i zapisane błędy. Nie przesądza o wyniku badania technicznego, ale pozwala uniknąć niespodzianek."
+  ],
+  [
+   "Ile kosztuje diagnostyka lub czyszczenie DPF?",
+   "Cena zależy od modelu, dostępu do filtra i tego, który zabieg okaże się potrzebny. Podajemy ją przez telefon, zanim zaczniemy pracę."
+  ]
+ ],
+ "related": [
+  "swieci-sie-kontrolka-dpf",
+  "regeneracja-czy-czyszczenie-dpf",
+  "wyciety-dpf-a-przeglad",
+  "filtr-dpf-jak-dbac",
+  "czujnik-roznicy-cisnien-dpf"
+ ]
+}
