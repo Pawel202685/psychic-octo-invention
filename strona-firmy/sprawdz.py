@@ -9,7 +9,8 @@ SERVICES = {s['slug'] for s in T.USLUGI} | {'utrata-wszystkich-kluczykow'} | {f[
 PLAN = json.load(open(os.path.join(ROOT, 'tresci', 'plan_poradnika.json'), encoding='utf-8')) if os.path.exists(os.path.join(ROOT, 'tresci', 'plan_poradnika.json')) else []
 ARTICLES = {a['slug'] for a in T.ARTYKULY} | {a['slug'] for a in PLAN} | {f[:-5] for f in os.listdir(os.path.join(ROOT, 'tresci', 'poradnik')) if f.endswith('.json')}
 TOWNS = {f[:-5] for f in os.listdir(os.path.join(ROOT, 'tresci', 'miejscowosci')) if f.endswith('.json')}
-PAGES = {'index', 'uslugi', 'poradnik', 'kontakt', 'obszar-dzialania', 'polityka-prywatnosci', 'o-nas', 'checiny', 'morawica', 'maslow', 'piekoszow'} | SERVICES | TOWNS
+BRANDS = {f[:-5] for f in os.listdir(os.path.join(ROOT, 'tresci', 'marki')) if f.endswith('.json')} | {'kluczyki-' + b for b in ('toyota', 'bmw', 'volkswagen', 'skoda', 'audi', 'opel', 'ford', 'renault', 'kia', 'hyundai', 'mercedes-benz', 'peugeot-citroen', 'fiat', 'mazda')}
+PAGES = {'index', 'uslugi', 'poradnik', 'kontakt', 'obszar-dzialania', 'polityka-prywatnosci', 'o-nas', 'checiny', 'morawica', 'maslow', 'piekoszow'} | SERVICES | TOWNS | BRANDS | {'marki'}
 BANNED = ['najtańsz', 'gwarantujemy', 'gwarancja dojazdu', 'zawsze bez', '100%', 'bez żadnych uszkodzeń', 'w 15 minut', 'w 10 minut', 'w 20 minut',
           'korekta licznika', 'cofanie licznika', 'wycinanie dpf', 'usuwanie dpf', 'lorem', 'todo', 'najlepszy w kielcach', 'najszybszy', 'numer 1', 'nr 1',
           'wieloletnie doświadczenie', 'lat doświadczenia', 'certyfikowan', 'wszystkie marki', 'każdą markę', 'każdy model']
@@ -66,13 +67,17 @@ def check_page(kind, a, fname):
     e = []
     req = {'uslugi': ['slug', 'icon', 'short', 'title', 'meta_title', 'meta_description', 'card', 'lead', 'items', 'prepare', 'note', 'steps', 'sections', 'faq', 'related'],
            'miejscowosci': ['slug', 'name', 'h1', 'meta_title', 'meta_description', 'lead', 'sections', 'faq'],
-           'strony': ['slug', 'meta_title', 'meta_description']}[kind]
+           'strony': ['slug', 'meta_title', 'meta_description'],
+           'marki': ['slug', 'brand', 'card', 'h1', 'meta_title', 'meta_description', 'lead', 'sections', 'faq', 'related']}[kind]
     for k in req:
         if k not in a: e.append(f'brak pola {k}')
     if e: return e
     if a['slug'] + '.json' != os.path.basename(fname): e.append('slug nie zgadza się z nazwą pliku')
     if len(a['meta_title']) > 60: e.append(f'meta_title {len(a["meta_title"])} zn. (max 60)')
     if not 110 <= len(a['meta_description']) <= 158: e.append(f'meta_description {len(a["meta_description"])} zn. (110-158)')
+    if kind == 'marki':
+        for r in a['related']:
+            if r not in ARTICLES: e.append(f'related: nieznany artykuł {r}')
     if kind == 'uslugi':
         if a['icon'] not in ICONS: e.append(f'nieznana ikona {a["icon"]}')
         if len(a['steps']) != 4: e.append('steps: dokładnie 4 kroki')
@@ -82,7 +87,7 @@ def check_page(kind, a, fname):
     secs = a.get('sections', [])
     html_all = ' '.join(x.get('html', '') for x in secs) + ' ' + ' '.join(str(a.get(k, '')) for k in ('area_html', 'about_html', 'lead', 'hero_lead'))
     n = words(' '.join(x.get('html', '') for x in secs))
-    mins = {'uslugi': 350, 'miejscowosci': 450, 'strony': 0}[kind]
+    mins = {'uslugi': 350, 'miejscowosci': 450, 'strony': 0, 'marki': 450}[kind]
     if n < mins: e.append(f'sekcje mają {n} słów (min {mins})')
     for x in secs:
         if 'h2' not in x or 'html' not in x: e.append('sekcja bez h2/html')
@@ -99,7 +104,7 @@ def check_page(kind, a, fname):
 
 def main_pages():
     total = 0
-    for kind in ('uslugi', 'miejscowosci', 'strony'):
+    for kind in ('uslugi', 'miejscowosci', 'strony', 'marki'):
         d = os.path.join(ROOT, 'tresci', kind)
         for f in sorted(x for x in os.listdir(d) if x.endswith('.json')):
             try: a = json.load(open(os.path.join(d, f), encoding='utf-8'))

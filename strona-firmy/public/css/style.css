@@ -237,3 +237,5 @@ details[open] .plus::after { transform: rotate(0); }
 .about-ic .ico { width: 40px; height: 40px; }
 @media (max-width: 760px) { .about-in { flex-direction: column; gap: 14px; } .menu a { padding: .7em .6em; } }
 @media (min-width: 761px) and (max-width: 1100px) { .menu a { padding: .5em .5em; font-size: .95rem; } .top-call span { display: none; } }
+
+.small { font-size: .88rem; }

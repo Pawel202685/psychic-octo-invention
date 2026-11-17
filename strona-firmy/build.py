@@ -97,6 +97,7 @@ SERV = _merge(T.USLUGI, _load_dir('uslugi'))
 ARTS = _merge(T.ARTYKULY, _load_dir('poradnik'))
 TOWNS = sorted(_load_dir('miejscowosci'), key=lambda x: (x.get('order', 500), x['slug']))
 STRONY = {x['slug']: x for x in _load_dir('strony')}
+MARKI = sorted(_load_dir('marki'), key=lambda x: (x.get('order', 500), x['slug']))
 HOME = STRONY.get('index', {})
 AREA = STRONY.get('obszar-dzialania')
 for s in SERV:
@@ -205,7 +206,7 @@ def page(path, title, desc, body, schemas=(), active=None, crumbs=None):
     </div>
     <div>
       <p class="foot-h">Usługi</p>
-      <ul>{''.join(f'<li><a href="%%R%%{s["slug"]}.html">{s["short"]}</a></li>' for s in SERV)}</ul>
+      <ul>{''.join(f'<li><a href="%%R%%{s["slug"]}.html">{s["short"]}</a></li>' for s in SERV)}{'<li><a href="%%R%%marki.html">Kluczyki do marek ›</a></li>' if MARKI else ''}</ul>
     </div>
     <div>
       <p class="foot-h">Kielce i okolice</p>
@@ -255,6 +256,11 @@ def article_card(a):
 def service_card(s):
     return (f'<a class="scard" href="%%R%%{s["slug"]}.html"><span class="scard-ic">%%IC:{s["icon"]}%%</span>'
             f'<h3>{s["short"]}</h3><p>{s["card"]}</p><span class="more">Szczegóły %%IC:chevron-right%%</span></a>')
+
+def brand_chips(exclude=None):
+    if not MARKI: return ''
+    return '<div class="town-chips">' + ''.join(f'<a class="tchip" href="%%R%%{m["slug"]}.html">%%IC:key-round%% {m["brand"]}</a>' for m in MARKI if m['slug'] != exclude) + \
+           '<a class="tchip all" href="%%R%%marki.html">Wszystkie marki ›</a></div>'
 
 def town_chips():
     if not TOWNS: return ''
@@ -309,6 +315,7 @@ def build():
   <div class="sgrid">{''.join(service_card(s) for s in SERV)}</div>
 </div></section>
 
+{f'<section class="sec"><div class="wrap"><p class="eyebrow">%%IC:key-round%% Marki</p><h2>{H.get("brands_h2", "Kluczyki do popularnych marek")}</h2><p class="lead">{H.get("brands_lead", "Dorabiamy i kodujemy kluczyki do aut wielu popularnych marek. Wybierz swoją markę – opisaliśmy typowe kluczyki i problemy.")}</p>{brand_chips()}</div></section>' if MARKI else ''}
 <section class="sec alt"><div class="wrap">
   <p class="eyebrow">Jak działamy</p><h2>Od telefonu do otwartych drzwi</h2>
   {steps_html(T.KROKI_OGOLNE)}
@@ -356,6 +363,7 @@ def build():
 <section class="sec alt"><div class="wrap"><h2>Jak to wygląda</h2>{steps_html(s["steps"])}</div></section>
 {sections_html(s["sections"])}
 <section class="sec"><div class="wrap narrow"><h2>Pytania i odpowiedzi</h2>{faq_html(s["faq"])}</div></section>
+{f'<section class="sec"><div class="wrap"><h2>Kluczyki do popularnych marek</h2>{brand_chips()}</div></section>' if MARKI and s['slug'] in ('programowanie-kluczy', 'utrata-wszystkich-kluczykow', 'otwieranie-samochodow', 'sterowniki') else ''}
 {f'<section class="sec alt"><div class="wrap"><h2>Działamy w Kielcach i okolicach</h2>{town_chips()}</div></section>' if TOWNS else ''}
 <section class="sec"><div class="wrap"><h2>Przydatne porady</h2><div class="agrid">{''.join(article_card(a) for a in (rel + others)[:6])}</div></div></section>
 {cta_band()}'''
@@ -385,9 +393,40 @@ def build():
              [faq_schema(t['faq'])] if t.get('faq') else [], active='obszar-dzialania.html',
              crumbs=[('obszar-dzialania.html', 'Kielce i okolice') if AREA else (None, 'Obszar'), (None, t['name'])])
 
+    # MARKI
+    if MARKI:
+        M = STRONY.get('marki', {})
+        cards = ''.join(f'<a class="scard" href="%%R%%{m["slug"]}.html"><span class="scard-ic">%%IC:key-round%%</span><h3>{m["brand"]}</h3><p>{m.get("card", "")}</p><span class="more">Szczegóły %%IC:chevron-right%%</span></a>' for m in MARKI)
+        body = f'''<section class="phero"><div class="wrap"><p class="eyebrow">%%IC:key-round%% Marki</p><h1>{M.get('h1', 'Kluczyki samochodowe do popularnych marek – Kielce')}</h1>
+<p class="lead">{M.get('lead', 'Dorabianie i kodowanie kluczyków, utrata wszystkich kluczyków i awaryjne otwieranie aut wielu marek. Możliwość wykonania kluczyka sprawdzamy po numerze VIN.')}</p></div></section>
+<section class="sec"><div class="wrap"><div class="sgrid">{cards}</div></div></section>
+{sections_html(M.get('sections', []))}
+<section class="sec"><div class="wrap narrow"><p class="muted small">Nazwy marek służą wyłącznie do opisu, do jakich aut wykonujemy usługi. Nie jesteśmy autoryzowanym serwisem żadnej z tych marek.</p></div></section>
+{cta_band()}'''
+        page('marki.html', M.get('meta_title', 'Kluczyki samochodowe do popularnych marek – Kielce'),
+             M.get('meta_description', 'Dorabianie i kodowanie kluczyków do aut popularnych marek: Toyota, BMW, Volkswagen, Skoda i inne. Kielce i okolice, całą dobę.'),
+             body, active='uslugi.html', crumbs=[('uslugi.html', 'Usługi'), (None, 'Marki')])
+        key_serv = [s for s in SERV if s['slug'] in ('programowanie-kluczy', 'utrata-wszystkich-kluczykow', 'otwieranie-samochodow', 'sterowniki', 'kodowanie-ford-mazda')]
+        for m in MARKI:
+            sv = [s for s in key_serv if s['slug'] != 'kodowanie-ford-mazda' or m['slug'] in ('kluczyki-ford', 'kluczyki-mazda')]
+            rel = [a for a in ARTS if a['slug'] in m.get('related', [])]
+            body = f'''<section class="phero"><div class="wrap phero-in"><div><p class="eyebrow">%%IC:key-round%% {m["brand"]} · %%MIASTO%% i okolice</p><h1>{m["h1"]}</h1>
+<p class="lead">{m["lead"]}</p>
+<div class="hero-btns"><a class="btn btn-call btn-big" href="%%TELHREF%%">%%IC:phone%% %%TEL%%</a>
+<a class="btn btn-ghost" href="%%SMSHREF%%">%%IC:message-square%% SMS</a></div></div></div></section>
+{sections_html(m.get('sections', []))}
+<section class="sec"><div class="wrap"><h2>Usługi dla aut {m["brand"]}</h2><div class="sgrid">{''.join(service_card(s) for s in sv)}</div></div></section>
+{f'<section class="sec alt"><div class="wrap narrow"><h2>Pytania i odpowiedzi</h2>{faq_html(m["faq"])}</div></section>' if m.get('faq') else ''}
+{f'<section class="sec"><div class="wrap"><h2>Przydatne porady</h2><div class="agrid">{"".join(article_card(a) for a in rel[:3])}</div></div></section>' if rel else ''}
+<section class="sec alt"><div class="wrap"><h2>Inne marki</h2>{brand_chips(m['slug'])}
+<p class="muted small">Nazwa marki {m["brand"]} służy wyłącznie do opisu, do jakich aut wykonujemy usługi. Nie jesteśmy autoryzowanym serwisem tej marki.</p></div></section>
+{cta_band()}'''
+            page(f'{m["slug"]}.html', m['meta_title'], m['meta_description'], body, [faq_schema(m['faq'])] if m.get('faq') else [],
+                 active='uslugi.html', crumbs=[('uslugi.html', 'Usługi'), ('marki.html', 'Marki'), (None, m['brand'])])
+
     # STRONY OGOLNE (o-nas, cennik i inne z tresci/strony)
     for slug, G in STRONY.items():
-        if slug in ('index', 'uslugi', 'poradnik', 'obszar-dzialania'): continue
+        if slug in ('index', 'uslugi', 'poradnik', 'obszar-dzialania', 'marki'): continue
         body = f'''<section class="phero"><div class="wrap"><p class="eyebrow">{G.get('eyebrow', '')}</p><h1>{G['h1']}</h1><p class="lead">{G['lead']}</p>
 <div class="hero-btns"><a class="btn btn-call btn-big" href="%%TELHREF%%">%%IC:phone%% %%TEL%%</a></div></div></section>
 {sections_html(G.get('sections', []))}
