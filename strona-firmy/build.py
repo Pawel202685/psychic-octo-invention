@@ -104,7 +104,7 @@ for s in SERV:
     s.setdefault('sections', []); s.setdefault('related', [])
 for a in ARTS:
     a.setdefault('meta_title', a['title']); a.setdefault('meta_description', a['lead']); a.setdefault('faq', [])
-    a.setdefault('min', max(2, round(len(strip_tags(a['body']).split()) / 200)))
+    a['min'] = max(2, round(len(strip_tags(a['body']).split()) / 200))
 SLUG_A = {a['slug'] for a in ARTS}
 
 def boxes(h):  # ramki porad: tip / warn / note z ikona
