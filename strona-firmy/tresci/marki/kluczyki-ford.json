@@ -5,11 +5,11 @@
  "h1": "Kluczyk Ford w Kielcach – od Fiesty i Focusa po Transita",
  "meta_title": "Kluczyk Ford Kielce – dorabianie, Intelligent Access",
  "meta_description": "Dorabianie i kodowanie kluczyka Ford: składany, Intelligent Access, nowy po zgubieniu, a w Fordzie z USA także język polski. Zadzwoń – sprawdzimy po VIN.",
- "lead": "Kluczyk Ford – zapasowy do Focusa, dodatkowy do firmowego Transita albo nowy, gdy zginął jedyny – dorabiamy i kodujemy przy aucie w Kielcach i okolicy, w wielu modelach także z systemem Intelligent Access. Przy Fordzie z importu od razu sprawdzimy po VIN, czy da się wgrać język polski.",
+ "lead": "Kluczyk Ford to w wielu modelach coś więcej niż pilot: chip immobilizera PATS, a w nowszych autach także system Intelligent Access. Zapasowy kluczyk do Fiesty, Focusa, Kugi czy firmowego Transita dorobimy i zakodujemy z dojazdem w Kielcach i okolicy, a przy Fordzie z importu od razu powiemy, czy menu można przestawić na polski.",
  "sections": [
   {
    "h2": "Kluczyk Ford i immobilizer PATS",
-   "html": "<p>Fordy od lat chroni immobilizer PATS, w materiałach producenta nazywany też SecuriLock. W kluczyku jest transponder z unikalnym kodem, a silnik ruszy tylko z kluczykiem zapisanym w pamięci auta. Dlatego dorabianie kluczyka Ford składa się zwykle z dwóch etapów: nacięcia grota i zakodowania nowego egzemplarza w samochodzie.</p><p>W Fordach spotyka się przede wszystkim trzy rodzaje kluczyków:</p><ul><li><strong>kluczyk z nieruchomym grotem</strong> – w starszych modelach, z chipem w rękojeści, niekiedy z przyciskami centralnego zamka,</li><li><strong>kluczyk składany z pilotem</strong> – typowy m.in. dla Focusa drugiej generacji i Fiesty Mk7,</li><li><strong>kluczyk Intelligent Access</strong> – w części wersji Focusa, Mondeo czy Kugi; drzwi otwierasz bez wyjmowania go z kieszeni, a silnik uruchamiasz przyciskiem. W środku ukryty jest grot awaryjny.</li></ul><p>W części Fordów jeden z kluczyków może być ustawiony jako <strong>MyKey</strong> – z ograniczeniem m.in. prędkości maksymalnej i głośności audio. Jeśli w używanym aucie jeden kluczyk „zachowuje się inaczej”, sprawdź opis tej funkcji w instrukcji obsługi.</p>"
+   "html": "<p>Fordy od lat chroni immobilizer PATS, w materiałach producenta nazywany też SecuriLock. W kluczyku jest transponder z unikalnym kodem, a silnik ruszy tylko z kluczykiem zapisanym w pamięci auta. Dlatego dorabianie kluczyka Ford to zwykle dwa kroki: nacięcie grota i zakodowanie nowego egzemplarza w samochodzie.</p><p>W Fordach spotyka się przede wszystkim trzy rodzaje kluczyków:</p><ul><li><strong>kluczyk z nieruchomym grotem</strong> – w starszych modelach, z chipem w rękojeści, niekiedy z przyciskami centralnego zamka,</li><li><strong>kluczyk składany z pilotem</strong> – typowy m.in. dla Focusa drugiej generacji i Fiesty Mk7,</li><li><strong>kluczyk Intelligent Access</strong> – w części wersji Focusa, Mondeo czy Kugi; drzwi otwierasz bez wyjmowania go z kieszeni, a silnik uruchamiasz przyciskiem. W środku ukryty jest grot awaryjny.</li></ul><p>W części Fordów jeden z kluczyków może być ustawiony jako <strong>MyKey</strong> – z ograniczeniem m.in. prędkości maksymalnej i głośności audio. Jeśli w używanym aucie jeden kluczyk „zachowuje się inaczej”, sprawdź opis tej funkcji w instrukcji obsługi.</p>"
   },
   {
    "h2": "Typowe problemy z kluczykami Forda",
@@ -17,7 +17,7 @@
   },
   {
    "h2": "Dorabianie i kodowanie kluczyka Ford w praktyce",
-   "html": "<p><strong>Masz jeden działający kluczyk?</strong> To najprostsza sytuacja: dorabiamy i kodujemy zapasowy kluczyk albo pilot przy aucie – pod domem, firmą czy na parkingu (<a href=\"%%R%%programowanie-kluczy.html\">programowanie kluczy</a>).</p><p><strong>Zgubiony kluczyk Ford był jedynym?</strong> W wielu modelach wykonamy nowy kluczyk od zera, na miejscu postoju auta (<a href=\"%%R%%utrata-wszystkich-kluczykow.html\">utrata wszystkich kluczyków</a>). Przy okazji usuniemy z pamięci kluczyki, których już nie masz – ważne np. wtedy, gdy były pracownik nie oddał kluczyka do firmowego Transita.</p><p><strong>Intelligent Access?</strong> Nowy kluczyk trzeba zakodować w systemie bezkluczykowym, a ukryty w nim grot awaryjny naciąć tak, by otwierał drzwi przy rozładowanej baterii.</p><p><strong>Kluczyki zostały w środku?</strong> Otwieranie Forda wykonujemy przede wszystkim profesjonalnymi dekoderami do zamków, tak by drzwi i szyby pozostały nietknięte (<a href=\"%%R%%otwieranie-samochodow.html\">otwieranie samochodów</a>). A gdy auto nie zapala mimo sprawnego kluczyka, sprawdzamy immobilizer i sterownik silnika (<a href=\"%%R%%sterowniki.html\">sterowniki</a>).</p><p>Zakres zależy od modelu, rocznika i wersji systemu. Czy całość zrobimy przy aucie, powiemy po VIN – razem z ceną, zanim zaczniemy.</p>"
+   "html": "<p><strong>Masz jeden działający kluczyk?</strong> To najprostsza sytuacja: dorabiamy i kodujemy zapasowy kluczyk albo pilot przy aucie – pod domem, firmą czy na parkingu (<a href=\"%%R%%programowanie-kluczy.html\">programowanie kluczy</a>).</p><p><strong>Nie masz już żadnego?</strong> Jeśli zgubiony kluczyk Ford był jedynym, w wielu modelach wykonamy nowy od zera, na miejscu postoju auta (<a href=\"%%R%%utrata-wszystkich-kluczykow.html\">utrata wszystkich kluczyków</a>). Przy okazji usuniemy z pamięci kluczyki, których już nie masz – ważne np. wtedy, gdy były pracownik nie oddał kluczyka do firmowego Transita.</p><p><strong>Intelligent Access?</strong> Nowy kluczyk trzeba zakodować w systemie bezkluczykowym, a ukryty w nim grot awaryjny naciąć tak, by otwierał drzwi przy rozładowanej baterii.</p><p><strong>Kluczyki zostały w środku?</strong> Otwieranie Forda wykonujemy przede wszystkim profesjonalnymi dekoderami do zamków, tak by drzwi i szyby pozostały nietknięte (<a href=\"%%R%%otwieranie-samochodow.html\">otwieranie samochodów</a>). Jeśli natomiast silnik nie rusza mimo sprawnego kluczyka, sprawdzamy immobilizer i sterownik silnika (<a href=\"%%R%%sterowniki.html\">sterowniki</a>).</p><p>Zakres zależy od modelu, rocznika i wersji systemu. Czy całość zrobimy przy aucie, powiemy po VIN – razem z ceną, zanim zaczniemy.</p>"
   },
   {
    "h2": "Ford z importu – język polski i kodowanie funkcji",
@@ -34,12 +34,12 @@
    "Zacznij od wymiany baterii – w wielu pilotach Forda to CR2032, ale sprawdź oznaczenie na starej. Jeśli nowa bateria nie pomoże, a zapasowy kluczyk działa, kłopot leży zwykle w samym kluczyku – zadzwoń, doradzimy."
   ],
   [
-   "Czy dorobicie kluczyk do Forda, gdy nie mam żadnego?",
-   "W wielu modelach tak. Po numerze VIN sprawdzimy, jaki kluczyk będzie pasował i czy zrobimy go na miejscu. Przed rozpoczęciem pracy poprosimy o dowód osobisty i dowód rejestracyjny."
+   "Nie został mi żaden kluczyk do Forda. Co teraz?",
+   "W wielu modelach da się wykonać nowy kluczyk od zera. Po numerze VIN ustalimy, który kluczyk pasuje do Twojego Forda i czy zrobimy go na miejscu. Przed rozpoczęciem pracy musimy zobaczyć dowód osobisty i dowód rejestracyjny."
   ],
   [
    "Kto może zamówić kluczyk do firmowego Transita?",
-   "Właściciel pojazdu albo osoba z jego upoważnieniem – dotyczy to także aut w leasingu. Przy okazji możemy usunąć z pamięci kluczyki, które nie wróciły do firmy."
+   "Właściciel pojazdu albo osoba z jego upoważnieniem – dotyczy to także aut w leasingu. Przy tej samej wizycie usuniemy z pamięci kluczyki, które nie wróciły do firmy."
   ],
   [
    "Czy przy okazji wgracie język polski?",

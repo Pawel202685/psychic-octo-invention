@@ -1,11 +1,11 @@
 {
  "slug": "kluczyki-opel",
  "brand": "Opel",
- "card": "Składane kluczyki do Astry, Corsy i Insignii, kluczyki elektroniczne i nowsze Ople ze Stellantis – zapasowy egzemplarz, kluczyk po zgubieniu, nowa obudowa.",
+ "card": "Składane kluczyki do Astry, Corsy i Insignii, kluczyki elektroniczne i nowsze Ople ze Stellantis – kopia, kluczyk od zera i wymiana zużytej obudowy.",
  "h1": "Kluczyk Opel w Kielcach – Astra, Corsa, Insignia i nowsze modele",
  "meta_title": "Kluczyk Opel Kielce – dorabianie, kodowanie, Open&Start",
  "meta_description": "Zgubiony albo jedyny kluczyk do Opla? Dorabianie i kodowanie kluczyka Opel – składanego i Open&Start – w wielu modelach. Zadzwoń, sprawdzimy po VIN.",
- "lead": "Kluczyk Opel do Astry, Corsy, Insignii czy Zafiry – zapasowy, nowy w miejsce zgubionego albo w nowej obudowie – dorabiamy i kodujemy przy aucie w Kielcach i okolicy, w wielu modelach także wtedy, gdy nie został żaden kluczyk. Czy da się to zrobić w Twoim Oplu, sprawdzimy po numerze VIN – zadzwoń albo wyślij SMS.",
+ "lead": "Kluczyk Opel do Astry, Corsy, Insignii czy Zafiry – zapasowy, w miejsce zgubionego albo w nowej obudowie – wykonamy i zakodujemy na miejscu postoju auta w Kielcach lub okolicy. Czy w Twoim Oplu da się to zrobić także bez żadnego kluczyka, sprawdzimy po numerze VIN – zadzwoń albo wyślij SMS.",
  "sections": [
   {
    "h2": "Kluczyk Opel – jakie kluczyki spotyka się w Oplach",
@@ -13,10 +13,10 @@
   },
   {
    "h2": "Typowe usterki kluczyków Opla",
-   "html": "<ul><li><strong>Rozchwiany kluczyk składany</strong> – grot lata na boki albo nie wyskakuje, obudowa pęka przy zawiasie, gumowe przyciski się przecierają. Gdy elektronika i chip są sprawne, często wystarczy nowa obudowa – kiedy to ma sens, opisujemy w poradniku o <a href=\"%%R%%poradnik/pekniety-kluczyk-naprawa-obudowy.html\">pękniętej obudowie kluczyka</a>.</li><li><strong>Pilot otwiera auto z coraz mniejszej odległości</strong> – zwykle słabnie bateria. Dla składanych kluczyków m.in. Astry H i Corsy D instrukcje podają baterię CR2032, a przy kluczyku elektronicznym część modeli sama pokazuje komunikat o słabej baterii.</li><li><strong>Open&amp;Start nie wykrywa kluczyka</strong> – najczęściej winna jest bateria, rzadziej zakłócenia radiowe w konkretnym miejscu.</li><li><strong>Używany Opel z jednym kluczykiem</strong> – bez zapasu każda awaria albo zguba unieruchamia auto. Co sprawdzić po zakupie, piszemy w artykule <a href=\"%%R%%poradnik/uzywane-auto-sprawdz-kluczyki.html\">używane auto – sprawdź kluczyki</a>.</li></ul>"
+   "html": "<ul><li><strong>Rozchwiany kluczyk składany</strong> – grot lata na boki albo nie wyskakuje, obudowa pęka przy zawiasie, gumowe przyciski się przecierają. Jeśli elektronika i chip działają, często wystarczy nowa obudowa – kiedy to ma sens, opisujemy w poradniku o <a href=\"%%R%%poradnik/pekniety-kluczyk-naprawa-obudowy.html\">pękniętej obudowie kluczyka</a>.</li><li><strong>Pilot otwiera auto z coraz mniejszej odległości</strong> – zwykle słabnie bateria. Dla składanych kluczyków m.in. Astry H i Corsy D instrukcje podają baterię CR2032, a przy kluczyku elektronicznym część modeli sama pokazuje komunikat o słabej baterii.</li><li><strong>Open&amp;Start nie wykrywa kluczyka</strong> – najczęściej winna jest bateria, rzadziej zakłócenia radiowe w konkretnym miejscu.</li><li><strong>Używany Opel z jednym kluczykiem</strong> – bez zapasu każda awaria albo zguba unieruchamia auto. Co sprawdzić po zakupie, podpowiadamy w poradniku <a href=\"%%R%%poradnik/uzywane-auto-sprawdz-kluczyki.html\">o kluczykach w używanym aucie</a>.</li></ul>"
   },
   {
-   "h2": "Dorabianie i kodowanie kluczyka Opel – zakres pracy",
+   "h2": "Dorabianie kluczyka Opel i inne prace przy aucie",
    "html": "<p>Przyjeżdżamy do Opla tam, gdzie stoi – pod dom, do pracy, na parking – i większość prac wykonujemy na miejscu. W zależności od sytuacji możemy:</p><ul><li>naciąć i zakodować <strong>zapasowy kluczyk</strong> do Astry, Corsy czy Zafiry, póki masz jeszcze działający egzemplarz (<a href=\"%%R%%programowanie-kluczy.html\">dorabianie i kodowanie kluczyków</a>),</li><li>wykonać nowy kluczyk od zera, gdy <strong>zgubiony kluczyk Opel</strong> był jedynym – w wielu modelach bez holowania auta (<a href=\"%%R%%utrata-wszystkich-kluczykow.html\">utrata wszystkich kluczyków</a>),</li><li>usunąć z pamięci auta kluczyki, których już nie masz, żeby nie uruchomiły silnika,</li><li>przełożyć sprawną elektronikę do nowej obudowy albo zaproponować nowy kluczyk, gdy naprawa się nie opłaca,</li><li>przeprowadzić <strong>otwieranie Opla</strong> z kluczykami zatrzaśniętymi w środku – głównie profesjonalnymi dekoderami do zamków, bez uszkadzania drzwi i szyb (<a href=\"%%R%%otwieranie-samochodow.html\">otwieranie samochodów</a>),</li><li>sprawdzić immobilizer i sterownik, gdy auto mimo sprawnego kluczyka nie chce zapalić (<a href=\"%%R%%sterowniki.html\">sterowniki i immobilizery</a>).</li></ul><div class=\"warn\"><p>Nie w każdym Oplu wszystko da się zrobić przy aucie – decydują model, rocznik i system zabezpieczeń. Powiemy to przed przyjazdem, a cenę podamy przez telefon, zanim zaczniemy pracę.</p></div>"
   },
   {
@@ -25,12 +25,12 @@
   },
   {
    "h2": "Open&amp;Start nie reaguje – co zrobić, zanim zadzwonisz",
-   "html": "<ul><li>Wysuń z kluczyka grot awaryjny – według instrukcji otworzysz nim drzwi kierowcy, gdy zawiedzie system Open&amp;Start albo sam kluczyk.</li><li>Instrukcje opisują też awaryjne uruchomienie silnika przy rozładowanym kluczyku: kluczyk przykłada się do oznaczenia wskazanego w instrukcji (w części modeli na osłonie kolumny kierownicy), wciska hamulec – w aucie z ręczną skrzynią także sprzęgło – i naciska przycisk Start/Stop. Miejsce i kolejność kroków sprawdź w opisie swojego Opla.</li><li>Jeśli kłopot pojawia się tylko w jednym miejscu, np. na konkretnym parkingu, odsuń kluczyk od telefonu i innych pilotów – to może być zakłócenie.</li></ul><p>Więcej wskazówek znajdziesz w poradniku <a href=\"%%R%%poradnik/kluczyk-keyless-nie-dziala.html\">kluczyk keyless nie działa</a>. Jeśli nic nie pomaga – zadzwoń.</p>"
+   "html": "<ul><li>Wysuń z kluczyka grot awaryjny – według instrukcji otworzysz nim drzwi kierowcy, gdy zawiedzie system Open&amp;Start albo sam kluczyk.</li><li>Instrukcje opisują też awaryjne uruchomienie silnika przy rozładowanym kluczyku: kluczyk przykłada się do oznaczenia wskazanego w instrukcji (w części modeli na osłonie kolumny kierownicy), wciska hamulec – w aucie z ręczną skrzynią także sprzęgło – i naciska przycisk Start/Stop. Miejsce i kolejność kroków sprawdź w opisie swojego Opla.</li><li>Jeśli kłopot pojawia się tylko w jednym miejscu, np. na konkretnym parkingu, odsuń kluczyk od telefonu i innych pilotów – to może być zakłócenie.</li></ul><p>Pozostałe wskazówki zebraliśmy w artykule <a href=\"%%R%%poradnik/kluczyk-keyless-nie-dziala.html\">kluczyk keyless nie działa</a>. Jeśli nic nie pomaga – zadzwoń.</p>"
   }
  ],
  "faq": [
   [
-   "Zgubiłem jedyny kluczyk do Opla. Czy da się zrobić nowy?",
+   "Jedyny kluczyk do Opla zginął. Czy da się zrobić nowy?",
    "W wielu modelach tak – wykonujemy wtedy kluczyk od zera i kodujemy go w aucie. Czy jest to możliwe w Twoim Oplu i czy zrobimy to na miejscu, sprawdzimy po numerze VIN. Zadzwoń albo napisz SMS, podając model i rocznik."
   ],
   [
