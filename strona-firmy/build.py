@@ -2,8 +2,10 @@
 # Dane firmy (nazwa, telefon, adres...) wpisz w pliku dane.json i uruchom ponownie.
 import json, os, re, html, shutil, datetime, urllib.parse
 
+import sys
 ROOT = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.join(ROOT, 'public')
+PODGLAD = '--podglad' in sys.argv  # wersja do akceptacji: noindex
+OUT = sys.argv[sys.argv.index('--podglad') + 1] if PODGLAD else os.path.join(ROOT, 'public')
 D = json.load(open(os.path.join(ROOT, 'dane.json'), encoding='utf-8'))
 import tresci as T
 
@@ -167,6 +169,7 @@ def page(path, title, desc, body, schemas=(), active=None, crumbs=None):
 <title>{esc(full_title)}</title>
 <meta name="description" content="{esc(full_desc)}">
 <meta name="theme-color" content="#0d1726">
+{'<meta name="robots" content="noindex, nofollow">' if PODGLAD else ''}
 <meta property="og:type" content="website">
 <meta property="og:title" content="{esc(full_title)}">
 <meta property="og:description" content="{esc(full_desc)}">

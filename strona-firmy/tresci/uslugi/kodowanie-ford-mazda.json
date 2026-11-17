@@ -5,7 +5,7 @@
  "order": 60,
  "title": "Kodowanie Ford i Mazda w Kielcach – język polski, światło przeciwmgłowe, funkcje",
  "meta_title": "Kodowanie Ford i Mazda Kielce – język polski, funkcje",
- "meta_description": "Wgrywamy język polski w Fordzie i Maździe, dorabiamy tylne światło przeciwmgłowe w autach z USA, aktywujemy wybrane funkcje. Najpierw sprawdzamy po VIN.",
+ "meta_description": "Wgrywamy język polski w Fordzie i Maździe, dorabiamy tylne światło przeciwmgłowe w autach z USA, aktywujemy wybrane funkcje. Wyślij VIN – sprawdzimy.",
  "card": "Język polski w aucie, tylne światło przeciwmgłowe, aktywacja i wyłączanie funkcji w Fordzie i Maździe.",
  "lead": "Sprowadziłeś Forda albo Mazdę, zegary mówią po angielsku, a z tyłu brakuje światła przeciwmgłowego? Zajmujemy się kodowaniem Forda i Mazdy: wgrywamy język polski, dorabiamy tylne światło przeciwmgłowe w autach z USA oraz aktywujemy lub wyłączamy wybrane funkcje. Najpierw sprawdzamy po numerze VIN, co da się zrobić w Twoim aucie – a potem umawiamy się w Kielcach albo przyjeżdżamy do Ciebie w okolicy.",
  "items": [
@@ -47,7 +47,7 @@
   },
   {
    "h2": "Tylne światło przeciwmgłowe w aucie z USA",
-   "html": "<p>Amerykańskie wersje Fordów i Mazd często nie mają tylnego światła przeciwmgłowego, bo tamtejsze przepisy go nie wymagają. W Europie to standardowe wyposażenie, a jego brak bywa przyczyną kłopotów na badaniu technicznym przed rejestracją sprowadzonego auta. Dorobienie światła to zwykle coś więcej niż przykręcenie lampy. W zależności od modelu potrzebne są: lampa lub wkład z europejską homologacją, przewody doprowadzone do tyłu auta, przełącznik świateł z pozycją przeciwmgłową i zmiana ustawień w module nadwozia, żeby na zegarach pojawiała się kontrolka.</p><p>Najpierw oceniamy po VIN i zdjęciach, czego w Twoim aucie brakuje, potem podajemy cenę. Zanim kupisz auto zza oceanu, zapytaj też w stacji kontroli pojazdów i w wydziale komunikacji, jakich przeróbek oczekują. Więcej w artykule <a href=\"%%R%%poradnik/tylne-swiatlo-przeciwmglowe-auto-z-usa.html\">tylne światło przeciwmgłowe w aucie z USA</a>.</p>"
+   "html": "<p>Amerykańskie wersje Fordów i Mazd często nie mają tylnego światła przeciwmgłowego, bo tamtejsze przepisy go nie wymagają. W Europie to standardowe wyposażenie, a jego brak bywa przyczyną kłopotów na badaniu technicznym przed rejestracją sprowadzonego auta. Dorobienie światła to zwykle coś więcej niż przykręcenie lampy. W zależności od modelu potrzebne są: lampa lub wkład z europejską homologacją, przewody doprowadzone do tyłu auta, przełącznik świateł z położeniem dla świateł przeciwmgłowych, a także nowa konfiguracja modułu sterującego nadwoziem – inaczej na zegarach nie pojawi się kontrolka.</p><p>Najpierw oceniamy po VIN i zdjęciach, czego w Twoim aucie brakuje, potem podajemy cenę. Zanim kupisz auto zza oceanu, zapytaj też w stacji kontroli pojazdów i w wydziale komunikacji, jakich przeróbek oczekują. Więcej w artykule <a href=\"%%R%%poradnik/tylne-swiatlo-przeciwmglowe-auto-z-usa.html\">tylne światło przeciwmgłowe w aucie z USA</a>.</p>"
   },
   {
    "h2": "Aktywacja funkcji – co zmieniamy, a czego nie",
@@ -55,7 +55,7 @@
   },
   {
    "h2": "Kodowanie Forda i Mazdy – jak się umówić",
-   "html": "<p>Kodowanie to praca na umówiony termin, a nie usługa awaryjna. Wystarczy telefon albo SMS z numerem VIN, modelem, rocznikiem i listą zmian – po sprawdzeniu powiemy, co jest możliwe i ile to kosztuje. Wszystkie zmiany najlepiej wprowadzić podczas jednej wizyty, bo auto i tak jest wtedy podłączone do sprzętu diagnostycznego. Zadbaj o naładowany akumulator: spadek napięcia w trakcie zapisu może przerwać zmiany i unieruchomić moduł.</p><p>Auta z importu nierzadko trafiają do nowego właściciela z jednym kluczykiem. Warto od razu dorobić drugi i sprawdzić, czy w pamięci auta nie zostały kluczyki, których nie masz. Piszemy o tym w artykule <a href=\"%%R%%poradnik/uzywane-auto-sprawdz-kluczyki.html\">używane auto – sprawdź kluczyki</a>, a zapasowy kluczyk przygotujemy w ramach usługi <a href=\"%%R%%programowanie-kluczy.html\">dorabianie i kodowanie kluczyków</a>.</p>"
+   "html": "<p>Kodowanie to praca na umówiony termin, a nie usługa awaryjna. Wystarczy telefon albo SMS z numerem VIN, modelem, rocznikiem i listą zmian – po sprawdzeniu powiemy, co jest możliwe i ile to kosztuje. Język, jednostki i inne ustawienia najlepiej zmienić podczas jednej wizyty – wystarczy wtedy jedno podłączenie do testera. Zadbaj o naładowany akumulator: spadek napięcia w trakcie zapisu może przerwać zmiany i unieruchomić moduł.</p><p>Auta z importu nierzadko trafiają do nowego właściciela z jednym kluczykiem. Warto od razu dorobić drugi i sprawdzić, czy w pamięci auta nie zostały kluczyki, których nie masz. Piszemy o tym w artykule <a href=\"%%R%%poradnik/uzywane-auto-sprawdz-kluczyki.html\">używane auto – sprawdź kluczyki</a>, a zapasowy kluczyk przygotujemy w ramach usługi <a href=\"%%R%%programowanie-kluczy.html\">dorabianie i kodowanie kluczyków</a>.</p>"
   }
  ],
  "faq": [
@@ -64,8 +64,8 @@
    "Nie w każdym. Zależy to od rynku, na który auto wyprodukowano, modelu, rocznika i wersji modułów. Po numerze VIN sprawdzimy, co jest możliwe, zanim umówimy termin."
   ],
   [
-   "Czy polski będzie i na zegarach, i na ekranie?",
-   "Często tak, ale to dwa osobne moduły i każdy ma własną listę języków. Powiedz, na czym Ci zależy – sprawdzimy oba."
+   "Co, jeśli w moim aucie nie da się wgrać polskiego?",
+   "Powiemy o tym po sprawdzeniu numeru VIN, jeszcze zanim umówimy termin. Wtedy sam zdecydujesz, czy chcesz zmienić inne ustawienia, na przykład jednostki."
   ],
   [
    "Dlaczego auto z USA potrzebuje tylnego światła przeciwmgłowego?",
@@ -76,8 +76,8 @@
    "To zależy od modelu i wyposażenia – włączyć da się tylko to, do czego auto ma sprzęt. Wyślij listę zmian, a powiemy, które są możliwe."
   ],
   [
-   "Czy zmiana mil na kilometry zmienia przebieg auta?",
-   "Nie. Zmienia się tylko jednostka, w której przebieg jest wyświetlany. Faktyczny przebieg zostaje bez zmian."
+   "Czy kodowanie robicie od ręki, tak jak awaryjne otwieranie?",
+   "Nie – to usługa na umówiony termin. Najpierw sprawdzamy po VIN, co jest możliwe, a potem ustalamy dzień, godzinę i miejsce."
   ],
   [
    "Czy trzeba przyjechać do Kielc?",
