@@ -342,5 +342,37 @@
   "service": "filtry-dpf",
   "fraza": "czujnik różnicy ciśnień DPF",
   "istniejacy": false
+ },
+ {
+  "slug": "jezyk-polski-ford-mazda",
+  "temat": "Zmiana języka na polski w Fordzie i Maździe – co da się zrobić",
+  "cat": "Elektronika auta",
+  "service": "kodowanie-ford-mazda",
+  "fraza": "język polski Ford",
+  "istniejacy": false
+ },
+ {
+  "slug": "tylne-swiatlo-przeciwmglowe-auto-z-usa",
+  "temat": "Tylne światło przeciwmgłowe w aucie z USA – dlaczego jest potrzebne",
+  "cat": "Elektronika auta",
+  "service": "kodowanie-ford-mazda",
+  "fraza": "tylne światło przeciwmgłowe auto z USA",
+  "istniejacy": false
+ },
+ {
+  "slug": "aktywacja-funkcji-ford-mazda",
+  "temat": "Aktywacja i wyłączanie funkcji w Fordzie i Maździe – co można zmienić",
+  "cat": "Elektronika auta",
+  "service": "kodowanie-ford-mazda",
+  "fraza": "aktywacja funkcji Ford",
+  "istniejacy": false
+ },
+ {
+  "slug": "kwalifikowany-pracownik-zabezpieczenia-technicznego",
+  "temat": "Ślusarz z wpisem na listę Policji – co to oznacza dla klienta",
+  "cat": "Porady praktyczne",
+  "service": "otwieranie-samochodow",
+  "fraza": "kwalifikowany pracownik zabezpieczenia technicznego",
+  "istniejacy": false
  }
 ]

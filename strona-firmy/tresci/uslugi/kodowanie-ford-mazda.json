@@ -1,0 +1,57 @@
+{
+ "slug": "kodowanie-ford-mazda",
+ "icon": "wrench",
+ "short": "Ford i Mazda – kodowanie",
+ "order": 60,
+ "title": "Kodowanie Ford i Mazda – język polski, światło przeciwmgłowe, funkcje",
+ "meta_title": "Kodowanie Ford i Mazda Kielce – język polski, funkcje",
+ "meta_description": "Wgrywanie języka polskiego w Fordzie i Maździe, dorabianie tylnego światła przeciwmgłowego, aktywacja i dezaktywacja funkcji. Kielce i okolice.",
+ "card": "Język polski w aucie, tylne światło przeciwmgłowe, aktywacja i wyłączanie funkcji w Fordzie i Maździe.",
+ "lead": "Sprowadziłeś Forda lub Mazdę i menu jest po angielsku albo po niemiecku? Brakuje tylnego światła przeciwmgłowego? Wgrywamy język polski, dorabiamy światło przeciwmgłowe oraz aktywujemy lub wyłączamy wybrane funkcje.",
+ "desc": "Wgrywanie języka polskiego, dorabianie tylnego światła przeciwmgłowego, aktywacja i dezaktywacja funkcji w autach Ford i Mazda.",
+ "items": [
+  "Wgrywanie języka polskiego do pojazdów marki Ford i Mazda",
+  "Dorabianie tylnego światła przeciwmgłowego (np. w autach sprowadzonych z USA)",
+  "Aktywacja i dezaktywacja wybranych funkcji w autach Ford i Mazda",
+  "Konsultacja przed zakupem auta z importu – co da się zmienić w Twoim modelu"
+ ],
+ "prepare": [
+  "Marka, model, rok produkcji i numer VIN",
+  "Informacja, skąd auto zostało sprowadzone",
+  "Lista funkcji, które chcesz zmienić"
+ ],
+ "note": "Zakres zmian zależy od modelu, rocznika i wersji wyposażenia. Zanim umówimy termin, sprawdzimy, co jest możliwe w Twoim aucie.",
+ "steps": [
+  [
+   "Kontakt",
+   "Podajesz model, rocznik i VIN oraz to, co chcesz zmienić."
+  ],
+  [
+   "Sprawdzenie",
+   "Sprawdzamy, co jest możliwe w Twojej wersji auta, i podajemy cenę."
+  ],
+  [
+   "Termin",
+   "Umawiamy termin – dojeżdżamy do Ciebie lub spotykamy się w Kielcach."
+  ],
+  [
+   "Wykonanie",
+   "Wykonujemy zmiany i razem sprawdzamy działanie."
+  ]
+ ],
+ "faq": [
+  [
+   "Czy w każdym Fordzie i Maździe da się wgrać język polski?",
+   "Zależy to od modelu, rocznika i wersji systemu. Po podaniu VIN sprawdzimy, co jest możliwe w Twoim aucie."
+  ],
+  [
+   "Dlaczego auto z USA potrzebuje tylnego światła przeciwmgłowego?",
+   "Wiele aut z rynku amerykańskiego go nie ma, a jest ono wymagane przy rejestracji i badaniu technicznym w Polsce."
+  ],
+  [
+   "Jakie funkcje można aktywować lub wyłączyć?",
+   "To zależy od modelu i wyposażenia. Napisz, co chcesz zmienić – powiemy, czy to możliwe."
+  ]
+ ],
+ "related": []
+}

@@ -13,6 +13,12 @@
   "godziny": "Czynne całą dobę, 7 dni w tygodniu",
   "nip": "",
   "google": "https://share.google/7wOFiTjAMUp3W6TE4",
-  "geo": [50.8489109, 20.6208003],
-  "domena": "[https://twoja-domena.pl]"
+  "geo": [
+    50.8489109,
+    20.6208003
+  ],
+  "domena": "[https://twoja-domena.pl]",
+  "wlasciciel": "Łukasz",
+  "uprawnienia": "Wpis na listę kwalifikowanych pracowników zabezpieczenia technicznego prowadzoną przez Policję",
+  "nieodbieram": "Jeśli nie odbieram, wyślij SMS z krótkim opisem problemu – oddzwonię."
 }
