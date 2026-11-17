@@ -5,9 +5,9 @@
  "order": 25,
  "title": "Zgubione wszystkie kluczyki do auta? Nowy kluczyk od zera – Kielce",
  "meta_title": "Zgubione kluczyki do auta Kielce – nowy kluczyk od zera",
- "meta_description": "Nie masz żadnego kluczyka? Otworzymy auto, sprawdzimy dokumenty, przygotujemy i zakodujemy nowy kluczyk, a zgubiony usuniemy z pamięci. Kielce i okolice.",
+ "meta_description": "Nie masz żadnego kluczyka? Sprawdzimy dokumenty, otworzymy auto i zakodujemy nowy kluczyk, a zgubione wykasujemy z pamięci. Kielce i okolice – zadzwoń.",
  "card": "Nie został żaden kluczyk? Otwieramy auto, przygotowujemy i kodujemy nowy, a zgubiony usuwamy z pamięci.",
- "lead": "Zgubione kluczyki do auta i ani jednego zapasowego? To nie zawsze oznacza lawetę i wizytę w serwisie. Przyjedziemy do samochodu, sprawdzimy dokumenty, w razie potrzeby otworzymy auto, a potem przygotujemy nowy kluczyk od zera i zakodujemy go. Zgubione egzemplarze usuniemy z pamięci. Pomagamy w Kielcach i okolicznych miejscowościach.",
+ "lead": "Zgubione kluczyki do auta i ani jednego zapasowego? To nie zawsze oznacza lawetę i wizytę w serwisie. Przyjedziemy do samochodu, sprawdzimy dokumenty, w razie potrzeby otworzymy auto, a potem przygotujemy nowy kluczyk od zera i zakodujemy go. Zgubione egzemplarze usuniemy z pamięci. Dojeżdżamy do aut w Kielcach i okolicy.",
  "items": [
   "Zgubiony jedyny kluczyk albo cały komplet",
   "Kluczyki skradzione razem z torbą lub kurtką – po zgłoszeniu na policję",
@@ -18,16 +18,16 @@
   "Kluczyki z pilotem i keyless – także gdy nie został żaden egzemplarz"
  ],
  "prepare": [
-  "Dowód osobisty – dane muszą zgadzać się z dowodem rejestracyjnym",
-  "Dowód rejestracyjny – jeśli jest w zamkniętym aucie, powiedz o tym przy zgłoszeniu",
-  "Numer VIN, marka, model i rocznik – VIN jest w dowodzie rejestracyjnym i często pod przednią szybą",
+  "Dokument tożsamości – porównamy go z danymi właściciela w dowodzie rejestracyjnym",
+  "Dowód rejestracyjny – a jeśli został w środku auta, wspomnij o tym w rozmowie",
+  "VIN, marka, model i rocznik – VIN jest w dowodzie rejestracyjnym, a często także na tabliczce w dolnym rogu przedniej szyby",
   "Auto firmowe lub w leasingu? Weź pisemne upoważnienie od właściciela"
  ],
  "note": "Nowy kluczyk bez oryginału wykonujemy wyłącznie po potwierdzeniu, że samochód jest Twój lub że możesz nim dysponować. Bez tego odmawiamy – to chroni Twoje auto przed cudzymi „kopiami”.",
  "steps": [
   [
    "Zgłoszenie",
-   "Dzwonisz lub piszesz SMS: marka, model, rocznik, VIN, rodzaj zgubionego kluczyka i miejsce, w którym stoi auto."
+   "Dzwonisz lub piszesz SMS: marka, model, rocznik, VIN, rodzaj zgubionego kluczyka oraz adres lub opis miejsca postoju."
   ],
   [
    "Wycena i termin",
@@ -35,39 +35,39 @@
   ],
   [
    "Weryfikacja i otwarcie",
-   "Sprawdzamy dokument tożsamości i dowód rejestracyjny, a jeśli auto jest zamknięte – otwieramy je bez wybijania szyby."
+   "Najpierw oglądamy Twój dokument tożsamości i dowód rejestracyjny, potem – jeśli trzeba – otwieramy auto bez wybijania szyby."
   ],
   [
    "Nowy kluczyk",
-   "Przygotowujemy i kodujemy kluczyk, usuwamy z pamięci zgubione egzemplarze i sprawdzamy wszystko razem z Tobą."
+   "Przygotowujemy i kodujemy kluczyk, kasujemy z pamięci auta te, które zginęły, a na koniec razem sprawdzamy, czy wszystko działa."
   ]
  ],
  "sections": [
   {
    "h2": "Zgubione kluczyki do auta – nowy kluczyk od zera krok po kroku",
-   "html": "<p>Kiedy zgubione kluczyki były jedynymi, nie ma z czego zrobić kopii. Nowy kluczyk trzeba przygotować od podstaw, a samochód musi go przyjąć jako własny. Po przyjeździe pracujemy w takiej kolejności:</p><ol><li><strong>Weryfikacja.</strong> Sprawdzamy dokument tożsamości i porównujemy go z dowodem rejestracyjnym – od razu albo zaraz po otwarciu, jeśli dowód leży w aucie.</li><li><strong>Otwarcie.</strong> Zamknięte auto otwieramy dekoderem lub inną metodą mechaniczną, bez wybijania szyby. Więcej o tym na stronie <a href=\"%%R%%otwieranie-samochodow.html\">awaryjne otwieranie samochodów</a>.</li><li><strong>Dobór i nacięcie.</strong> Dobieramy kluczyk właściwy dla modelu i przygotowujemy grot pasujący do zamków samochodu.</li><li><strong>Kodowanie.</strong> Zapisujemy nowy kluczyk w pamięci samochodu, a zgubione usuwamy – nie uruchomią już silnika.</li><li><strong>Sprawdzenie.</strong> Razem testujemy zamki, pilota i uruchamianie.</li></ol><p>Przy okazji warto od razu zamówić drugi kluczyk. Zrobiony podczas tej samej wizyty oszczędzi Ci powtórki, gdyby nowy egzemplarz też kiedyś zginął. Dojeżdżamy do auta w mieście i w okolicznych gminach – sprawdź <a href=\"%%R%%obszar-dzialania.html\">obszar działania</a>.</p>"
+   "html": "<p>Kiedy zgubione kluczyki były jedynymi, nie ma z czego zrobić kopii. Nowy egzemplarz powstaje od podstaw, a samochód musi go zaakceptować jako własny. Po przyjeździe pracujemy w takiej kolejności:</p><ol><li><strong>Weryfikacja.</strong> Sprawdzamy dokument tożsamości i porównujemy go z dowodem rejestracyjnym – od razu albo zaraz po otwarciu, jeśli dowód leży w aucie.</li><li><strong>Otwarcie.</strong> Zamknięte auto otwieramy dekoderem lub inną metodą mechaniczną, bez zbijania szyb i podważania drzwi. Więcej o tym przeczytasz na stronie o <a href=\"%%R%%otwieranie-samochodow.html\">awaryjnym otwieraniu samochodów</a>.</li><li><strong>Dobór i nacięcie.</strong> Dobieramy kluczyk właściwy dla modelu i przygotowujemy grot pasujący do zamków samochodu.</li><li><strong>Kodowanie.</strong> Zapisujemy nowy kluczyk w pamięci samochodu, a zgubione usuwamy – nie uruchomią już silnika.</li><li><strong>Sprawdzenie.</strong> Razem testujemy zamki, pilota i uruchamianie.</li></ol><p>Przy okazji warto od razu zamówić drugi kluczyk. Zrobiony podczas tej samej wizyty oszczędzi Ci powtórki, gdyby nowy egzemplarz też kiedyś zginął. Przyjeżdżamy tam, gdzie stoi samochód – zasięg dojazdów opisuje strona <a href=\"%%R%%obszar-dzialania.html\">obszar działania</a>.</p>"
   },
   {
    "h2": "Zgubione czy skradzione? Co zrobić, zanim przyjedziemy",
-   "html": "<p>Jeśli kluczyki zniknęły razem z torebką, plecakiem albo kurtką, załóż, że mogły zostać skradzione. Zgłoś to na policję i sprawdź, czy auto nadal stoi tam, gdzie je zostawiłeś. Złodziej, który ma kluczyk i dokument z adresem, nie musi niczego forsować.</p><p>Masz ubezpieczenie AC? Zajrzyj do warunków umowy – ubezpieczyciele często określają, co zrobić po utracie kluczyka i w jakim terminie to zgłosić. Pełną listę pierwszych kroków opisujemy w poradniku <a href=\"%%R%%poradnik/zgubione-wszystkie-kluczyki-do-auta.html\">zgubione kluczyki do auta – co zrobić po kolei</a>, a tutaj skupiamy się na tym, jak odzyskać sprawne auto.</p><p>Podczas wizyty usuniemy z pamięci samochodu wszystkie kluczyki, których nie masz. Po kradzieży to szczególnie ważne: nawet jeśli ktoś ma Twój kluczyk, nie uruchomi nim silnika. Metalowa część kluczyka nadal pasuje jednak do zamków drzwi, więc do czasu wyjaśnienia sprawy nie zostawiaj w aucie dokumentów ani cennych rzeczy.</p>"
+   "html": "<p>Jeśli kluczyki zniknęły razem z torebką, plecakiem albo kurtką, załóż, że mogły zostać skradzione. Zgłoś to na policję i sprawdź, czy auto nadal stoi tam, gdzie je zostawiłeś. Złodziej, który ma kluczyk i dokument z adresem, nie musi niczego forsować.</p><p>Masz ubezpieczenie AC? Zajrzyj do warunków umowy – ubezpieczyciele często określają, co zrobić po utracie kluczyka i w jakim terminie to zgłosić. Pełną listę pierwszych kroków znajdziesz w poradniku <a href=\"%%R%%poradnik/zgubione-wszystkie-kluczyki-do-auta.html\">co zrobić po kolei, gdy zgubisz kluczyki do auta</a>, a tutaj skupiamy się na tym, jak odzyskać sprawne auto.</p><p>Podczas wizyty usuniemy z pamięci samochodu wszystkie kluczyki, których nie masz. Po kradzieży to szczególnie ważne: nawet jeśli ktoś ma Twój kluczyk, nie uruchomi nim silnika. Metalowa część kluczyka nadal pasuje jednak do zamków drzwi, więc do czasu wyjaśnienia sprawy nie zostawiaj w aucie dokumentów ani cennych rzeczy.</p>"
   },
   {
    "h2": "Auto z jednym kluczykiem – po zakupie lub z importu",
-   "html": "<p>Wiele używanych aut, zwłaszcza sprowadzanych z zagranicy, zmienia właściciela z jednym kluczykiem. Wystarczy, że ten jedyny zginie, wpadnie do wody albo przestanie działać, i robi się z tego utrata wszystkich kluczyków. Postępujemy wtedy tak samo jak przy zgubieniu – różnica dotyczy zwykle dokumentów.</p><p>Jeśli auto jest jeszcze w trakcie rejestracji, a Ty masz zagraniczny dowód rejestracyjny i umowę kupna, powiedz o tym przy zgłoszeniu. Ustalimy, jakie dokumenty potwierdzą, że samochód jest Twój. Na co zwrócić uwagę przy zakupie, opisujemy w artykule <a href=\"%%R%%poradnik/uzywane-auto-sprawdz-kluczyki.html\">używane auto z jednym kluczykiem</a>. A jeśli to Ford lub Mazda z importu, przy okazji możemy wgrać język polski – zobacz <a href=\"%%R%%kodowanie-ford-mazda.html\">kodowanie Ford i Mazda</a>.</p>"
+   "html": "<p>Wiele używanych aut, zwłaszcza sprowadzanych z zagranicy, zmienia właściciela z jednym kluczykiem. Wystarczy, że ten jedyny zginie, wpadnie do wody albo przestanie działać, i robi się z tego utrata wszystkich kluczyków. Postępujemy wtedy tak samo jak przy zgubieniu – różnica dotyczy zwykle dokumentów.</p><p>Jeśli auto jest jeszcze w trakcie rejestracji, a Ty masz zagraniczny dowód rejestracyjny i umowę kupna, powiedz o tym przy zgłoszeniu. Ustalimy, jakie dokumenty potwierdzą, że samochód jest Twój. Na co zwrócić uwagę przy zakupie, opisujemy w poradniku <a href=\"%%R%%poradnik/uzywane-auto-sprawdz-kluczyki.html\">używane auto z jednym kluczykiem</a>. A jeśli to Ford lub Mazda z importu, przy okazji możemy też wgrać język polski – więcej na stronie o <a href=\"%%R%%kodowanie-ford-mazda.html\">kodowaniu Forda i Mazdy</a>.</p>"
   },
   {
    "h2": "Przy aucie czy z demontażem modułu? Uczciwie o czasie i cenie",
-   "html": "<p>W części samochodów nowy kluczyk koduje się komputerem diagnostycznym przy aucie i całość kończy się na jednej wizycie. W innych do zakodowania potrzebne są dane z modułu elektroniki – na przykład immobilizera albo sterownika silnika – który na czas pracy trzeba wymontować. To wydłuża robotę i wpływa na cenę.</p><p>Nie zgadujemy przez telefon. Po numerze VIN sprawdzamy, którą drogą trzeba pójść w Twoim aucie, i mówimy to wprost, razem z ceną – zanim przyjedziemy. Gdy przy okazji wyjdzie usterka immobilizera lub sterownika, możemy zająć się i nią – zobacz <a href=\"%%R%%sterowniki.html\">naprawa sterowników i immobilizerów</a>.</p><p>Drugą drogą jest serwis dealerski. Auto bez kluczyka trzeba tam jednak dostarczyć, zwykle lawetą, a kluczyk często zamawia się u producenta. Porównanie obu rozwiązań znajdziesz w artykule <a href=\"%%R%%poradnik/dorobienie-kluczyka-aso-czy-specjalista.html\">ASO czy specjalista</a>.</p>"
+   "html": "<p>W części samochodów nowy kluczyk koduje się komputerem diagnostycznym przy aucie i całość kończy się na jednej wizycie. W innych na czas pracy trzeba wymontować moduł elektroniki – na przykład immobilizer albo sterownik silnika – i dopiero wtedy da się dodać nowy kluczyk. To wydłuża robotę i wpływa na cenę.</p><p>Nie zgadujemy przez telefon. Po numerze VIN sprawdzamy, którą drogą trzeba pójść w Twoim aucie, i mówimy to wprost, razem z ceną – zanim przyjedziemy. Gdy przy okazji wyjdzie usterka immobilizera lub sterownika, możemy zająć się i nią – więcej na stronie o <a href=\"%%R%%sterowniki.html\">naprawie sterowników i immobilizerów</a>.</p><p>Drugą drogą jest serwis dealerski. Auto bez kluczyka trzeba tam jednak dostarczyć, zwykle lawetą, a kluczyk często zamawia się u producenta. Porównanie obu rozwiązań znajdziesz w poradniku o <a href=\"%%R%%poradnik/dorobienie-kluczyka-aso-czy-specjalista.html\">dorabianiu kluczyka w ASO lub u specjalisty</a>.</p>"
   }
  ],
  "faq": [
   [
    "Czy dorobienie kluczyka bez oryginału jest możliwe w każdym aucie?",
-   "Nie zawsze tą samą drogą. W wielu modelach robimy to przy samochodzie, w części trzeba dodatkowo wymontować moduł elektroniki. Po numerze VIN powiemy, jak to wygląda w Twoim aucie."
+   "Nie zawsze tą samą drogą. W wielu modelach robimy to przy samochodzie, w części trzeba dodatkowo wymontować moduł elektroniki. Wystarczy numer VIN, żebyśmy sprawdzili, która droga dotyczy Twojego samochodu."
   ],
   [
    "Auto stoi zamknięte, a kluczyka nie ma. Od czego zaczniecie?",
-   "Od sprawdzenia Twojego dokumentu tożsamości. Potem otwieramy auto, porównujemy dane z dowodem rejestracyjnym i dopiero wtedy zajmujemy się nowym kluczykiem."
+   "Od Twojego dokumentu tożsamości. Następnie otwieramy auto, sprawdzamy, czy dane zgadzają się z dowodem rejestracyjnym, i dopiero potem zabieramy się do nowego kluczyka."
   ],
   [
    "Kluczyki zginęły razem z dokumentami. Co wtedy?",
@@ -75,15 +75,15 @@
   ],
   [
    "Ile kosztuje kluczyk od zera?",
-   "To zależy od modelu, rodzaju kluczyka i tego, czy kodowanie wymaga demontażu modułu. Cenę podajemy przez telefon po sprawdzeniu danych auta i potwierdzamy na miejscu przed rozpoczęciem pracy."
+   "Decydują o tym model auta, typ kluczyka i to, czy do kodowania trzeba wymontować moduł. Cenę podajemy przez telefon, gdy sprawdzimy dane auta, a przy samochodzie potwierdzamy ją, zanim zaczniemy."
   ],
   [
    "Czy mogę zadzwonić w nocy?",
-   "Tak, telefon jest czynny przez całą dobę, także w weekendy. W rozmowie ustalimy, kiedy możemy przyjechać i czy w Twoim modelu całość da się zrobić podczas jednej wizyty. Jeśli nie odbieramy, wyślij SMS – oddzwonimy."
+   "Tak – telefon działa całą dobę, również w soboty i niedziele. W rozmowie ustalimy termin przyjazdu i powiemy, czy w przypadku Twojego auta wystarczy jedna wizyta. Gdy nie odbieramy, zostaw SMS z opisem sytuacji – oddzwonimy."
   ],
   [
    "Mam jeden kluczyk, ale uszkodzony. Czy to ta usługa?",
-   "Jeśli kluczyk nadal uruchamia silnik, sprawa jest zwykle prostsza – to dorobienie kolejnego egzemplarza. Zobacz <a href=\"%%R%%programowanie-kluczy.html\">dorabianie i kodowanie kluczyków</a>."
+   "Jeśli kluczyk nadal uruchamia silnik, sprawa jest zwykle prostsza – to dorobienie kolejnego egzemplarza. Zobacz stronę o <a href=\"%%R%%programowanie-kluczy.html\">dorabianiu i kodowaniu kluczyków</a>."
   ]
  ],
  "related": [

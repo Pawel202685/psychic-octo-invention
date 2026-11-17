@@ -1,0 +1,56 @@
+{
+ "slug": "kluczyki-renault",
+ "brand": "Renault",
+ "order": 100,
+ "card": "Karty Renault wkładane i hands-free oraz kluczyki składane – dorabianie, kodowanie, nowa karta po zgubieniu i otwieranie auta.",
+ "h1": "Kluczyk i karta Renault – dorabianie i kodowanie, Kielce",
+ "meta_title": "Kluczyk Renault Kielce – karta, dorabianie, kodowanie 24h",
+ "meta_description": "Dorabianie i kodowanie kluczyków i kart Renault, nowa karta po zgubieniu, otwieranie auta. Kielce i okolice, całą dobę. Zadzwoń – sprawdzimy model po VIN.",
+ "lead": "Potrzebujesz zapasowego kluczyka Renault, zgubiłeś kartę do Megane albo Clio nie reaguje na pilota? Dorabiamy i kodujemy kluczyki oraz karty Renault w wielu modelach, z dojazdem do auta w Kielcach i okolicy. Czy da się to zrobić przy Twoim aucie, sprawdzimy po numerze VIN.",
+ "sections": [
+  {
+   "h2": "Kluczyk Renault czy karta – co ma Twoje auto",
+   "html": "<p>Kluczyk Renault to w wielu autach nie klasyczny klucz, lecz płaska karta. Marka od lat stosuje kilka rozwiązań, a od tego, które masz, zależy przebieg dorabiania i kodowania. Ten sam model bywał produkowany z różnymi systemami, dlatego przykłady w tabeli traktuj orientacyjnie.</p><table><thead><tr><th>Rodzaj</th><th>Gdzie go spotkasz</th><th>Jak działa</th></tr></thead><tbody><tr><td>Karta wkładana do czytnika</td><td>m.in. starsze generacje Megane, Scenica i Laguny</td><td>kartę wsuwa się do szczeliny w desce rozdzielczej, a silnik uruchamia przyciskiem START</td></tr><tr><td>Karta hands-free</td><td>nowsze generacje, np. Megane IV, a także część wersji Clio i Captura</td><td>auto wykrywa kartę w kieszeni – otwiera drzwi i pozwala uruchomić silnik bez jej wyjmowania</td></tr><tr><td>Kluczyk składany z pilotem</td><td>wiele wersji Clio i Captura</td><td>grot chowa się w obudowie, w środku jest chip immobilizera i nadajnik pilota</td></tr></tbody></table><p>W wielu kartach schowany jest wysuwany grot awaryjny – metalowy kluczyk, którym otworzysz drzwi, gdy karta przestanie działać. Warto go odszukać, zanim będzie potrzebny. Szczegóły sprawdzamy zawsze po numerze VIN: na tej podstawie mówimy, jaka karta lub jaki kluczyk będzie pasować do Twojego Renault.</p>"
+  },
+  {
+   "h2": "Najczęstsze kłopoty z kartą i kluczykiem Renault",
+   "html": "<ul><li><strong>Komunikat o słabej baterii karty.</strong> Według instrukcji Renault bateria karty wystarcza mniej więcej na dwa lata, a czas wymiany sygnalizuje komunikat na zegarach. To zwykle nie awaria – wystarczy nowa bateria, często płaska CR2032 (potwierdź oznaczenie na starej). Jak ją wymienić bez łamania zatrzasków, opisujemy w poradniku <a href=\"%%R%%poradnik/wymiana-baterii-w-kluczyku.html\">wymiana baterii w kluczyku</a>.</li><li><strong>Auto nie wykrywa karty.</strong> Poza rozładowaną baterią przyczyną bywają urządzenia pracujące na podobnej częstotliwości – instrukcja wymienia np. telefon. Karta noszona w jednej kieszeni ze smartfonem może być gorzej wykrywana.</li><li><strong>Karta w czytniku, a silnik nie rusza.</strong> W starszych autach z czytnikiem nie zawsze winna jest karta. Kłopot może leżeć w samym czytniku albo w elektrycznej blokadzie kierownicy – wtedy nowa karta niczego nie zmieni i najpierw trzeba znaleźć przyczynę. Zajmujemy się też <a href=\"%%R%%sterowniki.html\">naprawą immobilizerów i sterowników</a>.</li><li><strong>Pęknięta karta, wytarte przyciski.</strong> Karta jest cienka, więc najbardziej szkodzi jej noszenie w tylnej kieszeni spodni. Gdy elektronika działa, czasem wystarczy nowa obudowa – zobacz <a href=\"%%R%%poradnik/pekniety-kluczyk-naprawa-obudowy.html\">pęknięta obudowa kluczyka</a>.</li><li><strong>Luźny grot w kluczyku składanym.</strong> Zużyty mechanizm sprawia, że grot nie wyskakuje do końca albo chwieje się w obudowie.</li></ul>"
+  },
+  {
+   "h2": "Dorabianie i kodowanie kluczyka Renault – co zrobimy",
+   "html": "<p>W wielu modelach Renault możemy:</p><ul><li>wykonać zapasową kartę lub kluczyk i zakodować je w Twoim aucie – więcej o usłudze <a href=\"%%R%%programowanie-kluczy.html\">dorabianie i kodowanie kluczyków</a>;</li><li>przygotować nową kartę od zera, gdy nie został żaden egzemplarz, i usunąć zgubione z pamięci auta – patrz <a href=\"%%R%%utrata-wszystkich-kluczykow.html\">utrata wszystkich kluczyków</a>;</li><li>awaryjnie otworzyć zamknięte Renault, najczęściej profesjonalnym dekoderem, bez uszkadzania drzwi i szyb – <a href=\"%%R%%otwieranie-samochodow.html\">otwieranie samochodów</a>;</li><li>ocenić, czy wystarczy nowa obudowa, czy potrzebna jest nowa karta.</li></ul><p>Uczciwie: Renault stosował wiele generacji kart i systemów, a różnice zdarzają się nawet w obrębie jednego modelu. W części aut kodowanie przebiega przy samochodzie podczas jednej wizyty, w innych potrzebne są dane z modułu elektroniki i praca trwa dłużej. Nie zgadujemy – możliwość wykonania kluczyka do Twojego modelu sprawdzimy po numerze VIN. <a href=\"%%TELHREF%%\">Zadzwoń</a> lub <a href=\"%%SMSHREF%%\">wyślij SMS</a> z numerem VIN i rocznikiem.</p>"
+  },
+  {
+   "h2": "Zgubiona karta lub kluczyk Renault – co przygotować",
+   "html": "<p>Zanim cokolwiek otworzymy lub zakodujemy, sprawdzamy, czy auto jest Twoje. Dzięki temu nikt postronny nie zdobędzie w ten sposób karty do Twojego samochodu. Przygotuj:</p><ol><li>dowód osobisty i dowód rejestracyjny – jeśli dowód został w zamkniętym aucie, powiedz o tym przy zgłoszeniu;</li><li>numer VIN (w dowodzie rejestracyjnym to pole E), model i rocznik;</li><li>informację, jaki masz system: kartę do czytnika, kartę hands-free czy kluczyk składany;</li><li>wszystkie karty, które mają dalej działać – przy kodowaniu auto często zapisuje na nowo całą listę;</li><li>upoważnienie, jeśli auto jest firmowe lub w leasingu.</li></ol><p>Jeśli kartę ukradziono razem z dokumentami, zgłoś to najpierw na policję. Co zrobić po kolei, opisujemy w poradniku <a href=\"%%R%%poradnik/zgubione-wszystkie-kluczyki-do-auta.html\">zgubione kluczyki do auta</a>.</p>"
+  },
+  {
+   "h2": "Wskazówki dla właścicieli Renault",
+   "html": "<p>Kilka rzeczy z instrukcji obsługi, które przydają się w kryzysowej chwili:</p><ul><li><strong>Rozładowana karta w aucie z czytnikiem</strong> – instrukcja zaleca włożyć kartę do czytnika; wtedy silnik da się uruchomić mimo słabej baterii.</li><li><strong>Rozładowana karta hands-free bez czytnika</strong> – w nowszych modelach, np. Megane IV, instrukcja opisuje przyłożenie karty do oznaczonego miejsca (w autach z kierownicą po lewej stronie jest to przycisk START) przy wciśniętym hamulcu lub sprzęgle. Dokładny sposób dla swojego modelu sprawdź w instrukcji.</li><li><strong>Drzwi</strong> otworzysz grotem awaryjnym ukrytym w karcie.</li></ul><div class=\"tip\"><p>Masz tylko jedną kartę? Zrób drugą, zanim pierwsza się zepsuje – wtedy wszystko jest prostsze. Dlaczego, piszemy w artykule <a href=\"%%R%%poradnik/zapasowy-kluczyk-do-auta.html\">zapasowy kluczyk do samochodu</a>. Karta hands-free działa w systemie bezkluczykowym, więc przeczytaj też, jak chronić auto przed <a href=\"%%R%%poradnik/keyless-kradziez-na-walizke.html\">kradzieżą „na walizkę”</a>.</p></div>"
+  }
+ ],
+ "faq": [
+  [
+   "Czy dorobicie kartę Renault, gdy zgubiłem jedyną?",
+   "W wielu modelach tak. Przygotowujemy nową kartę od zera, kodujemy ją w aucie, a zgubioną usuwamy z pamięci, żeby nie uruchomiła już silnika. Najpierw sprawdzamy dowód osobisty i dowód rejestracyjny. Czy da się to zrobić przy Twoim aucie, powiemy po numerze VIN."
+  ],
+  [
+   "Na zegarach widzę komunikat o słabej baterii karty. Co robić?",
+   "Wymienić baterię – według instrukcji Renault starcza ona mniej więcej na dwa lata. Do czasu wymiany kartę możesz włożyć do czytnika albo przyłożyć do miejsca wskazanego w instrukcji. Jeśli nowa bateria nie pomaga, zadzwoń – sprawdzimy kartę i auto."
+  ],
+  [
+   "Kupiłem kartę Renault w internecie. Zakodujecie ją?",
+   "Czasem się da, ale tylko wtedy, gdy karta pasuje do systemu Twojego auta – generacji, rodzaju karty i wersji. Zanim kupisz, podaj nam VIN. Więcej w artykule <a href=\"%%R%%poradnik/kluczyk-z-internetu-czy-da-sie-zaprogramowac.html\">kluczyk z internetu – czy da się go zaprogramować</a>."
+  ],
+  [
+   "Ile kosztuje nowa karta do Renault?",
+   "Cena zależy od rodzaju karty lub kluczyka, modelu i tego, czy masz jeszcze sprawny egzemplarz. Podajemy ją przez telefon, zanim zaczniemy pracę."
+  ]
+ ],
+ "related": [
+  "wymiana-baterii-w-kluczyku",
+  "kluczyk-keyless-nie-dziala",
+  "pekniety-kluczyk-naprawa-obudowy",
+  "zgubione-wszystkie-kluczyki-do-auta"
+ ]
+}

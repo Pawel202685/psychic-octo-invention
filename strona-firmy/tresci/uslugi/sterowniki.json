@@ -3,9 +3,9 @@
  "icon": "cpu",
  "short": "Sterowniki i immobilizery",
  "order": 40,
- "title": "Naprawa i wymiana sterowników silnika, immobilizer – Kielce",
+ "title": "Naprawa i wymiana sterowników silnika, usterki immobilizera – Kielce",
  "meta_title": "Naprawa sterowników silnika i immobilizera Kielce",
- "meta_description": "Auto kręci, ale nie odpala lub nie widzi kluczyka? Diagnozujemy, naprawiamy i wymieniamy sterowniki silnika, dopasowujemy immobilizer. Zadzwoń i opisz objawy.",
+ "meta_description": "Auto kręci, ale nie odpala albo nie widzi kluczyka? Naprawiamy i wymieniamy sterowniki silnika, szukamy usterek immobilizera. Kielce i okolice – zadzwoń.",
  "card": "Auto nie odpala lub nie widzi kluczyka – naprawa i wymiana sterownika silnika, prace przy immobilizerze.",
  "lead": "Rozrusznik kręci, a silnik nie zapala? Na zegarach miga kontrolka immobilizera albo tester nie łączy się ze sterownikiem? Zajmujemy się naprawą sterowników silnika, wymianą ich na sprawne egzemplarze i pracami przy immobilizerze – tak, żeby auto znów rozpoznawało Twoje kluczyki. Działamy w Kielcach i okolicy, a cenę podajemy, zanim zaczniemy pracę.",
  "items": [
@@ -22,7 +22,7 @@
   "Wszystkie kluczyki do auta – przy pracach z immobilizerem są potrzebne",
   "Jeśli masz już używany sterownik – zdjęcie jego naklejki z numerami"
  ],
- "note": "Nie kupuj używanego sterownika, zanim nie porównamy jego numerów z Twoim. Immobilizera nie wyłączamy – naprawiamy go albo dopasowujemy do auta i kluczyków.",
+ "note": "Nie kupuj używanego sterownika, zanim porównamy jego numerów z Twoim. Immobilizera nie wyłączamy – naprawiamy go albo dopasowujemy do auta i kluczyków.",
  "steps": [
   [
    "Opis objawów",
@@ -56,7 +56,7 @@
   },
   {
    "h2": "Przy aucie czy po demontażu – i czego nie robimy",
-   "html": "<p>Część prac wykonujemy przy samochodzie, tam, gdzie stoi – w mieście albo w okolicznych miejscowościach. Niektóre naprawy wymagają jednak wymontowania sterownika i pracy przy nim poza autem. Co czeka Twój samochód, powiemy po opisie objawów i diagnostyce, zanim podamy cenę. Holowanie nie zawsze jest potrzebne.</p><p>Niektórych prac nie wykonujemy bez względu na okoliczności:</p><ul><li>nie wyłączamy immobilizera – to zabezpieczenie przed kradzieżą, więc naprawiamy je albo dopasowujemy;</li><li>nie wyłączamy w sterowniku filtra DPF, zaworu EGR ani układu AdBlue – przy filtrach zajmujemy się <a href=\"%%R%%filtry-dpf.html\">diagnostyką, regeneracją i czyszczeniem DPF</a>;</li><li>nie zmieniamy wskazań drogomierza – ingerencja w przebieg jest w Polsce przestępstwem.</li></ul><p>Masz Forda lub Mazdę z importu i chcesz zmienić język czy ustawienia modułów? To osobna usługa: <a href=\"%%R%%kodowanie-ford-mazda.html\">kodowanie Ford i Mazda</a>.</p>"
+   "html": "<p>Część prac wykonujemy przy samochodzie, tam, gdzie stoi – w Kielcach albo w okolicznych miejscowościach. Niektóre naprawy wymagają jednak wymontowania sterownika i pracy przy nim poza autem. Co czeka Twój samochód, powiemy po opisie objawów i diagnostyce, zanim podamy cenę. Holowanie nie zawsze jest potrzebne.</p><p>Niektórych prac nie wykonujemy bez względu na okoliczności:</p><ul><li>nie wyłączamy immobilizera – to zabezpieczenie przed kradzieżą, więc naprawiamy je albo dopasowujemy;</li><li>nie wyłączamy w sterowniku filtra DPF, zaworu EGR ani układu AdBlue – przy filtrach zajmujemy się <a href=\"%%R%%filtry-dpf.html\">diagnostyką, regeneracją i czyszczeniem DPF</a>;</li><li>nie zmieniamy wskazań drogomierza – ingerencja w przebieg jest w Polsce przestępstwem.</li></ul><p>Masz Forda lub Mazdę z importu i chcesz zmienić język czy ustawienia modułów? To osobna usługa: <a href=\"%%R%%kodowanie-ford-mazda.html\">kodowanie Ford i Mazda</a>.</p>"
   }
  ],
  "faq": [

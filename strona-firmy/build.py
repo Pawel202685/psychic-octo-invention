@@ -95,8 +95,13 @@ def _merge(defaults, extra):
     items.sort(key=lambda x: (x.get('order', 500), x['slug']))
     return items
 
-SERV = _merge(T.USLUGI, _load_dir('uslugi'))
-ARTS = _merge(T.ARTYKULY, _load_dir('poradnik'))
+_REG = json.load(open(os.path.join(ROOT, 'zasoby', 'img', 'rejestr.json'), encoding='utf-8')) if os.path.exists(os.path.join(ROOT, 'zasoby', 'img', 'rejestr.json')) else {}
+def _img(kind, items):
+    for x in items:
+        if 'image' not in x and f"{kind}/{x['slug']}" in _REG: x['image'] = _REG[f"{kind}/{x['slug']}"]
+    return items
+SERV = _img('uslugi', _merge(T.USLUGI, _load_dir('uslugi')))
+ARTS = _img('poradnik', _merge(T.ARTYKULY, _load_dir('poradnik')))
 TOWNS = sorted(_load_dir('miejscowosci'), key=lambda x: (x.get('order', 500), x['slug']))
 STRONY = {x['slug']: x for x in _load_dir('strony')}
 MARKI = sorted(_load_dir('marki'), key=lambda x: (x.get('order', 500), x['slug']))
@@ -144,7 +149,7 @@ def breadcrumb_schema(path, crumbs):
     return {'@context': 'https://schema.org', '@type': 'BreadcrumbList', 'itemListElement': items}
 
 PAGES = []; META = []
-def page(path, title, desc, body, schemas=(), active=None, crumbs=None):
+def page(path, title, desc, body, schemas=(), active=None, crumbs=None, image=None):
     depth = path.count('/'); r = '../' * depth
     canon = '' if is_ph(plain('domena')) else f'<link rel="canonical" href="{esc(plain("domena").rstrip("/"))}/{"" if path == "index.html" else path}">'
     nav = ''.join(f'<a href="%%R%%{h}"{" aria-current=\"page\"" if active == h else ""}>{t}</a>' for h, t in NAV)
@@ -174,6 +179,7 @@ def page(path, title, desc, body, schemas=(), active=None, crumbs=None):
 <meta property="og:title" content="{esc(full_title)}">
 <meta property="og:description" content="{esc(full_desc)}">
 <meta property="og:locale" content="pl_PL">
+{f'<meta property="og:image" content="{esc(plain("domena").rstrip("/"))}/{image}">' if image and not is_ph(plain("domena")) else ''}
 {canon}
 <link rel="icon" href="%%R%%favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="%%R%%css/style.css">
@@ -252,12 +258,14 @@ def steps_html(steps):
 
 def article_card(a):
     return (f'<a class="acard" href="%%R%%poradnik/{a["slug"]}.html" data-q="{esc((strip_tags(a["title"]) + " " + a.get("cat", "") + " " + " ".join(a.get("keywords", []))).lower())}">'
-            f'<span class="acard-ic">%%IC:{a.get("icon", "book-open")}%%</span>'
+            + (f'<span class="acard-img"><img src="%%R%%{a["image"]["thumb"]}" alt="" width="480" height="270" loading="lazy" decoding="async"></span>' if a.get('image') else f'<span class="acard-ic">%%IC:{a.get("icon", "book-open")}%%</span>') +
+            f''
             f'<span class="acard-cat">{a["cat"]}</span><h3>{a["title"]}</h3><p>{a["lead"]}</p>'
             f'<span class="more">Czytaj · {a["min"]} min %%IC:chevron-right%%</span></a>')
 
 def service_card(s):
-    return (f'<a class="scard" href="%%R%%{s["slug"]}.html"><span class="scard-ic">%%IC:{s["icon"]}%%</span>'
+    top = (f'<span class="acard-img"><img src="%%R%%{s["image"]["thumb"]}" alt="" width="480" height="270" loading="lazy" decoding="async"></span>' if s.get('image') else '')
+    return (f'<a class="scard" href="%%R%%{s["slug"]}.html">{top}<span class="scard-ic">%%IC:{s["icon"]}%%</span>'
             f'<h3>{s["short"]}</h3><p>{s["card"]}</p><span class="more">Szczegóły %%IC:chevron-right%%</span></a>')
 
 def brand_chips(exclude=None):
@@ -280,6 +288,7 @@ def build():
     for sub in ('css', 'js'):
         shutil.copytree(os.path.join(ROOT, 'zasoby', sub), os.path.join(OUT, sub))
     shutil.copy(os.path.join(ROOT, 'zasoby', 'favicon.svg'), OUT)
+    if os.path.isdir(os.path.join(ROOT, 'zasoby', 'img')): shutil.copytree(os.path.join(ROOT, 'zasoby', 'img'), os.path.join(OUT, 'img'), ignore=shutil.ignore_patterns('rejestr.json'))
     shutil.copy(os.path.join(ROOT, 'zasoby', '.htaccess'), OUT)
 
     # START
@@ -358,7 +367,8 @@ def build():
         body = f'''<section class="phero"><div class="wrap phero-in">
 <div><p class="eyebrow">%%IC:{s["icon"]}%% Usługa · %%MIASTO%% i okolice</p><h1>{s["title"]}</h1><p class="lead">{s["lead"]}</p>
 <div class="hero-btns"><a class="btn btn-call btn-big" href="%%TELHREF%%">%%IC:phone%% %%TEL%%</a>
-<a class="btn btn-ghost" href="%%SMSHREF%%">%%IC:message-square%% SMS</a></div></div></div></section>
+<a class="btn btn-ghost" href="%%SMSHREF%%">%%IC:message-square%% SMS</a></div></div>
+{f'<figure class="phero-img"><img src="%%R%%{s["image"]["src"]}" alt="{esc(s["image"]["alt"])}" width="1200" height="675" fetchpriority="high"></figure>' if s.get('image') else ''}</div></section>
 <section class="sec"><div class="wrap cols">
   <div><h2>W czym pomożemy</h2><ul class="checklist">{''.join(f'<li>%%IC:check%%<span>{i}</span></li>' for i in s["items"])}</ul></div>
   <div><h2>Co przygotować</h2><ul class="checklist doc">{''.join(f'<li>%%IC:user-check%%<span>{i}</span></li>' for i in s["prepare"])}</ul>
@@ -371,7 +381,7 @@ def build():
 {f'<section class="sec alt"><div class="wrap"><h2>Działamy w Kielcach i okolicach</h2>{town_chips()}</div></section>' if TOWNS else ''}
 <section class="sec"><div class="wrap"><h2>Przydatne porady</h2><div class="agrid">{''.join(article_card(a) for a in (rel + others)[:6])}</div></div></section>
 {cta_band()}'''
-        page(f'{s["slug"]}.html', s['meta_title'], s['meta_description'], body, [faq_schema(s['faq'])],
+        page(f'{s["slug"]}.html', s['meta_title'], s['meta_description'], body, [faq_schema(s['faq'])], image=(s.get('image') or {}).get('src'),
              active='uslugi.html', crumbs=[('uslugi.html', 'Usługi'), (None, s['short'])])
 
     # OBSZAR DZIALANIA + MIEJSCOWOSCI
@@ -468,11 +478,13 @@ def build():
                       'description': strip_tags(a['lead']), 'inLanguage': 'pl', 'author': {'@type': 'Organization', 'name': plain('nazwa')},
                       'publisher': {'@type': 'Organization', 'name': plain('nazwa')}}
         if a.get('date'): art_schema['datePublished'] = a['date']
+        if a.get('image') and not is_ph(plain('domena')): art_schema['image'] = plain('domena').rstrip('/') + '/' + a['image']['src']
         faq_part = f'<h2 id="pytania">Pytania i odpowiedzi</h2>{faq_html(a["faq"])}' if a['faq'] else ''
         body = f'''<article class="art">
 <header class="phero"><div class="wrap narrow"><p class="eyebrow">%%IC:{a.get("icon", "book-open")}%% {a["cat"]} · {a["min"]} min czytania</p>
 <h1>{a["title"]}</h1><p class="lead">{a["lead"]}</p></div></header>
 <div class="wrap narrow art-body prose">
+{f'<figure class="art-img"><img src="%%R%%{a["image"]["src"]}" alt="{esc(a["image"]["alt"])}" width="1200" height="675" fetchpriority="high"></figure>' if a.get('image') else ''}
 {toc}
 {body_html}
 {faq_part}
@@ -481,7 +493,7 @@ def build():
 </div></article>
 <section class="sec alt"><div class="wrap"><h2>Czytaj dalej</h2><div class="agrid">{''.join(article_card(x) for x in rel[:3])}</div></div></section>'''
         schemas = [art_schema] + ([faq_schema(a['faq'])] if a['faq'] else [])
-        page(f'poradnik/{a["slug"]}.html', a['meta_title'], a['meta_description'], body, schemas,
+        page(f'poradnik/{a["slug"]}.html', a['meta_title'], a['meta_description'], body, schemas, image=(a.get('image') or {}).get('src'),
              active='poradnik.html', crumbs=[('poradnik.html', 'Poradnik'), (None, a['short'])])
 
     # KONTAKT

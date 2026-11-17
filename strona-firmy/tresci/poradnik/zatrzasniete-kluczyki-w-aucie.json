@@ -45,5 +45,14 @@
    "Wtedy samo otwarcie nie wystarczy – trzeba jeszcze przygotować i zaprogramować nowy kluczyk, a zgubiony najlepiej usunąć z pamięci auta. Więcej przeczytasz w poradniku <a href=\"%%R%%poradnik/zgubione-wszystkie-kluczyki-do-auta.html\">zgubione wszystkie kluczyki do auta</a>."
   ]
  ],
- "order": 10
+ "order": 10,
+ "image": {
+  "src": "img/zatrzasniete-kluczyki-w-aucie.jpg",
+  "thumb": "img/zatrzasniete-kluczyki-w-aucie-m.jpg",
+  "alt": "Kluczyk samochodowy leżący w schowku konsoli środkowej auta",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "11309781"
+ }
 }

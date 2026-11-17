@@ -14,7 +14,7 @@
   },
   {
    "h2": "Jakie kluczyki mają Volkswageny",
-   "html": "<p>Zależnie od modelu, rocznika i wyposażenia w Volkswagenach spotkasz kilka rodzajów kluczyków:</p><table><thead><tr><th>Rodzaj kluczyka</th><th>Gdzie go spotkasz</th><th>Na co zwrócić uwagę</th></tr></thead><tbody><tr><td>Składany z pilotem</td><td>przez lata najczęstszy – w wielu generacjach Golfa, Polo, Passata czy Tourana</td><td>grot wyskakuje po wciśnięciu przycisku; z czasem zużywa się mechanizm składania</td></tr><tr><td>Wkładany do gniazda w desce</td><td>m.in. Passat B6 i pokrewne modele</td><td>kluczyka nie przekręcasz – wsuwasz go do gniazda i wciskasz, żeby uruchomić silnik</td></tr><tr><td>Do aut z przyciskiem start, także z Keyless Access</td><td>nowsze modele; w Golfie 8 przycisk uruchamiania jest już w podstawowej wersji</td><td>w obudowie jest schowany grot awaryjny do otwarcia drzwi</td></tr><tr><td>Stały, nieskładany</td><td>starsze roczniki i prostsze wersje</td><td>też ma chip immobilizera – sama kopia metalu nie uruchomi silnika</td></tr></tbody></table><p>Ten sam model może mieć różne kluczyki zależnie od wersji wyposażenia. Dlatego przy wycenie pytamy nie tylko o VIN, ale też o to, jak wygląda Twój kluczyk i czy auto uruchamiasz przekręceniem, wciśnięciem kluczyka czy przyciskiem.</p>"
+   "html": "<p>Zależnie od modelu, rocznika i wyposażenia w Volkswagenach spotkasz kilka rodzajów kluczyków:</p><table><thead><tr><th>Rodzaj kluczyka</th><th>Gdzie go spotkasz</th><th>Na co zwrócić uwagę</th></tr></thead><tbody><tr><td>Składany z pilotem</td><td>przez lata najczęstszy – w wielu generacjach Golfa, Polo, Passata czy Tourana</td><td>grot wyskakuje po wciśnięciu przycisku; z czasem zużywa się mechanizm składania</td></tr><tr><td>Wkładany do gniazda w desce</td><td>m.in. Passat B6 i pokrewne modele</td><td>kluczyka nie przekręcasz – wsuwasz go do gniazda i wciskasz, żeby uruchomić silnik</td></tr><tr><td>Do aut z przyciskiem start, także z Keyless Access</td><td>nowsze modele; w Golfie 8 przycisk uruchamiania jest już w podstawowej wersji</td><td>kluczyk ma mechaniczny grot – wysuwany lub schowany w obudowie – do otwarcia drzwi, gdy pilot nie działa</td></tr><tr><td>Stały, nieskładany</td><td>starsze roczniki i prostsze wersje</td><td>też ma chip immobilizera – sama kopia metalu nie uruchomi silnika</td></tr></tbody></table><p>Ten sam model może mieć różne kluczyki zależnie od wersji wyposażenia. Dlatego przy wycenie pytamy nie tylko o VIN, ale też o to, jak wygląda Twój kluczyk i czy auto uruchamiasz przekręceniem, wciśnięciem kluczyka czy przyciskiem.</p>"
   },
   {
    "h2": "Najczęstsze problemy z kluczykami VW",
@@ -44,7 +44,7 @@
   ],
   [
    "Kluczyk Keyless Access przestał działać, a muszę jechać. Co zrobić?",
-   "Drzwi otwórz grotem awaryjnym schowanym w kluczyku, a silnik spróbuj uruchomić tak, jak opisuje instrukcja obsługi – przykładając kluczyk do oznaczonego miejsca przy kolumnie kierownicy. Potem wymień baterię. Jeśli to nie pomoże, zadzwoń. Więcej w artykule <a href=\"%%R%%poradnik/kluczyk-keyless-nie-dziala.html\">kluczyk keyless nie działa</a>."
+   "Drzwi otwórz mechanicznym grotem kluczyka, a silnik spróbuj uruchomić tak, jak opisuje instrukcja obsługi – przykładając kluczyk do oznaczonego miejsca przy kolumnie kierownicy. Potem wymień baterię. Jeśli to nie pomoże, zadzwoń. Więcej w artykule <a href=\"%%R%%poradnik/kluczyk-keyless-nie-dziala.html\">kluczyk keyless nie działa</a>."
   ]
  ],
  "related": [
