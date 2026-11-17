@@ -38,6 +38,10 @@
   [
    "Czy można po prostu skasować błąd DPF?",
    "Skasowanie błędu nie usuwa ani sadzy, ani przyczyny problemu. Kontrolka szybko wróci, a zwlekanie może skończyć się uszkodzeniem filtra."
+  ],
+  [
+   "Czy wystarczy podnieść obroty na postoju, żeby wypalić filtr?",
+   "Zwykle nie – na postoju spaliny nie nagrzewają się wystarczająco, a w większości aut regeneracja rusza dopiero w czasie jazdy. Niektóre auta, głównie terenowe i użytkowe, mają przycisk ręcznej regeneracji na postoju – wtedy postępuj dokładnie według instrukcji."
   ]
  ],
  "order": 82
