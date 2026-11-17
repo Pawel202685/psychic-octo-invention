@@ -41,5 +41,14 @@
    "Często tak. Diagnostykę komputerową i sprawdzenie immobilizera w wielu przypadkach można wykonać przy aucie, tam gdzie stoi."
   ]
  ],
- "order": 72
+ "order": 72,
+ "image": {
+  "src": "img/auto-kreci-ale-nie-odpala.jpg",
+  "thumb": "img/auto-kreci-ale-nie-odpala-m.jpg",
+  "alt": "Kierowca pochylony nad komorą silnika sprawdza auto pod otwartą maską",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "7715122"
+ }
 }

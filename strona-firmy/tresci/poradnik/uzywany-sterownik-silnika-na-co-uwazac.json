@@ -45,5 +45,14 @@
    "Nie. Auto traci wtedy jedno z podstawowych zabezpieczeń przed kradzieżą. Lepiej dopasować sterownik tak, by współpracował z Twoim immobilizerem i kluczykami."
   ]
  ],
- "order": 74
+ "order": 74,
+ "image": {
+  "src": "img/uzywany-sterownik-silnika-na-co-uwazac.jpg",
+  "thumb": "img/uzywany-sterownik-silnika-na-co-uwazac-m.jpg",
+  "alt": "Zbliżenie na komorę silnika samochodu z przewodami i złączami",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "1005457"
+ }
 }

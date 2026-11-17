@@ -41,5 +41,14 @@
    "Jeśli kontrolka zgasła po włączeniu zapłonu, a silnik pracuje normalnie – tak. Jeśli świeci lub miga w czasie jazdy, dojedź spokojnie w bezpieczne miejsce i licz się z tym, że po zgaszeniu silnik może nie zapalić ponownie – wtedy skontaktuj się z fachowcem."
   ]
  ],
- "order": 73
+ "order": 73,
+ "image": {
+  "src": "img/kontrolka-immobilizera-miga.jpg",
+  "thumb": "img/kontrolka-immobilizera-miga-m.jpg",
+  "alt": "Zestaw wskaźników auta z zapalonymi kontrolkami przy wyłączonym silniku",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "94965606"
+ }
 }

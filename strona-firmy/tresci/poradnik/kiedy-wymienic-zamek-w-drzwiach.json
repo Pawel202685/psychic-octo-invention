@@ -41,5 +41,14 @@
    "To zależy od umowy najmu i przyczyny wymiany, dlatego warto ustalić to z właścicielem przed wymianą. Więcej przeczytasz w poradniku <a href=\"%%R%%poradnik/zatrzasniete-drzwi-wynajmowane-mieszkanie.html\">zatrzaśnięte drzwi w wynajmowanym mieszkaniu</a>."
   ]
  ],
- "order": 61
+ "order": 61,
+ "image": {
+  "src": "img/kiedy-wymienic-zamek-w-drzwiach.jpg",
+  "thumb": "img/kiedy-wymienic-zamek-w-drzwiach-m.jpg",
+  "alt": "Stara klamka z kluczem w zamku drewnianych drzwi",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "11678326"
+ }
 }

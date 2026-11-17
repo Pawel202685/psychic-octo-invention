@@ -45,5 +45,14 @@
    "Sprawdź baterię w pilocie, zasilanie i bezpieczniki. Jeśli to nie pomoże, skorzystaj z ręcznego odblokowania opisanego w instrukcji napędu albo skontaktuj się z serwisem bramy."
   ]
  ],
- "order": 62
+ "order": 62,
+ "image": {
+  "src": "img/zablokowany-zamek-garaz-furtka.jpg",
+  "thumb": "img/zablokowany-zamek-garaz-furtka-m.jpg",
+  "alt": "Zardzewiała zasuwa z zaczepem na kłódkę w metalowej furtce",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "8048705"
+ }
 }

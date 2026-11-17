@@ -44,5 +44,14 @@
    "Zwykle nie – na postoju spaliny nie nagrzewają się wystarczająco, a w większości aut regeneracja rusza dopiero w czasie jazdy. Niektóre auta, głównie terenowe i użytkowe, mają przycisk ręcznej regeneracji na postoju – wtedy postępuj dokładnie według instrukcji."
   ]
  ],
- "order": 82
+ "order": 82,
+ "image": {
+  "src": "img/swieci-sie-kontrolka-dpf.jpg",
+  "thumb": "img/swieci-sie-kontrolka-dpf-m.jpg",
+  "alt": "Zegary samochodu z zapalonymi pomarańczowymi kontrolkami obok prędkościomierza",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "94965604"
+ }
 }

@@ -535,7 +535,7 @@ def build():
          body, active='kontakt.html', crumbs=[(None, 'Kontakt')])
 
     # POLITYKA, 404
-    page('polityka-prywatnosci.html', 'Polityka prywatności – %%KROTKA%%', 'Zasady przetwarzania danych osobowych na stronie.',
+    page('polityka-prywatnosci.html', 'Polityka prywatności – %%KROTKA%%', 'Polityka prywatności: kto przetwarza dane z kontaktu telefonicznego, SMS i formularza, w jakim celu, jak długo i jakie masz prawa.',
          f'<section class="phero"><div class="wrap narrow"><h1>Polityka prywatności</h1></div></section><div class="wrap narrow art-body prose">{T.POLITYKA}</div>',
          crumbs=[(None, 'Polityka prywatności')])
     page('404.html', 'Nie znaleziono strony – %%KROTKA%%', 'Strona nie istnieje.',

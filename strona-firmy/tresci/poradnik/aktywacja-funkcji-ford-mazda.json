@@ -41,5 +41,14 @@
    "Czy zmiany w konfiguracji można cofnąć?",
    "Zwykle tak, jeśli przed zmianami zapisano oryginalną konfigurację modułów. Zapytaj o to wykonawcę, zanim zacznie."
   ]
- ]
+ ],
+ "image": {
+  "src": "img/aktywacja-funkcji-ford-mazda.jpg",
+  "thumb": "img/aktywacja-funkcji-ford-mazda-m.jpg",
+  "alt": "Dłoń kierowcy dotykająca ekranu dotykowego na desce rozdzielczej samochodu",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "20999661"
+ }
 }

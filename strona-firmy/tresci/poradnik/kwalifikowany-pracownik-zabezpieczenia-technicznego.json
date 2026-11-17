@@ -45,5 +45,14 @@
    "Co zrobić, gdy ślusarz nie chce podać ceny przed przyjazdem?",
    "Potraktuj to jako sygnał ostrzegawczy i zapytaj przynajmniej, od czego zależy koszt. Jeśli nadal słyszysz tylko „zobaczymy na miejscu”, zadzwoń do kogoś innego. My podajemy cenę przez telefon, zanim zaczniemy."
   ]
- ]
+ ],
+ "image": {
+  "src": "img/kwalifikowany-pracownik-zabezpieczenia-technicznego.jpg",
+  "thumb": "img/kwalifikowany-pracownik-zabezpieczenia-technicznego-m.jpg",
+  "alt": "Palec wybierający kod na klawiaturze domowego systemu alarmowego",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "29243086"
+ }
 }

@@ -146,11 +146,11 @@
  "poradnik/jak-wybrac-uczciwego-slusarza": {
   "src": "img/jak-wybrac-uczciwego-slusarza.jpg",
   "thumb": "img/jak-wybrac-uczciwego-slusarza-m.jpg",
-  "alt": "Fachowiec z identyfikatorem i skrzynką narzędziową wita się z klientką w drzwiach",
+  "alt": "Zbliżenie na pióro klucza z nacięciami na ciemnym tle",
   "w": 1200,
   "h": 675,
   "source": "Freepik (licencja Premium)",
-  "stock_id": "22264895"
+  "stock_id": "1443266"
  },
  "poradnik/co-przygotowac-zanim-przyjedzie-slusarz": {
   "src": "img/co-przygotowac-zanim-przyjedzie-slusarz.jpg",
@@ -331,5 +331,167 @@
   "h": 675,
   "source": "Freepik (licencja Premium)",
   "stock_id": "11283295"
+ },
+ "poradnik/jak-wybrac-wkladke-do-drzwi": {
+  "src": "img/jak-wybrac-wkladke-do-drzwi.jpg",
+  "thumb": "img/jak-wybrac-wkladke-do-drzwi-m.jpg",
+  "alt": "Klucze we wkładce zamka drzwi wejściowych z czarną klamką",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "422340069"
+ },
+ "poradnik/kiedy-wymienic-zamek-w-drzwiach": {
+  "src": "img/kiedy-wymienic-zamek-w-drzwiach.jpg",
+  "thumb": "img/kiedy-wymienic-zamek-w-drzwiach-m.jpg",
+  "alt": "Stara klamka z kluczem w zamku drewnianych drzwi",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "11678326"
+ },
+ "poradnik/zablokowany-zamek-garaz-furtka": {
+  "src": "img/zablokowany-zamek-garaz-furtka.jpg",
+  "thumb": "img/zablokowany-zamek-garaz-furtka-m.jpg",
+  "alt": "Zardzewiała zasuwa z zaczepem na kłódkę w metalowej furtce",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "8048705"
+ },
+ "poradnik/awaria-sterownika-objawy": {
+  "src": "img/awaria-sterownika-objawy.jpg",
+  "thumb": "img/awaria-sterownika-objawy-m.jpg",
+  "alt": "Dłonie mierzące płytkę elektroniczną multimetrem i lutownicą",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "6952246"
+ },
+ "poradnik/auto-nie-widzi-kluczyka-immobilizer": {
+  "src": "img/auto-nie-widzi-kluczyka-immobilizer.jpg",
+  "thumb": "img/auto-nie-widzi-kluczyka-immobilizer-m.jpg",
+  "alt": "Kluczyk samochodowy z pilotem leżący na konsoli środkowej obok przycisków",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "7870049"
+ },
+ "poradnik/auto-kreci-ale-nie-odpala": {
+  "src": "img/auto-kreci-ale-nie-odpala.jpg",
+  "thumb": "img/auto-kreci-ale-nie-odpala-m.jpg",
+  "alt": "Kierowca pochylony nad komorą silnika sprawdza auto pod otwartą maską",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "7715122"
+ },
+ "poradnik/kontrolka-immobilizera-miga": {
+  "src": "img/kontrolka-immobilizera-miga.jpg",
+  "thumb": "img/kontrolka-immobilizera-miga-m.jpg",
+  "alt": "Zestaw wskaźników auta z zapalonymi kontrolkami przy wyłączonym silniku",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "94965606"
+ },
+ "poradnik/uzywany-sterownik-silnika-na-co-uwazac": {
+  "src": "img/uzywany-sterownik-silnika-na-co-uwazac.jpg",
+  "thumb": "img/uzywany-sterownik-silnika-na-co-uwazac-m.jpg",
+  "alt": "Zbliżenie na komorę silnika samochodu z przewodami i złączami",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "1005457"
+ },
+ "poradnik/zalany-sterownik-elektronika-auta": {
+  "src": "img/zalany-sterownik-elektronika-auta.jpg",
+  "thumb": "img/zalany-sterownik-elektronika-auta-m.jpg",
+  "alt": "Krople ulewnego deszczu i wycieraczka na przedniej szybie samochodu",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "23321709"
+ },
+ "poradnik/filtr-dpf-jak-dbac": {
+  "src": "img/filtr-dpf-jak-dbac.jpg",
+  "thumb": "img/filtr-dpf-jak-dbac-m.jpg",
+  "alt": "Widok zza kierownicy na pustą autostradę o wschodzie słońca",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "427837310"
+ },
+ "poradnik/swieci-sie-kontrolka-dpf": {
+  "src": "img/swieci-sie-kontrolka-dpf.jpg",
+  "thumb": "img/swieci-sie-kontrolka-dpf-m.jpg",
+  "alt": "Zegary samochodu z zapalonymi pomarańczowymi kontrolkami obok prędkościomierza",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "94965604"
+ },
+ "poradnik/regeneracja-czy-czyszczenie-dpf": {
+  "src": "img/regeneracja-czy-czyszczenie-dpf.jpg",
+  "thumb": "img/regeneracja-czy-czyszczenie-dpf-m.jpg",
+  "alt": "Podwozie samochodu uniesionego na podnośniku w warsztacie, widok od dołu",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "38170205"
+ },
+ "poradnik/czujnik-roznicy-cisnien-dpf": {
+  "src": "img/czujnik-roznicy-cisnien-dpf.jpg",
+  "thumb": "img/czujnik-roznicy-cisnien-dpf-m.jpg",
+  "alt": "Komora silnika diesla z gumowymi wężami, przewodami i wiązkami elektrycznymi",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "1007563"
+ },
+ "poradnik/wyciety-dpf-a-przeglad": {
+  "src": "img/wyciety-dpf-a-przeglad.jpg",
+  "thumb": "img/wyciety-dpf-a-przeglad-m.jpg",
+  "alt": "Dłonie mechanika wypełniającego listę kontrolną przy otwartej komorze silnika",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "1005225"
+ },
+ "poradnik/jezyk-polski-ford-mazda": {
+  "src": "img/jezyk-polski-ford-mazda.jpg",
+  "thumb": "img/jezyk-polski-ford-mazda-m.jpg",
+  "alt": "Dłoń przy pokrętle klimatyzacji pod ekranem radia z angielskimi opisami przycisków",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "5878228"
+ },
+ "poradnik/tylne-swiatlo-przeciwmglowe-auto-z-usa": {
+  "src": "img/tylne-swiatlo-przeciwmglowe-auto-z-usa.jpg",
+  "thumb": "img/tylne-swiatlo-przeciwmglowe-auto-z-usa-m.jpg",
+  "alt": "Zbliżenie tylnej lampy szarego sedana z czerwonymi kloszami",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "7763732"
+ },
+ "poradnik/aktywacja-funkcji-ford-mazda": {
+  "src": "img/aktywacja-funkcji-ford-mazda.jpg",
+  "thumb": "img/aktywacja-funkcji-ford-mazda-m.jpg",
+  "alt": "Dłoń kierowcy dotykająca ekranu dotykowego na desce rozdzielczej samochodu",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "20999661"
+ },
+ "poradnik/kwalifikowany-pracownik-zabezpieczenia-technicznego": {
+  "src": "img/kwalifikowany-pracownik-zabezpieczenia-technicznego.jpg",
+  "thumb": "img/kwalifikowany-pracownik-zabezpieczenia-technicznego-m.jpg",
+  "alt": "Palec wybierający kod na klawiaturze domowego systemu alarmowego",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "29243086"
  }
 }

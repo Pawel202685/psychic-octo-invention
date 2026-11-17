@@ -44,5 +44,14 @@
    "Jeśli to możliwe, wyjmij baterię, osusz kluczyk w temperaturze pokojowej i nie wciskaj przycisków, dopóki całkiem nie wyschnie. Gdy potem pilot nie działa, zacznij od nowej baterii, a jeśli to nie pomoże – zajrzyj do poradnika <a href=\"%%R%%poradnik/pilot-od-auta-nie-dziala.html\">pilot od auta nie działa</a>."
   ]
  ],
- "order": 80
+ "order": 80,
+ "image": {
+  "src": "img/zalany-sterownik-elektronika-auta.jpg",
+  "thumb": "img/zalany-sterownik-elektronika-auta-m.jpg",
+  "alt": "Krople ulewnego deszczu i wycieraczka na przedniej szybie samochodu",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "23321709"
+ }
 }

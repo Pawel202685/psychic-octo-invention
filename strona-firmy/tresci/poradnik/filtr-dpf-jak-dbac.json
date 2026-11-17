@@ -40,5 +40,14 @@
    "Mogą wspomóc spalanie sadzy, ale nie zastąpią jazdy w trasie ani naprawy usterki silnika. W autach z fabrycznym płynem wspomagającym regenerację stosuj tylko płyn przewidziany przez producenta."
   ]
  ],
- "order": 81
+ "order": 81,
+ "image": {
+  "src": "img/filtr-dpf-jak-dbac.jpg",
+  "thumb": "img/filtr-dpf-jak-dbac-m.jpg",
+  "alt": "Widok zza kierownicy na pustą autostradę o wschodzie słońca",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "427837310"
+ }
 }

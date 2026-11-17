@@ -44,5 +44,14 @@
    "Trzeba przywrócić sprawny filtr i jego obsługę w sterowniku – zwykle zajmuje się tym warsztat. Wcześniej warto zdiagnozować silnik, żeby nowy filtr nie zapchał się szybko przez niewykrytą usterkę."
   ]
  ],
- "order": 85
+ "order": 85,
+ "image": {
+  "src": "img/wyciety-dpf-a-przeglad.jpg",
+  "thumb": "img/wyciety-dpf-a-przeglad-m.jpg",
+  "alt": "Dłonie mechanika wypełniającego listę kontrolną przy otwartej komorze silnika",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "1005225"
+ }
 }

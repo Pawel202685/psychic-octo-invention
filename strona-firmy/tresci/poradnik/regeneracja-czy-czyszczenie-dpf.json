@@ -40,5 +40,14 @@
    "Preparaty podawane bez demontażu mogą pomóc przy nadmiarze sadzy, ale popiół usuwają znacznie słabiej niż czyszczenie zdemontowanego filtra."
   ]
  ],
- "order": 83
+ "order": 83,
+ "image": {
+  "src": "img/regeneracja-czy-czyszczenie-dpf.jpg",
+  "thumb": "img/regeneracja-czy-czyszczenie-dpf-m.jpg",
+  "alt": "Podwozie samochodu uniesionego na podnośniku w warsztacie, widok od dołu",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "38170205"
+ }
 }

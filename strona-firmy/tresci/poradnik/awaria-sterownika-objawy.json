@@ -45,5 +45,14 @@
    "Sama wymiana rzadko szkodzi sterownikowi, ale przepięcie przy złym podłączeniu klem lub kabli rozruchowych może uszkodzić elektronikę. Po odłączeniu zasilania niektóre funkcje, np. automatyczne domykanie szyb, mogą wymagać ponownego ustawienia – to jeszcze nie oznacza awarii sterownika."
   ]
  ],
- "order": 70
+ "order": 70,
+ "image": {
+  "src": "img/awaria-sterownika-objawy.jpg",
+  "thumb": "img/awaria-sterownika-objawy-m.jpg",
+  "alt": "Dłonie mierzące płytkę elektroniczną multimetrem i lutownicą",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "6952246"
+ }
 }

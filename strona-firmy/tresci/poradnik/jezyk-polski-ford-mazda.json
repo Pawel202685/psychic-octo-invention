@@ -40,5 +40,14 @@
    "Czy język polski można wgrać jeszcze przed rejestracją auta z importu?",
    "Tak – zmiana języka nie zależy od rejestracji. Warto ją połączyć z innymi pracami przed badaniem technicznym, np. z <a href=\"%%R%%poradnik/tylne-swiatlo-przeciwmglowe-auto-z-usa.html\">dorobieniem tylnego światła przeciwmgłowego</a>, bo auto i tak jest wtedy podłączone do sprzętu diagnostycznego."
   ]
- ]
+ ],
+ "image": {
+  "src": "img/jezyk-polski-ford-mazda.jpg",
+  "thumb": "img/jezyk-polski-ford-mazda-m.jpg",
+  "alt": "Dłoń przy pokrętle klimatyzacji pod ekranem radia z angielskimi opisami przycisków",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "5878228"
+ }
 }

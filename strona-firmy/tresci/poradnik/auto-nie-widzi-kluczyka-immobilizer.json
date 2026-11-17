@@ -45,5 +45,14 @@
    "Sam kluczyk nie wystarczy – trzeba go dociąć (jeśli ma grot) i zaprogramować do Twojego auta, a nie każdy egzemplarz z internetu się do tego nadaje. Zanim kupisz, upewnij się, że winny jest kluczyk, i przeczytaj, <a href=\"%%R%%poradnik/kluczyk-z-internetu-czy-da-sie-zaprogramowac.html\">czy kluczyk z internetu da się zaprogramować</a>."
   ]
  ],
- "order": 71
+ "order": 71,
+ "image": {
+  "src": "img/auto-nie-widzi-kluczyka-immobilizer.jpg",
+  "thumb": "img/auto-nie-widzi-kluczyka-immobilizer-m.jpg",
+  "alt": "Kluczyk samochodowy z pilotem leżący na konsoli środkowej obok przycisków",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "7870049"
+ }
 }

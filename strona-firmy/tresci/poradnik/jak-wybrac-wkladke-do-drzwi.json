@@ -40,5 +40,14 @@
    "Klucze można dorobić tylko po jej okazaniu, więc masz kontrolę nad liczbą kopii. Przechowuj ją osobno, nie przy kluczach."
   ]
  ],
- "order": 60
+ "order": 60,
+ "image": {
+  "src": "img/jak-wybrac-wkladke-do-drzwi.jpg",
+  "thumb": "img/jak-wybrac-wkladke-do-drzwi-m.jpg",
+  "alt": "Klucze we wkładce zamka drzwi wejściowych z czarną klamką",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "422340069"
+ }
 }

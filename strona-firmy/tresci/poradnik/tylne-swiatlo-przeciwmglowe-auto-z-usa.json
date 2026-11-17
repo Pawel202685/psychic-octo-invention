@@ -40,5 +40,14 @@
    "Co przygotować przed dorobieniem światła przeciwmgłowego?",
    "Numer VIN, model i rocznik auta oraz zdjęcia tylnych lamp i przełącznika świateł. Na tej podstawie ocenimy, co trzeba dołożyć i ustawić, i podamy cenę."
   ]
- ]
+ ],
+ "image": {
+  "src": "img/tylne-swiatlo-przeciwmglowe-auto-z-usa.jpg",
+  "thumb": "img/tylne-swiatlo-przeciwmglowe-auto-z-usa-m.jpg",
+  "alt": "Zbliżenie tylnej lampy szarego sedana z czerwonymi kloszami",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "7763732"
+ }
 }

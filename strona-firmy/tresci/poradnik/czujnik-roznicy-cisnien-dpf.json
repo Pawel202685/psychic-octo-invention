@@ -40,5 +40,14 @@
    "W wielu autach po wymianie wykonuje się adaptację lub kasuje zapamiętane wartości testerem, a następnie sprawdza przebieg regeneracji."
   ]
  ],
- "order": 84
+ "order": 84,
+ "image": {
+  "src": "img/czujnik-roznicy-cisnien-dpf.jpg",
+  "thumb": "img/czujnik-roznicy-cisnien-dpf-m.jpg",
+  "alt": "Komora silnika diesla z gumowymi wężami, przewodami i wiązkami elektrycznymi",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "1007563"
+ }
 }
