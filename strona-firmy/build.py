@@ -1,13 +1,13 @@
 # Generator strony. Uzycie: python3 build.py  ->  gotowa strona w folderze public/
 # Dane firmy (nazwa, telefon, adres...) wpisz w pliku dane.json i uruchom ponownie.
-import json, os, re, html, shutil, datetime
+import json, os, re, html, shutil, datetime, urllib.parse
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, 'public')
 D = json.load(open(os.path.join(ROOT, 'dane.json'), encoding='utf-8'))
 import tresci as T
 
-def is_ph(v): return str(v).strip().startswith('[')
+def is_ph(v): return isinstance(v, str) and v.strip().startswith('[')
 def esc(s): return html.escape(str(s), quote=True)
 def val(k):
     v = D.get(k, '')
@@ -26,12 +26,15 @@ def icon(name, cls='ico'):
 def tokens(s, r):
     rep = {
         '%%NAZWA%%': val('nazwa'), '%%TEL%%': val('telefon'), '%%EMAIL%%': val('email'), '%%MIASTO%%': val('miasto'),
-        '%%OBSZAR%%': val('obszar'), '%%ADRES%%': val('adres'), '%%GODZ%%': val('godziny'), '%%NIP%%': val('nip'),
+        '%%OBSZAR%%': val('obszar'), '%%KROTKA%%': val('nazwa_krotka') if D.get('nazwa_krotka') else val('nazwa'), '%%PODTYTUL%%': val('podtytul'), '%%ADRES%%': val('adres'), '%%GODZ%%': val('godziny'), '%%NIP%%': val('nip'),
         '%%TELHREF%%': 'tel:' + esc(plain('telefon_link')), '%%SMSHREF%%': 'sms:' + esc(plain('telefon_link')),
         '%%MAILHREF%%': 'mailto:' + ('' if is_ph(plain('email')) else esc(plain('email'))),
         '%%GOOGLE%%': esc(plain('google')), '%%R%%': r, '%%ROK%%': str(datetime.date.today().year),
     }
     for k, v in rep.items(): s = s.replace(k, v)
+    for key in ('email', 'nip', 'adres', 'kod'):
+        if not str(D.get(key, '')).strip():
+            s = re.sub(r'<(\w+)[^>]*data-need="' + key + r'"[^>]*>.*?</\1>', '', s, flags=re.S)
     s = re.sub(r'%%IC:([a-z-]+)%%', lambda m: icon(m.group(1)), s)
     def icx(m):
         icon(m.group(1))
@@ -51,7 +54,14 @@ def local_business():
          'telephone': plain('telefon_link'), 'areaServed': plain('obszar'),
          'description': 'Awaryjne otwieranie samochodów, mieszkań i domów, programowanie kluczy samochodowych, '
                         'naprawa i programowanie sterowników, diagnostyka i czyszczenie filtrów DPF.'}
-    if not is_ph(plain('adres')): d['address'] = {'@type': 'PostalAddress', 'streetAddress': plain('adres'), 'addressCountry': 'PL'}
+    if plain('ulica') and not is_ph(plain('ulica')):
+        d['address'] = {'@type': 'PostalAddress', 'streetAddress': plain('ulica'), 'addressLocality': plain('miasto'),
+                        'addressRegion': 'świętokrzyskie', 'addressCountry': 'PL'}
+        if plain('kod'): d['address']['postalCode'] = plain('kod')
+    if isinstance(D.get('geo'), list): d['geo'] = {'@type': 'GeoCoordinates', 'latitude': D['geo'][0], 'longitude': D['geo'][1]}
+    if 'całą dobę' in plain('godziny').lower():
+        d['openingHoursSpecification'] = [{'@type': 'OpeningHoursSpecification', 'dayOfWeek': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'opens': '00:00', 'closes': '23:59'}]
+    d['hasMap'] = 'https://www.google.com/maps/search/?api=1&query=' + urllib.parse.quote(plain('nazwa') + ' ' + plain('adres'))
     if not is_ph(plain('email')): d['email'] = plain('email')
     if not is_ph(plain('domena')): d['url'] = plain('domena').rstrip('/') + '/'
     if plain('google') and not is_ph(plain('google')): d['sameAs'] = [plain('google')]
@@ -101,7 +111,7 @@ def page(path, title, desc, body, schemas=(), active=None, crumbs=None):
   <div class="wrap top-in">
     <a class="logo" href="%%R%%index.html" aria-label="Strona główna">
       <span class="logo-mark">%%IC:key-round%%</span>
-      <span class="logo-txt">%%NAZWA%%<small>otwieranie · klucze · sterowniki</small></span>
+      <span class="logo-txt">%%KROTKA%%<small>%%PODTYTUL%%</small></span>
     </a>
     <nav class="menu" id="menu" aria-label="Menu główne">{nav}</nav>
     <a class="btn btn-call top-call" href="%%TELHREF%%">%%IC:phone%%<span>%%TEL%%</span></a>
@@ -131,7 +141,7 @@ def page(path, title, desc, body, schemas=(), active=None, crumbs=None):
     <div>
       <p class="foot-h">Kontakt</p>
       <p><a class="foot-tel" href="%%TELHREF%%">%%IC:phone%% %%TEL%%</a></p>
-      <p><a href="%%MAILHREF%%">%%IC:mail%% %%EMAIL%%</a></p>
+      <p data-need="email"><a href="%%MAILHREF%%">%%IC:mail%% %%EMAIL%%</a></p>
       <p><a href="%%GOOGLE%%" rel="noopener" target="_blank">%%IC:star%% Opinie w Google</a></p>
     </div>
   </div>
@@ -296,7 +306,7 @@ jak rozpoznać awarię sterownika i jak dbać o filtr DPF.</p>
     adres = plain('adres')
     mapa = ('<div class="map-ph">%%IC:map-pin%%<p>Tu pojawi się mapa po wpisaniu adresu w pliku <code>dane.json</code>.</p></div>' if is_ph(adres) else
             f'<iframe class="map" title="Mapa dojazdu" loading="lazy" referrerpolicy="no-referrer-when-downgrade" '
-            f'src="https://www.google.com/maps?q={html.escape(adres)}&amp;output=embed"></iframe>')
+            f'src="https://www.google.com/maps?q={html.escape(urllib.parse.quote(plain("nazwa") + ", " + adres))}&amp;output=embed"></iframe>')
     body = f'''<section class="phero"><div class="wrap"><p class="eyebrow">%%IC:phone%% Kontakt</p><h1>Kontakt</h1>
 <p class="lead">W sytuacji awaryjnej najszybciej będzie telefonicznie. W innych sprawach napisz SMS albo wiadomość – oddzwonimy.</p></div></section>
 <section class="sec"><div class="wrap cols">
@@ -304,11 +314,11 @@ jak rozpoznać awarię sterownika i jak dbać o filtr DPF.</p>
   <a class="big-tel" href="%%TELHREF%%">%%IC:phone%% %%TEL%%</a>
   <ul class="clist">
     <li>%%IC:message-square%%<span><a href="%%SMSHREF%%">Wyślij SMS</a></span></li>
-    <li>%%IC:mail%%<span><a href="%%MAILHREF%%">%%EMAIL%%</a></span></li>
+    <li data-need="email">%%IC:mail%%<span><a href="%%MAILHREF%%">%%EMAIL%%</a></span></li>
     <li>%%IC:map-pin%%<span>%%ADRES%%<br><small>Obszar działania: %%OBSZAR%%</small></span></li>
     <li>%%IC:clock%%<span>%%GODZ%%</span></li>
     <li>%%IC:star%%<span><a href="%%GOOGLE%%" target="_blank" rel="noopener">Nasza wizytówka i opinie w Google</a></span></li>
-    <li>%%IC:receipt-text%%<span>NIP: %%NIP%%</span></li>
+    <li data-need="nip">%%IC:receipt-text%%<span>NIP: %%NIP%%</span></li>
   </ul>
   {mapa}
 </div>
@@ -322,7 +332,7 @@ jak rozpoznać awarię sterownika i jak dbać o filtr DPF.</p>
     <label>Marka, model i rok auta (jeśli dotyczy)<input name="auto"></label>
     <label>Opis sytuacji<textarea name="opis" rows="4" required></textarea></label>
     <div class="form-btns"><button class="btn btn-call" type="submit" name="via" value="sms">%%IC:message-square%% Wyślij SMS</button>
-    <button class="btn btn-line" type="submit" name="via" value="mail">%%IC:mail%% Wyślij e-mail</button></div>
+    <button data-need="email" class="btn btn-line" type="submit" name="via" value="mail">%%IC:mail%% Wyślij e-mail</button></div>
   </form>
 </div>
 </div></section>'''

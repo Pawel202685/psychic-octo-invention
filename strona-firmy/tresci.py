@@ -382,7 +382,7 @@ dict(slug='filtr-dpf-jak-dbac', icon='filter', cat='Elektronika i DPF', min=4, s
 
 POLITYKA = '''
 <h2>Administrator danych</h2>
-<p>Administratorem danych osobowych jest %%NAZWA%%, %%ADRES%%, NIP: %%NIP%%. Kontakt: <a href="%%TELHREF%%">%%TEL%%</a>, <a href="%%MAILHREF%%">%%EMAIL%%</a>.</p>
+<p>Administratorem danych osobowych jest %%NAZWA%%, %%ADRES%%<span data-need="nip">, NIP: %%NIP%%</span>. Kontakt: <a href="%%TELHREF%%">%%TEL%%</a><span data-need="email">, <a href="%%MAILHREF%%">%%EMAIL%%</a></span>.</p>
 <h2>Jakie dane przetwarzamy</h2>
 <p>Strona nie zawiera formularzy wysyłających dane na serwer. Formularz kontaktowy tylko przygotowuje wiadomość, którą sam wysyłasz SMS-em lub e-mailem ze swojego telefonu lub komputera. Przetwarzamy dane, które nam w ten sposób przekażesz (np. imię, numer telefonu, opis sytuacji), oraz dane podane podczas rozmowy telefonicznej.</p>
 <h2>Cel i podstawa</h2>
