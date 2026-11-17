@@ -41,5 +41,14 @@
    "Zgłoś zgubienie ubezpieczycielowi i jak najszybciej usuń ten kluczyk z pamięci auta. Możemy to zrobić przy okazji programowania nowego kluczyka – zadzwoń, a cenę podamy przez telefon."
   ]
  ],
- "order": 41
+ "order": 41,
+ "image": {
+  "src": "img/keyless-kradziez-na-walizke.jpg",
+  "thumb": "img/keyless-kradziez-na-walizke-m.jpg",
+  "alt": "Samochód na ciemnej ulicy nocą, odbity w kałuży przy krawężniku",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "7630707"
+ }
 }

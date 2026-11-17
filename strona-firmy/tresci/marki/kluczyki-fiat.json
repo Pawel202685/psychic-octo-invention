@@ -21,7 +21,7 @@
   },
   {
    "h2": "Starszy Fiat bez kluczyka MASTER – co warto wiedzieć",
-   "html": "<p>W autach z czerwonym kluczykiem MASTER instrukcja przypisywała mu kluczową rolę: bez niego nie da się w standardowy sposób zapisać kolejnych kluczyków, dlatego należało go trzymać w bezpiecznym miejscu, poza autem. Jeśli kupiłeś takiego Fiata tylko ze zwykłymi kluczykami, nie zakładaj z góry, że zapasowego nie da się zrobić. Zadzwoń, podaj model, rocznik i VIN – sprawdzimy możliwości w Twoim egzemplarzu.</p><p>Kartę CODE, jeśli ją masz, również trzymaj w domu. Zawiera kod elektroniczny potrzebny przy awaryjnym uruchomieniu i kod mechaniczny kluczyków, dlatego instrukcja zaleca, by nie zostawiać jej w aucie. Jak działa chip w kluczyku, wyjaśniamy w artykule <a href=\"%%R%%poradnik/transponder-w-kluczyku-jak-dziala.html\">transponder w kluczyku</a>.</p>"
+   "html": "<p>W autach z czerwonym kluczykiem MASTER instrukcja przypisywała mu kluczową rolę: bez niego nie da się zapisać kolejnych kluczyków drogą przewidzianą przez producenta, dlatego należało go trzymać w bezpiecznym miejscu, poza autem. Jeśli kupiłeś takiego Fiata tylko ze zwykłymi kluczykami, nie zakładaj z góry, że zapasowego nie da się zrobić. Zadzwoń, podaj model, rocznik i VIN – sprawdzimy możliwości w Twoim egzemplarzu.</p><p>Kartę CODE, jeśli ją masz, również trzymaj w domu. Zawiera kod elektroniczny potrzebny przy awaryjnym uruchomieniu i kod mechaniczny kluczyków, dlatego instrukcja zaleca, by nie zostawiać jej w aucie. Jak działa chip w kluczyku, wyjaśniamy w artykule <a href=\"%%R%%poradnik/transponder-w-kluczyku-jak-dziala.html\">transponder w kluczyku</a>.</p>"
   },
   {
    "h2": "Przed wizytą i na co dzień – wskazówki dla właścicieli Fiatów",
@@ -39,7 +39,7 @@
   ],
   [
    "Jaka bateria jest w pilocie Fiata?",
-   "W wielu składanych kluczykach Fiata, np. w Grande Punto czy Doblo, stosowana jest bateria CR2032. Typ może się jednak różnić, więc przed zakupem zajrzyj na oznaczenie starej baterii."
+   "W wielu składanych kluczykach Fiata, np. w Grande Punto czy Doblo, stosowana jest bateria CR2032. Typ może się jednak różnić, więc przed zakupem spójrz na oznaczenie wybite na starej baterii."
   ],
   [
    "Czy dorobicie kluczyk do Ducato w zabudowie kempingowej?",

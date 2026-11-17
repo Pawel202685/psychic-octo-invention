@@ -45,5 +45,14 @@
    "Tak. Dopóki zgubiony kluczyk jest zapisany w pamięci samochodu, osoba, która go znajdzie, może otworzyć i uruchomić auto. Możemy go usunąć i zaprogramować nowy – <a href=\"%%R%%programowanie-kluczy.html\">zobacz usługę</a>."
   ]
  ],
- "order": 42
+ "order": 42,
+ "image": {
+  "src": "img/jak-zabezpieczyc-auto-przed-kradzieza.jpg",
+  "thumb": "img/jak-zabezpieczyc-auto-przed-kradzieza-m.jpg",
+  "alt": "Kobieta zamyka zaparkowany samochód pilotem, stojąc obok drzwi kierowcy",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "5417025"
+ }
 }

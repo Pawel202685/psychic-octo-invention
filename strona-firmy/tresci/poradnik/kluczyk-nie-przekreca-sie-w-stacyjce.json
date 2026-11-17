@@ -41,5 +41,14 @@
    "Nie. Gdy kluczyk obraca się normalnie, a silnik nie startuje, przyczyną może być np. akumulator, immobilizer lub sterownik. Zobacz artykuł <a href=\"%%R%%poradnik/auto-kreci-ale-nie-odpala.html\">auto kręci, ale nie odpala</a>."
   ]
  ],
- "order": 23
+ "order": 23,
+ "image": {
+  "src": "img/kluczyk-nie-przekreca-sie-w-stacyjce.jpg",
+  "thumb": "img/kluczyk-nie-przekreca-sie-w-stacyjce-m.jpg",
+  "alt": "Kierowca trzyma kierownicę i przekręca kluczyk w stacyjce",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "13919519"
+ }
 }

@@ -268,5 +268,68 @@
   "h": 675,
   "source": "Freepik (licencja Premium)",
   "stock_id": "9691779"
+ },
+ "poradnik/kluczyk-nie-przekreca-sie-w-stacyjce": {
+  "src": "img/kluczyk-nie-przekreca-sie-w-stacyjce.jpg",
+  "thumb": "img/kluczyk-nie-przekreca-sie-w-stacyjce-m.jpg",
+  "alt": "Kierowca trzyma kierownicę i przekręca kluczyk w stacyjce",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "13919519"
+ },
+ "poradnik/uzywane-auto-sprawdz-kluczyki": {
+  "src": "img/uzywane-auto-sprawdz-kluczyki.jpg",
+  "thumb": "img/uzywane-auto-sprawdz-kluczyki-m.jpg",
+  "alt": "Przekazanie pęku kluczyków samochodowych do wyciągniętej dłoni kupującego",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "26825280"
+ },
+ "poradnik/kluczyki-zamkniete-w-bagazniku": {
+  "src": "img/kluczyki-zamkniete-w-bagazniku.jpg",
+  "thumb": "img/kluczyki-zamkniete-w-bagazniku-m.jpg",
+  "alt": "Palec naciskający przycisk zamykania na wewnętrznej stronie klapy bagażnika",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "10610898"
+ },
+ "poradnik/keyless-kradziez-na-walizke": {
+  "src": "img/keyless-kradziez-na-walizke.jpg",
+  "thumb": "img/keyless-kradziez-na-walizke-m.jpg",
+  "alt": "Samochód na ciemnej ulicy nocą, odbity w kałuży przy krawężniku",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "7630707"
+ },
+ "poradnik/jak-zabezpieczyc-auto-przed-kradzieza": {
+  "src": "img/jak-zabezpieczyc-auto-przed-kradzieza.jpg",
+  "thumb": "img/jak-zabezpieczyc-auto-przed-kradzieza-m.jpg",
+  "alt": "Kobieta zamyka zaparkowany samochód pilotem, stojąc obok drzwi kierowcy",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "5417025"
+ },
+ "poradnik/zamarzniety-zamek-w-samochodzie": {
+  "src": "img/zamarzniety-zamek-w-samochodzie.jpg",
+  "thumb": "img/zamarzniety-zamek-w-samochodzie-m.jpg",
+  "alt": "Czerwony samochód pokryty szronem, z oszronionym lusterkiem i klamką drzwi",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "993194"
+ },
+ "poradnik/wymiana-baterii-w-kluczyku": {
+  "src": "img/wymiana-baterii-w-kluczyku.jpg",
+  "thumb": "img/wymiana-baterii-w-kluczyku-m.jpg",
+  "alt": "Składany kluczyk z wysuniętym grotem przy zamku drzwi samochodu",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "11283295"
  }
 }

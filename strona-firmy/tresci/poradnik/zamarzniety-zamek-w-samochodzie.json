@@ -41,5 +41,14 @@
    "Nie wyciągaj fragmentu na siłę i nie wlewaj do zamka kleju ani innych płynów. Zachowaj obie części kluczyka i wezwij pomoc – pomożemy otworzyć auto i dorobić kluczyk."
   ]
  ],
- "order": 12
+ "order": 12,
+ "image": {
+  "src": "img/zamarzniety-zamek-w-samochodzie.jpg",
+  "thumb": "img/zamarzniety-zamek-w-samochodzie-m.jpg",
+  "alt": "Czerwony samochód pokryty szronem, z oszronionym lusterkiem i klamką drzwi",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "993194"
+ }
 }

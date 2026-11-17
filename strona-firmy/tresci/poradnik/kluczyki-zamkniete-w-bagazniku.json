@@ -41,5 +41,14 @@
    "To zależy od warunków pakietu. Część polis i pakietów serwisowych obejmuje pomoc przy zatrzaśnięciu kluczyków, inne nie – zadzwoń na infolinię assistance albo sprawdź warunki, zanim zamówisz pomoc na własny koszt."
   ]
  ],
- "order": 11
+ "order": 11,
+ "image": {
+  "src": "img/kluczyki-zamkniete-w-bagazniku.jpg",
+  "thumb": "img/kluczyki-zamkniete-w-bagazniku-m.jpg",
+  "alt": "Palec naciskający przycisk zamykania na wewnętrznej stronie klapy bagażnika",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "10610898"
+ }
 }

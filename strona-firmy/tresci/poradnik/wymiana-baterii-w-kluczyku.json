@@ -45,5 +45,14 @@
    "Nie ma jednej reguły – zależy to od kluczyka i od tego, jak często go używasz. Wymień baterię, gdy wyraźnie spada zasięg pilota albo auto pokazuje komunikat o słabej baterii, i przy okazji sprawdź też kluczyk zapasowy."
   ]
  ],
- "order": 24
+ "order": 24,
+ "image": {
+  "src": "img/wymiana-baterii-w-kluczyku.jpg",
+  "thumb": "img/wymiana-baterii-w-kluczyku-m.jpg",
+  "alt": "Składany kluczyk z wysuniętym grotem przy zamku drzwi samochodu",
+  "w": 1200,
+  "h": 675,
+  "source": "Freepik (licencja Premium)",
+  "stock_id": "11283295"
+ }
 }
