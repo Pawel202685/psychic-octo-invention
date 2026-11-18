@@ -229,7 +229,7 @@ def page(path, title, desc, body, schemas=(), active=None, crumbs=None, image=No
   </div>
   <div class="wrap foot-bottom">
     <span>© %%ROK%% %%NAZWA%%</span>
-    <a href="%%R%%polityka-prywatnosci.html">Polityka prywatności</a>
+    <a href="%%R%%polityka-prywatnosci.html">Polityka prywatności</a>{'<span>Autor strony: <a href="https://www.pawelstec.eu/">www.pawelstec.eu</a></span>' if path == 'index.html' else ''}
   </div>
 </footer>
 <div class="callbar">
